@@ -437,7 +437,10 @@ table{border-collapse:collapse;width:100%;font-size:var(--fs-sm)} th,td{text-ali
 .place-list{grid-template-columns:repeat(auto-fill,minmax(8.5rem,1fr))}
 /* v4 map: highlight selected place, areas, grouped list */
 .map__pin .dot,.map__pin .halo,.map__pin .lead,.map__pin text{transition:opacity .2s,stroke .2s,fill .2s}
-.map__panel svg:has(.map__pin[aria-pressed="true"]) .map__pin:not([aria-pressed="true"]){opacity:.5}
+/* v5: de-emphasise others with colour, not opacity, so text keeps >=4.5:1 */
+.map__panel svg:has(.map__pin[aria-pressed="true"]) .map__pin:not([aria-pressed="true"]) :is(.dot,.halo,.lead,.area){opacity:.45}
+.map__panel svg:has(.map__pin[aria-pressed="true"]) .map__pin:not([aria-pressed="true"]) :is(.map__label,.map__count){fill:#646b78}
+.map__panel svg:has(.map__pin[aria-pressed="true"]) .map__pin:not([aria-pressed="true"]) .map__label{font-weight:400}
 .map__pin[aria-pressed="true"] .lead,.map__pin:hover .lead{stroke:var(--accent);stroke-width:1.4}
 .map__pin[aria-pressed="true"] .dot{fill:var(--accent);r:5}
 .map__pin[aria-pressed="true"] .halo{opacity:.35;r:11}
@@ -447,3 +450,4 @@ table{border-collapse:collapse;width:100%;font-size:var(--fs-sm)} th,td{text-ali
 .map__pin.is-area .map__label{font-style:italic;font-family:var(--font-serif)}
 .place-group+.place-group{margin-top:var(--s4)}
 .place-group__h{margin:0 0 var(--s2);font:500 var(--fs-xs) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.map__aside{margin:0;padding:0 var(--s2) var(--s3);font-size:var(--fs-xs);color:var(--muted);font-style:italic}

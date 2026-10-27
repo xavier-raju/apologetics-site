@@ -422,7 +422,11 @@ def build_map():
     def cross(a, b, c, d):
         o = lambda p, q, r: (q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])
         return o(a, b, c) * o(a, b, d) < 0 and o(c, d, a) * o(c, d, b) < 0
-    def panel(key, title, ps, extra=None):
+    def km(a, b):
+        import math
+        x = math.radians(b["lon"] - a["lon"]) * math.cos(math.radians((a["lat"] + b["lat"]) / 2)); y = math.radians(b["lat"] - a["lat"])
+        return 6371 * math.hypot(x, y)
+    def panel(key, title, ps, extra=None, note=""):
         # Dots sit in a central band; labels sit in two side columns joined by hairline leader lines.
         # Only the label rows are tap targets, and rows never overlap. Rows are then reordered so no leader lines cross.
         if not ps: return ""
@@ -431,10 +435,13 @@ def build_map():
         if extra: la0, la1, lo0, lo1 = min(la0, extra[0]), max(la1, extra[0]), min(lo0, extra[1]), max(lo1, extra[1])
         dl, dlo = (la1 - la0) or 1, (lo1 - lo0) or 1
         order = sorted(ps, key=lambda p: (p["id"] in NODOT, p["lon"]))
+        bp_ = {p["id"]: p for p in ps}; xy_ = lambda p: 166 + (p["lon"] - lo0) / dlo * 68
         dotted = [p for p in order if p["id"] not in NODOT]; half = (len(dotted) + 1) // 2
         side = {p["id"]: ("L" if i < half else "R") for i, p in enumerate(dotted)}
-        for p in order:
-            if p["id"] in NODOT: side[p["id"]] = "L" if sum(v == "L" for v in side.values()) <= sum(v == "R" for v in side.values()) else "R"
+        if "jerusalem" in side and any(p["id"] in NODOT for p in ps):
+            side["jerusalem"] = "R" if xy_(bp_[ "jerusalem"]) > 200 else "L"  # put Jerusalem (and its sites) on the side nearest its dot
+        for p in order:  # label-only rows sit with Jerusalem, so they never land beside another place's dot
+            if p["id"] in NODOT: side[p["id"]] = side.get("jerusalem") or ("L" if sum(v == "L" for v in side.values()) <= sum(v == "R" for v in side.values()) else "R")
         nrows = max(sum(1 for v in side.values() if v == "L"), sum(1 for v in side.values() if v == "R"))
         H = max(220, nrows * ROW + 60)
         xy = lambda lat, lon: (166 + (lon - lo0) / dlo * 68, 40 + (la1 - lat) / dl * (H - 80))
@@ -480,9 +487,13 @@ def build_map():
           <text class="map__label" x="{tx}" y="{cy - 3:.1f}" text-anchor="{anc}">{esc(short(p["name"]))}</text><text class="map__count" x="{tx}" y="{cy + 15:.1f}" text-anchor="{anc}">{esc(sub)}</text></g>''')
         if mk:
             out.append(f'<g class="map__region"><circle cx="{mk[0]:.1f}" cy="{mk[1]:.1f}" r="12"/><text x="{mk[0]:.1f}" y="{mk[1] + 28:.1f}" text-anchor="middle">Judea &amp; Galilee</text></g>')
-        return f'<figure class="map__panel"><figcaption class="map__title">{esc(title)}</figcaption><svg viewBox="0 0 {W} {H}" aria-hidden="true" focusable="false">{"".join(out)}</svg></figure>'
+        return f'<figure class="map__panel"><figcaption class="map__title">{esc(title)}</figcaption><svg viewBox="0 0 {W} {H}" aria-hidden="true" focusable="false">{"".join(out)}</svg>{f'<p class="map__aside">{esc(note)}</p>' if note else ""}</figure>'
     groups = {k: [p for p in pts if region(p) == k] for k in ("galilee", "judea", "world")}
-    svg = panel("galilee", "Galilee and the coast", groups["galilee"]) + panel("judea", "Jerusalem and Judea", groups["judea"]) + panel("world", "The wider Roman world", groups["world"], extra=(32.2, 35.2))
+    bp = {p["id"]: p for p in pts}; gnote = ""
+    if all(k in bp for k in ("capernaum", "el-araj", "et-tell")):
+        far = max(km(bp[a], bp[b]) for a, b in (("capernaum", "el-araj"), ("capernaum", "et-tell"), ("el-araj", "et-tell")))
+        gnote = f"These dots really are close: Capernaum, el-Araj and et-Tell lie within about {round(far)} km of each other, and el-Araj and et-Tell are about {round(km(bp['el-araj'], bp['et-tell']))} km apart."
+    svg = panel("galilee", "Galilee and the coast", groups["galilee"], note=gnote) + panel("judea", "Jerusalem and Judea", groups["judea"]) + panel("world", "The wider Roman world", groups["world"], extra=(32.2, 35.2))
     RORDER = ["Jerusalem", "Judea", "Galilee", "Coast", "Wider world"]
     def pbtn(p):
         n = cnt(p["id"]); extra_ = " · river, not pinned" if p["id"] not in {q["id"] for q in pts} else ""

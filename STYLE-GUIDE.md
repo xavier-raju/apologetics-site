@@ -2,7 +2,7 @@
 
 Site name: **Certainty** (Luke 1:4; home verse Luke 1:3–4), subtitle **A Toolkit for Christians and Apologists** (shown under the wordmark, in the home `<title>`, og tags and footer; `site.config.json` → `subtitle`). Secondary home line (`tagline`): “The case for Jesus, honestly examined.” Both live in one place: `site.config.json` → `"name"`, (`name`, `tagline`), then rebuild. Repo/URL stays `apologetics-site` (`base_path`).
 
-A static site: plain HTML, CSS and vanilla JavaScript (ES modules). **No PHP, no server code, no frameworks, no trackers, no paid services, no API keys.** Built by `build.py` (Python 3.9+, standard library only) into `_site/`, which is what we publish on GitHub Pages.
+A static site: plain HTML, CSS and vanilla JavaScript (ES modules). **No PHP, no server code, no frameworks, no trackers (except cookie-free GoatCounter visit counts), no paid services, no API keys.** Built by `build.py` (Python 3.9+, standard library only) into `_site/`, which is what we publish on GitHub Pages.
 
 ```
 python3 build.py                 # builds _site/, checks every internal link, exits 1 on a broken link

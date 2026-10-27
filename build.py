@@ -300,7 +300,7 @@ def layout(route, title, body, page_js=None, desc=None):
   <nav aria-label="Footer"><h2>Explore</h2><ul class="footer-links">{foot_nav}</ul></nav>
   <div><h2>Sources &amp; licenses</h2><ul class="credits">{creds}</ul></div>
 </div>
-<p class="fine">Scripture from the Berean Standard Bible (BSB), public domain. Copyrighted books, articles and images are linked, never reproduced. A static site: no tracking, no accounts, no cookies.</p>
+<p class="fine">Scripture from the Berean Standard Bible (BSB), public domain. Copyrighted books, articles and images are linked, never reproduced. A static site: no accounts, no cookies. Visits are counted anonymously with GoatCounter.</p>
 </div></footer>
 </body></html>'''
 

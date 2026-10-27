@@ -225,6 +225,16 @@ def page_head(title, intro, crumbs, root, eyebrow=""):
     return f'''<div class="page-head"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb">{cr}</nav>
     {f'<p class="eyebrow">{esc(eyebrow)}</p>' if eyebrow else ''}<h1>{esc(title)}</h1>{f'<p class="lede measure">{intro}</p>' if intro else ''}</div></div>'''
 
+def points_to_html(p, root):
+    """'Where this points' box. Accepts a plain string or {text, ref, link}."""
+    if not p: return ""
+    if isinstance(p, dict):
+        txt = md_inline(p.get("text", ""), root)
+        more = f' <a class="points-to-jesus__more" href="{esc(href(p["link"], root))}">See the evidence for the resurrection {ARROW}</a>' if p.get("link") else ""
+    else:
+        txt, more = md_inline(str(p), root), ""
+    return f'<p class="points-to-jesus"><span class="points-to-jesus__label">Where this points</span>{txt}{more}</p>'
+
 def answer_card(c, root, open_=False):
     bid = uid("ans")
     pt = c.get("primary_text") or {}
@@ -233,7 +243,7 @@ def answer_card(c, root, open_=False):
       <div><p class="answer__label">Evidence</p><ul class="evidence-list">{"".join(f"<li>{esc(e)}</li>" for e in c.get("evidence", []))}</ul></div>
       {f'<figure class="quote quote--inline"><blockquote>{esc(pt.get("quote"))}</blockquote><figcaption>{verse_btn(pt.get("ref",""))} · {esc(pt.get("translation",""))}</figcaption></figure>' if pt.get("quote") else ""}
       {f'<div><p class="answer__label">Still debated</p><p class="muted">{esc(c["still_debated"])}</p></div>' if c.get("still_debated") else ""}
-      {f'<p class="points-to-jesus"><span class="points-to-jesus__label">Where this points</span>{md_inline(c["points_to_jesus"], root)}</p>' if c.get("points_to_jesus") else ""}
+      {points_to_html(c.get("points_to_jesus"), root)}
       <div><p class="answer__label">Go deeper</p><ul class="source-list">
         {f"<li>{link(c['scholarly_link'].get('name'), c['scholarly_link'].get('url'), root)}</li>" if c.get("scholarly_link") else ""}
         {"".join(f"<li>{link(s.get('name'), s.get('url'), root)}</li>" for s in c.get("see_also", []))}

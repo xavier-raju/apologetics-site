@@ -264,7 +264,7 @@ def layout(route, title, body, page_js=None, desc=None):
     return f'''<!doctype html>
 <html lang="en" class="no-js" data-root="{root}"{f' data-page="{page_js}"' if page_js else ""}>
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(full)}</title>
 <meta name="description" content="{esc(desc or CFG['description'])}">
 <meta name="theme-color" content="#ffffff">
@@ -273,10 +273,10 @@ def layout(route, title, body, page_js=None, desc=None):
 <link rel="preload" href="{root}assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{root}assets/fonts/newsreader-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{root}assets/css/site.css">
-<script>document.documentElement.classList.replace("no-js","js")</script>
+<script src="{root}assets/js/nojs.js"></script>
 {js}
 </head>
-<body>
+<body{' class="is-home"' if route == "" else ""}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap site-header__bar">
   <a class="brand" href="{root}">{MARK}<span class="brand__text"><span class="brand__name">{esc(CFG['name'])}</span><span class="brand__sub">{esc(CFG['subtitle'])}</span></span></a>
@@ -334,7 +334,7 @@ def build_home():
       <label class="sr-only" for="hero-q">Ask a question</label>
       <div class="field">{ICON_S}<input id="hero-q" name="q" type="search" placeholder="Ask: “Didn’t Nicaea change the Bible?”" autocomplete="off" enterkeyhint="search"><button class="btn" type="submit">Ask</button></div>
     </form>
-    <div class="btn-row hero__cta"><a class="btn" href="start-here/">Start here {ARROW}</a><a class="btn btn--ghost" href="start-here/doubting/">Doubting? Start here</a></div>
+    <div class="btn-row hero__cta"><a class="btn" href="start-here/">Start here {ARROW}</a><a class="btn btn--link" href="start-here/doubting/">Have doubts? Read this first</a></div>
   </div>{art}</div></section>
 <section class="section section--mist"><div class="wrap split">
   <div><p class="eyebrow">Questions people ask</p><h2>Ready answers, honest sources</h2><p class="muted">Each answer gives you something to say in thirty seconds, then the evidence behind it.</p><a class="btn btn--ghost" href="answers/">See all answers {ARROW}</a></div>
@@ -345,13 +345,13 @@ def build_home():
     page("", "", body)
 
 def hero_art():
-    lines = "".join(f'<line class="draw" pathLength="1" x1="320" y1="320" x2="{320 + 300 * __import__("math").cos(a * 3.14159 / 12):.1f}" y2="{320 + 300 * __import__("math").sin(a * 3.14159 / 12):.1f}" style="animation-delay:{a * 60}ms"/>' for a in range(24))
+    lines = "".join(f'<line pathLength="1" x1="320" y1="320" x2="{320 + 300 * __import__("math").cos(a * 3.14159 / 12):.1f}" y2="{320 + 300 * __import__("math").sin(a * 3.14159 / 12):.1f}" class="draw d{a}"/>' for a in range(24))
     return f'''<svg class="hero__art" viewBox="0 0 640 640" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
   <g opacity=".18">{lines}</g>
   <g class="orbit"><circle class="draw" pathLength="1" cx="320" cy="320" r="250"/><circle cx="570" cy="320" r="5" fill="currentColor" stroke="none"/></g>
-  <circle class="draw" pathLength="1" cx="320" cy="320" r="170" style="animation-delay:.3s"/>
-  <circle class="draw" pathLength="1" cx="320" cy="320" r="90" style="animation-delay:.6s"/>
-  <path class="draw" pathLength="1" d="M320 40V600M180 250H460" stroke-width="1.5" style="animation-delay:.9s"/></svg>'''
+  <circle class="draw dl3" pathLength="1" cx="320" cy="320" r="170"/>
+  <circle class="draw dl6" pathLength="1" cx="320" cy="320" r="90"/>
+  <path class="draw dl9" pathLength="1" d="M320 40V600M180 250H460" stroke-width="1.5"/></svg>'''
 
 def build_start():
     p = C / "start-here/start-here.md"
@@ -421,7 +421,7 @@ def build_map():
     for p in pts:
         x, y = xy(p["lat"], p["lon"]); n = len(by_place.get(p["id"], []))
         right = x < W - 110
-        pins.append(f'''<g class="map__pin" role="button" tabindex="0" aria-pressed="false" data-place="{esc(p["id"])}" aria-label="{esc(p["name"])}{f", {n} finds" if n else ""}">
+        pins.append(f'''<g class="map__pin" role="button" tabindex="0" aria-pressed="false" data-place="{esc(p["id"])}" aria-label="{esc(p["name"])}{f", {n} find" + ("" if n == 1 else "s") if n else ", no finds catalogued yet"}" data-count="{n}">
           <circle class="hit" cx="{x:.1f}" cy="{y:.1f}" r="29"/><circle class="halo" cx="{x:.1f}" cy="{y:.1f}" r="{14 if n else 10}"/><circle class="dot" cx="{x:.1f}" cy="{y:.1f}" r="{5 if n else 3.5}"/>
           <text class="map__label" x="{x + (10 if right else -10):.1f}" y="{y + 4:.1f}" text-anchor="{"start" if right else "end"}">{esc(p["name"])}</text></g>''')
     # Simple schematic water bodies (approximate, decorative).
@@ -444,7 +444,7 @@ def build_map():
     <div class="wrap section" data-filter-scope>{anchors}<div class="map-layout">
       <div class="map" data-map>{svg}<p class="map__note">Schematic. Positions from OpenBible.info and Pleiades; not to survey scale.</p></div>
       <div><div class="map-status"><p class="muted small" data-filter-count aria-live="polite"></p><button class="btn btn--ghost btn--sm" type="button" data-filter="*" aria-pressed="true">Show all finds</button></div>
-      <div class="stack finds">{"".join(cards)}</div></div></div></div>'''
+      <p class="empty" data-filter-empty data-map-empty hidden>No finds catalogued here yet.</p><div class="stack finds">{"".join(cards)}</div></div></div></div>'''
     page("map/", "Evidence map", body, page_js="map")
 
 def build_witnesses():

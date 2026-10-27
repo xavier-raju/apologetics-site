@@ -4,7 +4,7 @@ const STOP = new Set("a an and are as at be but by did do does for from had has 
 const SYN = {
   real: ["exist", "historical"], exist: ["real", "historical", "myth"], myth: ["legend", "exist", "fairy", "copied"],
   changed: ["corrupted", "altered", "manuscripts", "copies"], corrupt: ["changed", "altered"], bible: ["scripture", "text", "gospels"],
-  nicaea: ["constantine", "council", "canon"], constantine: ["nicaea", "council"], rise: ["resurrection", "risen", "raised"],
+  nicaea: ["constantine", "council", "canon", "nicene"], nicea: ["nicaea", "constantine", "council", "nicene"], nicene: ["nicaea", "council", "creed"], nicaean: ["nicaea"], constantine: ["nicaea", "council"], rise: ["resurrection", "risen", "raised"],
   resurrection: ["risen", "rise", "tomb"], tomb: ["resurrection", "body"], hallucinate: ["hallucination", "visions"],
   contradict: ["contradictions", "disagree"], evil: ["suffering", "pain"], suffering: ["evil"], prophecy: ["prophecies", "fulfilled", "messiah"],
   israel: ["servant", "jewish"], archaeology: ["find", "excavation", "dig"], pagan: ["copied", "myths", "horus", "mithras"],
@@ -45,6 +45,16 @@ export function search(ix, q, limit = 8) {
   qt.forEach((w, n) => {
     const s = stem(w);
     add(s, 1, w);
+    if (!ix.post.has(s) && !SYN[s] && !SYN[w] && w.length >= 5) { // typo tolerance
+      const max = w.length >= 9 ? 2 : 1, cands = [];
+      for (const t of ix.terms) {
+        if (Math.abs(t.length - s.length) > max && Math.abs(t.length - w.length) > max) continue;
+        const d = Math.min(dl(s, t, max), dl(w, t, max));
+        if (d <= max) cands.push([d, t]);
+      }
+      const best = Math.min(...cands.map((c) => c[0]));
+      for (const [d, t] of cands) if (d === best) add(t, 0.85, w);
+    }
     for (const y of SYN[s] || SYN[w] || []) add(stem(y), 0.45, w);
     if (n === qt.length - 1 && w.length >= 3) for (const t of ix.terms) if (t !== s && t.startsWith(s)) add(t, 0.5, w); // type-ahead
   });
@@ -52,4 +62,22 @@ export function search(ix, q, limit = 8) {
     const d = ix.docs[i], cover = hits.get(i).size / qt.length;
     return { d, score: s * (KIND[d.k] || 1) * (0.5 + cover) };
   }).sort((a, z) => z.score - a.score).slice(0, limit);
+}
+
+// Optimal-string-alignment (Damerau-Levenshtein) distance with early exit above max.
+export function dl(a, b, max = 2) {
+  if (a === b) return 0;
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  const m = a.length, n = b.length; let p2 = null, p = Array.from({ length: n + 1 }, (_, j) => j);
+  for (let i = 1; i <= m; i++) {
+    const c = [i]; let low = i;
+    for (let j = 1; j <= n; j++) {
+      let v = Math.min(p[j] + 1, c[j - 1] + 1, p[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      if (p2 && i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) v = Math.min(v, p2[j - 2] + 1);
+      c[j] = v; if (v < low) low = v;
+    }
+    if (low > max) return max + 1;
+    p2 = p; p = c;
+  }
+  return p[n];
 }

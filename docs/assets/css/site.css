@@ -406,3 +406,11 @@ table{border-collapse:collapse;width:100%;font-size:var(--fs-sm)} th,td{text-ali
 .hero__verse .hl{font-weight:600;color:var(--accent-ink);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.2em}
 .hero__verse figcaption{margin-top:var(--s2);font-size:var(--fs-xs);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .hero__desc{font-family:var(--font-sans);font-size:var(--fs-base);color:var(--muted);max-width:34rem}
+
+/* v2: CSP-safe hero delays, home header, popover, tap targets */
+.hero-art .d0,svg .d0{animation-delay:0ms}.hero-art .d1,svg .d1{animation-delay:60ms}.hero-art .d2,svg .d2{animation-delay:120ms}.hero-art .d3,svg .d3{animation-delay:180ms}.hero-art .d4,svg .d4{animation-delay:240ms}.hero-art .d5,svg .d5{animation-delay:300ms}.hero-art .d6,svg .d6{animation-delay:360ms}.hero-art .d7,svg .d7{animation-delay:420ms}.hero-art .d8,svg .d8{animation-delay:480ms}.hero-art .d9,svg .d9{animation-delay:540ms}.hero-art .d10,svg .d10{animation-delay:600ms}.hero-art .d11,svg .d11{animation-delay:660ms}.hero-art .d12,svg .d12{animation-delay:720ms}.hero-art .d13,svg .d13{animation-delay:780ms}.hero-art .d14,svg .d14{animation-delay:840ms}.hero-art .d15,svg .d15{animation-delay:900ms}.hero-art .d16,svg .d16{animation-delay:960ms}.hero-art .d17,svg .d17{animation-delay:1020ms}.hero-art .d18,svg .d18{animation-delay:1080ms}.hero-art .d19,svg .d19{animation-delay:1140ms}.hero-art .d20,svg .d20{animation-delay:1200ms}.hero-art .d21,svg .d21{animation-delay:1260ms}.hero-art .d22,svg .d22{animation-delay:1320ms}.hero-art .d23,svg .d23{animation-delay:1380ms}.dl3{animation-delay:.3s}.dl6{animation-delay:.6s}.dl9{animation-delay:.9s}
+.is-home .site-header .brand__sub{display:none}
+.popover{padding-right:3.5rem}.popover__close{top:6px;right:6px}
+.hero__cta .btn--link{min-height:var(--tap);display:inline-flex;align-items:center}
+.prose a,.card p a,.breadcrumbs a,.crumbs a{padding-block:.35em}.prose{line-height:1.7}
+.map-empty-place{font-weight:600;color:var(--ink)}

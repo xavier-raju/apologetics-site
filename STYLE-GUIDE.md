@@ -105,10 +105,9 @@ Content lives in `content/<section>/`. Owners edit only their folder, then run `
 - Any item may carry `"example": true` to show a purple **EXAMPLE** tag.
 
 **Field notes / requested changes (not edited; for owners to decide):**
-1. answer-cards: `gospels-contradict` has `primary_text.translation: "KJV"`. The KJV is public domain, but our main text is the BSB; suggest switching quotes to BSB from `data/bible/bsb.json` (Alfred).
-2. answer-cards & quiz `source`/`url` values like `/answers/{id}` and `/prophecy/isaiah-53` are fine as written; the build rewrites them.
-3. timeline/finds use `sources[{label,url}]`, prophecy uses `{title,url,use}`, others-say `{name,url}`: all accepted; new content should prefer `{label, url, note}`.
-4. Status words: use exactly `Confirmed`, `Contested`, `Disputed` or `Unverified` (in `status` or `confidence`).
+1. answer-cards & quiz `source`/`url` values like `/answers/{id}` and `/prophecy/isaiah-53` are fine as written; the build rewrites them.
+2. timeline/finds use `sources[{label,url}]`, prophecy uses `{title,url,use}`, others-say `{name,url}`: all accepted; new content should prefer `{label, url, note}`.
+3. Status words: use exactly `Confirmed`, `Contested`, `Disputed` or `Unverified` (in `status` or `confidence`).
 
 ## 10. Bible data (`data/bible/`, John)
 - `bsb.txt` (original) and `bsb.json` (`{"Book C:V": text}`) are John's and are never edited.

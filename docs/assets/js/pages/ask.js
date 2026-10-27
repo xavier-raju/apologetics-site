@@ -11,7 +11,7 @@ export async function init() {
   try { ix = buildIndex(await (await fetch(new URL("data/search-index.json", ROOT))).json()); }
   catch (e) { out.innerHTML = '<p class="empty">Search is unavailable right now. Try <a href="../answers/">browsing the answers</a>.</p>'; return; }
   const render = (q) => {
-    if (!q.trim()) { out.innerHTML = ""; return; }
+    if (!q.trim()) { out.innerHTML = '<p class="muted ask-prompt">Type a question, or try one of these.</p>'; return; }
     const r = search(ix, q), words = tokens(q);
     if (!r.length) { out.innerHTML = `<div class="empty"><p>We haven't written an answer for that yet.</p><p><a href="../answers/">Browse all answers</a> or <a href="../library/?q=${encodeURIComponent(q)}">search the Library</a>.</p></div>`; return; }
     const [best, ...rest] = r;
@@ -25,7 +25,7 @@ export async function init() {
   };
   let t;
   input.addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => render(input.value), 120); });
-  form.addEventListener("submit", (e) => { e.preventDefault(); render(input.value); history.replaceState(null, "", `?q=${encodeURIComponent(input.value)}`); });
+  form.addEventListener("submit", (e) => { e.preventDefault(); render(input.value); if (!input.value.trim()) return input.focus(); history.replaceState(null, "", `?q=${encodeURIComponent(input.value)}`); });
   document.querySelectorAll("[data-ask-try]").forEach((b) => b.addEventListener("click", () => { input.value = b.textContent; render(input.value); input.focus(); }));
   const q = new URLSearchParams(location.search).get("q");
   if (q) { input.value = q; render(q); }

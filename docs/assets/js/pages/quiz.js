@@ -17,10 +17,11 @@ export function init() {
     const order = shuffle(q.choices.map((c, k) => k));
     box.innerHTML = `
       <div class="quiz__top"><span class="muted small">Question ${i + 1} of ${qs.length}</span><span class="muted small">Score ${score}</span></div>
-      <div class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="${qs.length}" aria-valuenow="${i}"><span style="width:${(i / qs.length) * 100}%"></span></div>
+      <div class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="${qs.length}" aria-valuenow="${i}"><span></span></div>
       <h3 class="quiz__q" tabindex="-1">${esc(q.question)}</h3>
       <div class="quiz__opts">${order.map((k) => `<button class="quiz-opt" type="button" data-k="${k}">${esc(q.choices[k])}</button>`).join("")}</div>
       <div class="quiz__fb" aria-live="polite"></div>`;
+    box.querySelector(".progress span").style.width = `${(i / qs.length) * 100}%`; // CSSOM is CSP-safe
     box.querySelector(".quiz__q").focus({ preventScroll: true });
     box.querySelectorAll(".quiz-opt").forEach((b) => b.addEventListener("click", () => answer(+b.dataset.k)));
   }

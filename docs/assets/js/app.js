@@ -20,10 +20,12 @@ function initMenu() {
   };
   toggle.addEventListener("click", () => open(true));
   close.addEventListener("click", () => open(false));
-  menu.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") open(false);
+  document.addEventListener("keydown", (e) => {
+    if (menu.hidden || toggle.getAttribute("aria-expanded") !== "true") return;
+    if (e.key === "Escape") { e.preventDefault(); open(false); return; }
     if (e.key !== "Tab") return;
     const f = [...menu.querySelectorAll("a,button")], first = f[0], last = f[f.length - 1];
+    if (!menu.contains(document.activeElement)) { e.preventDefault(); (e.shiftKey ? last : first).focus(); return; }
     if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
     else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
   });

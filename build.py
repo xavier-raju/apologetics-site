@@ -264,7 +264,7 @@ def layout(route, title, body, page_js=None, desc=None):
     return f'''<!doctype html>
 <html lang="en" class="no-js" data-root="{root}"{f' data-page="{page_js}"' if page_js else ""}>
 <head>
-<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://xavier-raju.goatcounter.com; style-src 'self'; script-src 'self' https://gc.zgo.at; font-src 'self'; connect-src 'self' https://xavier-raju.goatcounter.com; base-uri 'self'; form-action 'self'"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(full)}</title>
 <meta name="description" content="{esc(desc or CFG['description'])}">
 <meta name="theme-color" content="#ffffff">
@@ -275,7 +275,7 @@ def layout(route, title, body, page_js=None, desc=None):
 <link rel="stylesheet" href="{root}assets/css/site.css">
 <script src="{root}assets/js/nojs.js"></script>
 {js}
-<script data-goatcounter="https://xavier-raju.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script data-goatcounter="https://xavier-raju.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body{' class="is-home"' if route == "" else ""}>
 <a class="skip" href="#main">Skip to content</a>

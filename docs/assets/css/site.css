@@ -435,3 +435,15 @@ table{border-collapse:collapse;width:100%;font-size:var(--fs-sm)} th,td{text-ali
 .place-btn__name{font-size:var(--fs-sm);font-weight:500}.place-btn__n{font-size:var(--fs-xs);color:var(--muted)}
 .map{position:relative;top:0}
 .place-list{grid-template-columns:repeat(auto-fill,minmax(8.5rem,1fr))}
+/* v4 map: highlight selected place, areas, grouped list */
+.map__pin .dot,.map__pin .halo,.map__pin .lead,.map__pin text{transition:opacity .2s,stroke .2s,fill .2s}
+.map__panel svg:has(.map__pin[aria-pressed="true"]) .map__pin:not([aria-pressed="true"]){opacity:.5}
+.map__pin[aria-pressed="true"] .lead,.map__pin:hover .lead{stroke:var(--accent);stroke-width:1.4}
+.map__pin[aria-pressed="true"] .dot{fill:var(--accent);r:5}
+.map__pin[aria-pressed="true"] .halo{opacity:.35;r:11}
+.map__pin[aria-pressed="true"] .map__label{fill:var(--accent-ink)}
+.map__pin .area{fill:var(--accent);fill-opacity:.06;stroke:var(--accent);stroke-width:1;stroke-dasharray:3 3}
+.map__pin[aria-pressed="true"] .area{fill-opacity:.18}
+.map__pin.is-area .map__label{font-style:italic;font-family:var(--font-serif)}
+.place-group+.place-group{margin-top:var(--s4)}
+.place-group__h{margin:0 0 var(--s2);font:500 var(--fs-xs) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}

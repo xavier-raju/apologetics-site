@@ -414,48 +414,86 @@ def build_map():
     short = lambda n: re.sub(r",\s*Jerusalem$", "", re.split(r"\s+\(", n)[0]).strip()
     cnt = lambda pid: len(by_place.get(pid, []))
     ftxt = lambda n: f"{n} find" + ("" if n == 1 else "s") if n else "no finds catalogued yet"
-    def region(p):
-        if 34.0 < p["lon"] < 36.0 and 31.0 < p["lat"] < 33.4: return "galilee" if p["lat"] > 32.3 else "judea"
-        return "world"
+    REG = {"Jerusalem": "judea", "Judea": "judea", "Galilee": "galilee", "Coast": "galilee", "Wider world": "world"}
+    NODOT = {"siloam", "bethesda", "golgotha"}  # sites inside Jerusalem: label rows only, no dot
+    AREA = {"bithynia"}                          # regions, drawn as a soft dashed area
+    def region(p): return REG.get(p.get("region"), "world")
     W, ROW = 400, 62
+    def cross(a, b, c, d):
+        o = lambda p, q, r: (q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])
+        return o(a, b, c) * o(a, b, d) < 0 and o(c, d, a) * o(c, d, b) < 0
     def panel(key, title, ps, extra=None):
         # Dots sit in a central band; labels sit in two side columns joined by hairline leader lines.
-        # Only the label rows are tap targets, and rows never overlap, so no pin can cover another.
+        # Only the label rows are tap targets, and rows never overlap. Rows are then reordered so no leader lines cross.
         if not ps: return ""
-        la0, la1 = min(p["lat"] for p in ps), max(p["lat"] for p in ps); lo0, lo1 = min(p["lon"] for p in ps), max(p["lon"] for p in ps)
+        geo = [p for p in ps if p["id"] not in NODOT] or ps
+        la0, la1 = min(p["lat"] for p in geo), max(p["lat"] for p in geo); lo0, lo1 = min(p["lon"] for p in geo), max(p["lon"] for p in geo)
         if extra: la0, la1, lo0, lo1 = min(la0, extra[0]), max(la1, extra[0]), min(lo0, extra[1]), max(lo1, extra[1])
         dl, dlo = (la1 - la0) or 1, (lo1 - lo0) or 1
-        order = sorted(ps, key=lambda p: p["lon"]); half = (len(order) + 1) // 2
-        side = {p["id"]: ("L" if i < half else "R") for i, p in enumerate(order)}
+        order = sorted(ps, key=lambda p: (p["id"] in NODOT, p["lon"]))
+        dotted = [p for p in order if p["id"] not in NODOT]; half = (len(dotted) + 1) // 2
+        side = {p["id"]: ("L" if i < half else "R") for i, p in enumerate(dotted)}
+        for p in order:
+            if p["id"] in NODOT: side[p["id"]] = "L" if sum(v == "L" for v in side.values()) <= sum(v == "R" for v in side.values()) else "R"
         nrows = max(sum(1 for v in side.values() if v == "L"), sum(1 for v in side.values() if v == "R"))
         H = max(220, nrows * ROW + 60)
-        xy = lambda lat, lon: (172 + (lon - lo0) / dlo * 56, 40 + (la1 - lat) / dl * (H - 80))
+        xy = lambda lat, lon: (166 + (lon - lo0) / dlo * 68, 40 + (la1 - lat) / dl * (H - 80))
+        pos = {p["id"]: list(xy(p["lat"], p["lon"])) for p in ps}
+        mk = xy(*extra) if extra else None
+        if mk:  # keep dots clear of the region marker
+            for k, v in pos.items():
+                dx, dy = v[0] - mk[0], v[1] - mk[1]; dd = (dx * dx + dy * dy) ** .5
+                if dd < 34: f = 34 / (dd or 1); v[0], v[1] = mk[0] + (dx or 1) * f, mk[1] + (dy or -1) * f
         out = []
         for sd in "LR":
-            col = sorted([p for p in ps if side[p["id"]] == sd], key=lambda p: -p["lat"])
+            # dotted rows ordered by dot y; label-only rows go next to Jerusalem's row
+            col = sorted([p for p in ps if side[p["id"]] == sd and p["id"] not in NODOT], key=lambda p: pos[p["id"]][1])
+            for p in sorted([p for p in ps if side[p["id"]] == sd and p["id"] in NODOT], key=lambda p: -p["lat"]):
+                j = next((i for i, q in enumerate(col) if q["id"] == "jerusalem"), None)
+                col.insert(j + 1 if j is not None else len(col), p)
             ys, prev = [], 4 - ROW
             for p in col:
-                y = max(xy(p["lat"], p["lon"])[1] - ROW / 2, prev + ROW); ys.append(y); prev = y
+                y = max(pos[p["id"]][1] - ROW / 2, prev + ROW); ys.append(y); prev = y
             over = (ys[-1] + ROW) - (H - 4) if ys else 0
             if over > 0: ys = [y - over for y in ys]
             for i in range(1, len(ys)): ys[i] = max(ys[i], ys[i - 1] + ROW)
-            for p, y in zip(col, ys):
-                x, py = xy(p["lat"], p["lon"]); n = cnt(p["id"]); cy = y + ROW / 2
+            ex = 150 if sd == "L" else 250
+            rowy = {p["id"]: y for p, y in zip(col, ys)}
+            dots = [p["id"] for p in col if p["id"] not in NODOT]
+            for _ in range(50):  # swap rows of crossing leaders until none cross
+                done = True
+                for i in range(len(dots)):
+                    for j in range(i + 1, len(dots)):
+                        a, b = dots[i], dots[j]
+                        if cross((ex, rowy[a] + ROW / 2), pos[a], (ex, rowy[b] + ROW / 2), pos[b]): rowy[a], rowy[b] = rowy[b], rowy[a]; done = False
+                if done: break
+            for p in col:
+                y = rowy[p["id"]]; x, py = pos[p["id"]]; n = cnt(p["id"]); cy = y + ROW / 2
                 lx0, lx1 = (4, 150) if sd == "L" else (250, 396)
-                tx, anc, ex = (12, "start", 150) if sd == "L" else (388, "end", 250)
-                out.append(f'''<g class="map__pin{" is-empty" if not n else ""}" data-place="{esc(p["id"])}" data-count="{n}">
-          <line class="lead" x1="{ex}" y1="{cy:.1f}" x2="{x:.1f}" y2="{py:.1f}"/><circle class="halo" cx="{x:.1f}" cy="{py:.1f}" r="{9 if n else 7}"/><circle class="dot" cx="{x:.1f}" cy="{py:.1f}" r="{4 if n else 3}"/>
+                tx, anc = (12, "start") if sd == "L" else (388, "end")
+                nd, ar = p["id"] in NODOT, p["id"] in AREA
+                sub = (ftxt(n) if n else "no finds yet") + (" · in Jerusalem" if nd else "") + (" · region" if ar else "")
+                mark = "" if nd else (f'<line class="lead" x1="{ex}" y1="{cy:.1f}" x2="{x - (14 if ar and sd == "R" else -14 if ar else 0):.1f}" y2="{py:.1f}"/><ellipse class="area" cx="{x:.1f}" cy="{py:.1f}" rx="14" ry="9"/>' if ar else
+                    f'<line class="lead" x1="{ex}" y1="{cy:.1f}" x2="{x:.1f}" y2="{py:.1f}"/><circle class="halo" cx="{x:.1f}" cy="{py:.1f}" r="{7 if n else 6}"/><circle class="dot" cx="{x:.1f}" cy="{py:.1f}" r="{3.5 if n else 2.8}"/>')
+                out.append(f'''<g class="map__pin{" is-empty" if not n else ""}{" is-area" if ar else ""}" data-place="{esc(p["id"])}" data-count="{n}">{mark}
           <rect class="hit" x="{lx0}" y="{y + 1:.1f}" width="{lx1 - lx0}" height="{ROW - 2}" rx="6"/>
-          <text class="map__label" x="{tx}" y="{cy - 3:.1f}" text-anchor="{anc}">{esc(short(p["name"]))}</text><text class="map__count" x="{tx}" y="{cy + 15:.1f}" text-anchor="{anc}">{esc(ftxt(n) if n else "no finds yet")}</text></g>''')
-        if extra:
-            x, py = xy(*extra)
-            out.append(f'<g class="map__region"><circle cx="{x:.1f}" cy="{py:.1f}" r="12"/><text x="{x:.1f}" y="{py + 28:.1f}" text-anchor="middle">Judea &amp; Galilee</text></g>')
+          <text class="map__label" x="{tx}" y="{cy - 3:.1f}" text-anchor="{anc}">{esc(short(p["name"]))}</text><text class="map__count" x="{tx}" y="{cy + 15:.1f}" text-anchor="{anc}">{esc(sub)}</text></g>''')
+        if mk:
+            out.append(f'<g class="map__region"><circle cx="{mk[0]:.1f}" cy="{mk[1]:.1f}" r="12"/><text x="{mk[0]:.1f}" y="{mk[1] + 28:.1f}" text-anchor="middle">Judea &amp; Galilee</text></g>')
         return f'<figure class="map__panel"><figcaption class="map__title">{esc(title)}</figcaption><svg viewBox="0 0 {W} {H}" aria-hidden="true" focusable="false">{"".join(out)}</svg></figure>'
     groups = {k: [p for p in pts if region(p) == k] for k in ("galilee", "judea", "world")}
     svg = panel("galilee", "Galilee and the coast", groups["galilee"]) + panel("judea", "Jerusalem and Judea", groups["judea"]) + panel("world", "The wider Roman world", groups["world"], extra=(32.2, 35.2))
-    plist = "".join(f'<li><button class="place-btn" type="button" data-place="{esc(p["id"])}" data-count="{cnt(p["id"])}" aria-pressed="false"><span class="place-btn__name">{esc(short(p["name"]))}</span><span class="place-btn__n">{esc(ftxt(cnt(p["id"])))}</span></button></li>'
-                    for k in ("galilee", "judea", "world") for p in groups[k])
-    svg += f'<div class="places"><h2 class="h-sm" id="places-h">Places</h2><ul class="place-list" aria-labelledby="places-h">{plist}</ul></div>'
+    RORDER = ["Jerusalem", "Judea", "Galilee", "Coast", "Wider world"]
+    def pbtn(p):
+        n = cnt(p["id"]); extra_ = " · river, not pinned" if p["id"] not in {q["id"] for q in pts} else ""
+        return f'<li><button class="place-btn" type="button" data-place="{esc(p["id"])}" data-count="{n}" aria-pressed="false"><span class="place-btn__name">{esc(short(p["name"]))}</span><span class="place-btn__n">{esc(ftxt(n))}{esc(extra_)}</span></button></li>'
+    plist = ""
+    for r in RORDER + sorted({p.get("region") or "Other" for p in places} - set(RORDER)):
+        ps_ = [p for p in places if (p.get("region") or "Other") == r]
+        if not ps_: continue
+        hid = "places-" + slug(r)
+        plist += f'<section class="place-group" aria-labelledby="{hid}"><h3 class="place-group__h" id="{hid}">{esc(r)}</h3><ul class="place-list">{"".join(pbtn(p) for p in ps_)}</ul></section>'
+    svg += f'<div class="places"><h2 class="h-sm">Places</h2>{plist}</div>'
     cards = []
     pname = {p["id"]: p["name"] for p in places}
     for f in finds:

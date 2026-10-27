@@ -9,3 +9,7 @@ Owner: Luke. Checker: Matthew. Data only.
 - The Megiddo mosaic has no point in our approved datasets yet (place_id null).
 
 See `CREDITS.md`.
+
+## region field
+
+Each place in `places.json` has a `region` (Jerusalem, Judea, Galilee, Coast or Wider world) so the map can group places in a list or a zoomed inset. It is a display grouping only, not a historical claim.

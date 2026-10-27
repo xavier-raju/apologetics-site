@@ -409,27 +409,53 @@ def build_map():
     finds = jload("evidence-map/finds.json", []) or []
     root = "../"
     pts = [p for p in places if isinstance(p.get("lat"), (int, float)) and isinstance(p.get("lon"), (int, float))]
-    W, H = 400, 560
-    if pts:
-        la0, la1 = min(p["lat"] for p in pts) - .25, max(p["lat"] for p in pts) + .25
-        lo0, lo1 = min(p["lon"] for p in pts) - .35, max(p["lon"] for p in pts) + .35
-    else: la0, la1, lo0, lo1 = 31, 33.5, 34.5, 36
-    def xy(lat, lon): return (40 + (lon - lo0) / (lo1 - lo0) * (W - 80), 30 + (la1 - lat) / (la1 - la0) * (H - 60))
     by_place = {}
     for f in finds: by_place.setdefault(f.get("place_id"), []).append(f)
-    pins = []
-    for p in pts:
-        x, y = xy(p["lat"], p["lon"]); n = len(by_place.get(p["id"], []))
-        right = x < W - 110
-        pins.append(f'''<g class="map__pin" role="button" tabindex="0" aria-pressed="false" data-place="{esc(p["id"])}" aria-label="{esc(p["name"])}{f", {n} find" + ("" if n == 1 else "s") if n else ", no finds catalogued yet"}" data-count="{n}">
-          <circle class="hit" cx="{x:.1f}" cy="{y:.1f}" r="29"/><circle class="halo" cx="{x:.1f}" cy="{y:.1f}" r="{14 if n else 10}"/><circle class="dot" cx="{x:.1f}" cy="{y:.1f}" r="{5 if n else 3.5}"/>
-          <text class="map__label" x="{x + (10 if right else -10):.1f}" y="{y + 4:.1f}" text-anchor="{"start" if right else "end"}">{esc(p["name"])}</text></g>''')
-    # Simple schematic water bodies (approximate, decorative).
-    g = xy(32.82, 35.59); d = xy(31.5, 35.48); j1 = xy(32.7, 35.57); j2 = xy(31.78, 35.55)
-    water = f'''<ellipse cx="{g[0]:.0f}" cy="{g[1]:.0f}" rx="10" ry="16" class="water"/><ellipse cx="{d[0]:.0f}" cy="{d[1]:.0f}" rx="12" ry="40" class="water"/>
-      <path d="M{j1[0]:.0f} {j1[1]:.0f} C {j1[0]+8:.0f} {(j1[1]+j2[1])/2:.0f}, {j2[0]-8:.0f} {(j1[1]+j2[1])/2:.0f}, {j2[0]:.0f} {j2[1]:.0f}" class="river"/>
-      <text class="map__sea" x="14" y="{H/2:.0f}" transform="rotate(-90 14 {H/2:.0f})">Mediterranean</text>'''
-    svg = f'<svg viewBox="0 0 {W} {H}" role="group" aria-label="Schematic map of places. Positions approximate."><rect width="{W}" height="{H}" fill="none"/>{water}{"".join(pins)}</svg>'
+    short = lambda n: re.sub(r",\s*Jerusalem$", "", re.split(r"\s+\(", n)[0]).strip()
+    cnt = lambda pid: len(by_place.get(pid, []))
+    ftxt = lambda n: f"{n} find" + ("" if n == 1 else "s") if n else "no finds catalogued yet"
+    def region(p):
+        if 34.0 < p["lon"] < 36.0 and 31.0 < p["lat"] < 33.4: return "galilee" if p["lat"] > 32.3 else "judea"
+        return "world"
+    W, ROW = 400, 62
+    def panel(key, title, ps, extra=None):
+        # Dots sit in a central band; labels sit in two side columns joined by hairline leader lines.
+        # Only the label rows are tap targets, and rows never overlap, so no pin can cover another.
+        if not ps: return ""
+        la0, la1 = min(p["lat"] for p in ps), max(p["lat"] for p in ps); lo0, lo1 = min(p["lon"] for p in ps), max(p["lon"] for p in ps)
+        if extra: la0, la1, lo0, lo1 = min(la0, extra[0]), max(la1, extra[0]), min(lo0, extra[1]), max(lo1, extra[1])
+        dl, dlo = (la1 - la0) or 1, (lo1 - lo0) or 1
+        order = sorted(ps, key=lambda p: p["lon"]); half = (len(order) + 1) // 2
+        side = {p["id"]: ("L" if i < half else "R") for i, p in enumerate(order)}
+        nrows = max(sum(1 for v in side.values() if v == "L"), sum(1 for v in side.values() if v == "R"))
+        H = max(220, nrows * ROW + 60)
+        xy = lambda lat, lon: (172 + (lon - lo0) / dlo * 56, 40 + (la1 - lat) / dl * (H - 80))
+        out = []
+        for sd in "LR":
+            col = sorted([p for p in ps if side[p["id"]] == sd], key=lambda p: -p["lat"])
+            ys, prev = [], 4 - ROW
+            for p in col:
+                y = max(xy(p["lat"], p["lon"])[1] - ROW / 2, prev + ROW); ys.append(y); prev = y
+            over = (ys[-1] + ROW) - (H - 4) if ys else 0
+            if over > 0: ys = [y - over for y in ys]
+            for i in range(1, len(ys)): ys[i] = max(ys[i], ys[i - 1] + ROW)
+            for p, y in zip(col, ys):
+                x, py = xy(p["lat"], p["lon"]); n = cnt(p["id"]); cy = y + ROW / 2
+                lx0, lx1 = (4, 150) if sd == "L" else (250, 396)
+                tx, anc, ex = (12, "start", 150) if sd == "L" else (388, "end", 250)
+                out.append(f'''<g class="map__pin{" is-empty" if not n else ""}" data-place="{esc(p["id"])}" data-count="{n}">
+          <line class="lead" x1="{ex}" y1="{cy:.1f}" x2="{x:.1f}" y2="{py:.1f}"/><circle class="halo" cx="{x:.1f}" cy="{py:.1f}" r="{9 if n else 7}"/><circle class="dot" cx="{x:.1f}" cy="{py:.1f}" r="{4 if n else 3}"/>
+          <rect class="hit" x="{lx0}" y="{y + 1:.1f}" width="{lx1 - lx0}" height="{ROW - 2}" rx="6"/>
+          <text class="map__label" x="{tx}" y="{cy - 3:.1f}" text-anchor="{anc}">{esc(short(p["name"]))}</text><text class="map__count" x="{tx}" y="{cy + 15:.1f}" text-anchor="{anc}">{esc(ftxt(n) if n else "no finds yet")}</text></g>''')
+        if extra:
+            x, py = xy(*extra)
+            out.append(f'<g class="map__region"><circle cx="{x:.1f}" cy="{py:.1f}" r="12"/><text x="{x:.1f}" y="{py + 28:.1f}" text-anchor="middle">Judea &amp; Galilee</text></g>')
+        return f'<figure class="map__panel"><figcaption class="map__title">{esc(title)}</figcaption><svg viewBox="0 0 {W} {H}" aria-hidden="true" focusable="false">{"".join(out)}</svg></figure>'
+    groups = {k: [p for p in pts if region(p) == k] for k in ("galilee", "judea", "world")}
+    svg = panel("galilee", "Galilee and the coast", groups["galilee"]) + panel("judea", "Jerusalem and Judea", groups["judea"]) + panel("world", "The wider Roman world", groups["world"], extra=(32.2, 35.2))
+    plist = "".join(f'<li><button class="place-btn" type="button" data-place="{esc(p["id"])}" data-count="{cnt(p["id"])}" aria-pressed="false"><span class="place-btn__name">{esc(short(p["name"]))}</span><span class="place-btn__n">{esc(ftxt(cnt(p["id"])))}</span></button></li>'
+                    for k in ("galilee", "judea", "world") for p in groups[k])
+    svg += f'<div class="places"><h2 class="h-sm" id="places-h">Places</h2><ul class="place-list" aria-labelledby="places-h">{plist}</ul></div>'
     cards = []
     pname = {p["id"]: p["name"] for p in places}
     for f in finds:
@@ -442,7 +468,7 @@ def build_map():
     anchors = "".join(f'<span id="place-{esc(p["id"])}"></span>' for p in places)
     body = page_head("Evidence map", "Places and finds from the world of the Gospels. Each find says what it shows and what it doesn't prove.", [("Evidence map", "/map/")], root) + f'''
     <div class="wrap section" data-filter-scope>{anchors}<div class="map-layout">
-      <div class="map" data-map>{svg}<p class="map__note">Schematic. Positions from OpenBible.info and Pleiades; not to survey scale.</p></div>
+      <div class="map" data-map>{svg}<p class="map__note">Schematic, in three panels. Positions from OpenBible.info and Pleiades; not to survey scale.</p></div>
       <div><div class="map-status"><p class="muted small" data-filter-count aria-live="polite"></p><button class="btn btn--ghost btn--sm" type="button" data-filter="*" aria-pressed="true">Show all finds</button></div>
       <p class="empty" data-filter-empty data-map-empty hidden>No finds catalogued here yet.</p><div class="stack finds">{"".join(cards)}</div></div></div></div>'''
     page("map/", "Evidence map", body, page_js="map")

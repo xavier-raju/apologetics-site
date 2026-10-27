@@ -1,33 +1,30 @@
-// Evidence map: tap a pin to filter the finds list to that place.
+// Evidence map: tap a place (map label or list button) to filter the finds list to it.
 export function init() {
   const scope = document.querySelector("[data-filter-scope]");
-  const pins = [...document.querySelectorAll(".map__pin")];
-  if (!scope || !pins.length) return;
+  const ctrls = [...document.querySelectorAll(".map__pin[data-place], .place-btn[data-place]")];
+  if (!scope || !ctrls.length) return;
   const empty = scope.querySelector("[data-map-empty]");
-  const setEmpty = (pin) => {
-    if (!empty) return;
-    const name = pin?.getAttribute("aria-label")?.split(",")[0] || "this place";
-    empty.textContent = `No finds catalogued here yet for ${name}. Tap another pin, or show all finds.`;
-  };
-  const pick = (pin, force) => {
-    const id = pin.dataset.place;
-    const on = force || pin.getAttribute("aria-pressed") !== "true";
+  const nameOf = (id) => scope.querySelector(`.place-btn[data-place="${CSS.escape(id)}"] .place-btn__name`)?.textContent || "this place";
+  let current = null;
+  const mark = (id) => ctrls.forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.place === id)));
+  const pick = (id, { force = false, fromHash = false } = {}) => {
     if (typeof scope.filterTo !== "function") return;
-    setEmpty(pin);
-    pins.forEach((p) => p.setAttribute("aria-pressed", String(on && p === pin)));
+    const on = force || current !== id;
+    current = on ? id : null;
+    if (empty) empty.textContent = `No finds catalogued here yet for ${nameOf(id)}. Pick another place, or show all finds.`;
+    mark(current);
     scope.filterTo(on ? id : "*");
-    const has = Number(pin.dataset.count || 0) > 0;
-    if (on && has && matchMedia("(max-width: 899px)").matches) scope.querySelector(".finds")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (!fromHash) history.replaceState(null, "", on ? `#place-${id}` : location.pathname + location.search);
+    const has = Number(ctrls.find((c) => c.dataset.place === id)?.dataset.count || 0) > 0;
+    if (on && has && !fromHash && matchMedia("(max-width: 899px)").matches) scope.querySelector(".finds")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
-  pins.forEach((p) => {
-    p.addEventListener("click", () => pick(p));
-    p.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(p); } });
+  ctrls.forEach((c) => c.addEventListener("click", () => pick(c.dataset.place)));
+  scope.addEventListener("filterchange", (e) => {
+    if (e.detail.tag === "*") { current = null; mark(null); if (location.hash.startsWith("#place-")) history.replaceState(null, "", location.pathname + location.search); }
   });
-  scope.addEventListener("filterchange", (e) => { if (e.detail.tag === "*") pins.forEach((p) => p.setAttribute("aria-pressed", "false")); });
   const fromHash = () => {
     const m = decodeURIComponent(location.hash).match(/^#place-(.+)/);
-    const pin = m && pins.find((p) => p.dataset.place === m[1]);
-    if (pin) pick(pin, true);
+    if (m && ctrls.some((c) => c.dataset.place === m[1])) pick(m[1], { force: true, fromHash: true });
   };
   fromHash();
   addEventListener("hashchange", fromHash);

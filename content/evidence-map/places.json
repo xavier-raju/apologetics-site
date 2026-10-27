@@ -8,7 +8,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a15257a",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Jerusalem"
   },
   {
     "id": "bethlehem",
@@ -19,7 +20,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a112427",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Judea"
   },
   {
     "id": "nazareth",
@@ -30,7 +32,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "af5884f",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Galilee"
   },
   {
     "id": "capernaum",
@@ -41,7 +44,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "af2161c",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Galilee"
   },
   {
     "id": "magdala",
@@ -52,7 +56,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "af75e9e",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Galilee"
   },
   {
     "id": "el-araj",
@@ -63,7 +68,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a91b732",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Galilee"
   },
   {
     "id": "et-tell",
@@ -74,7 +80,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a91b732",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Galilee"
   },
   {
     "id": "sea-of-galilee",
@@ -85,7 +92,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a562fcc",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Galilee"
   },
   {
     "id": "caesarea",
@@ -96,7 +104,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a58735e",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Coast"
   },
   {
     "id": "herodium",
@@ -107,7 +116,8 @@
     "source_dataset": "Pleiades",
     "source_id": "687916",
     "source_url": "https://pleiades.stoa.org/places/687916",
-    "license": "CC BY 3.0"
+    "license": "CC BY 3.0",
+    "region": "Judea"
   },
   {
     "id": "siloam",
@@ -118,7 +128,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a294859",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Jerusalem"
   },
   {
     "id": "bethesda",
@@ -129,7 +140,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a0aa8cf",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Jerusalem"
   },
   {
     "id": "golgotha",
@@ -140,7 +152,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a631d35",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Jerusalem"
   },
   {
     "id": "jordan",
@@ -151,7 +164,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "ae686c9",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Judea"
   },
   {
     "id": "damascus",
@@ -162,7 +176,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a69c1d4",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Wider world"
   },
   {
     "id": "corinth",
@@ -173,7 +188,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a6f437a",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Wider world"
   },
   {
     "id": "rome",
@@ -184,7 +200,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "afc8e7a",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Wider world"
   },
   {
     "id": "bithynia",
@@ -195,7 +212,8 @@
     "source_dataset": "OpenBible.info Bible Geocoding Data",
     "source_id": "a5c0cb0",
     "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
-    "license": "CC BY 4.0"
+    "license": "CC BY 4.0",
+    "region": "Wider world"
   },
   {
     "id": "nida-frankfurt",
@@ -206,6 +224,7 @@
     "source_dataset": "Pleiades",
     "source_id": "109205",
     "source_url": "https://pleiades.stoa.org/places/109205",
-    "license": "CC BY 3.0"
+    "license": "CC BY 3.0",
+    "region": "Wider world"
   }
 ]

@@ -32,9 +32,10 @@ export function buildIndex(docs) {
 export function search(ix, q, limit = 8) {
   const qt = tokens(q);
   if (!qt.length) return [];
-  const N = ix.docs.length, k1 = 1.2, b = 0.75, score = new Map(), hits = new Map();
+  const N = ix.docs.length, k1 = 1.2, b = 0.75, score = new Map(), hits = new Map(), core = new Set();
   const add = (term, weight, orig) => {
     const m = ix.post.get(term); if (!m) return;
+    if (weight >= 0.85) core.add(term); // the query's own words (or their typo corrections)
     const idf = Math.log(1 + (N - m.size + 0.5) / (m.size + 0.5));
     for (const [i, tf] of m) {
       const s = idf * (tf * (k1 + 1)) / (tf + k1 * (1 - b + b * ix.len[i] / ix.avg));
@@ -60,7 +61,13 @@ export function search(ix, q, limit = 8) {
   });
   return [...score].map(([i, s]) => {
     const d = ix.docs[i], cover = hits.get(i).size / qt.length;
-    return { d, score: s * (KIND[d.k] || 1) * (0.5 + cover) };
+    // Prefer whole pages whose title or route is exactly what was asked (e.g. "resurrection" -> /resurrection/).
+    const tt = tokens(d.t).map(stem), path = (d.u || "").split(/[#?]/)[0], page = !/[#?]/.test(d.u || "");
+    const rt = tokens(path.split("/").filter(Boolean).pop() || "").map(stem);
+    const exactTitle = tt.length > 0 && tt.length <= core.size + 1 && tt.every((t) => core.has(t));
+    const exactRoute = page && rt.length > 0 && rt.every((t) => core.has(t));
+    const boost = (exactTitle ? 1.8 : 1) * (exactRoute ? 1.5 : 1) * (page ? 1.1 : 1);
+    return { d, score: s * (KIND[d.k] || 1) * (0.5 + cover) * boost };
   }).sort((a, z) => z.score - a.score).slice(0, limit);
 }
 

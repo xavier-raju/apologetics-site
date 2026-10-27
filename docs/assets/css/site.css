@@ -414,3 +414,24 @@ table{border-collapse:collapse;width:100%;font-size:var(--fs-sm)} th,td{text-ali
 .hero__cta .btn--link{min-height:var(--tap);display:inline-flex;align-items:center}
 .prose a,.card p a,.breadcrumbs a,.crumbs a{padding-block:.35em}.prose{line-height:1.7}
 .map-empty-place{font-weight:600;color:var(--ink)}
+/* v3 map: panels with leader-line labels + place list */
+.map__panel{margin:0;padding:var(--s3) var(--s3) 0;border-bottom:1px solid var(--line)}
+.map__title{font:500 var(--fs-xs) var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:0 var(--s2)}
+.map svg{max-height:none}
+.map__pin .lead{stroke:var(--line-2);stroke-width:1}
+.map__pin .hit{fill:transparent;stroke:none}
+.map__pin:hover .hit,.map__pin[aria-pressed="true"] .hit{fill:var(--accent-soft)}
+.map__pin[aria-pressed="true"] .lead{stroke:var(--accent)}
+.map__pin.is-empty .dot{fill:var(--paper);stroke:var(--accent);stroke-width:1.2}
+.map__label{font:500 15px var(--font-sans);fill:var(--ink)}
+.map__count{font:400 12.5px var(--font-sans);fill:var(--muted)}
+.map__region circle{fill:none;stroke:var(--accent);stroke-width:1;stroke-dasharray:3 3}
+.map__region text{font:italic 12px var(--font-serif);fill:var(--muted)}
+.places{padding:var(--s4)}
+.place-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(9.5rem,1fr));gap:var(--s2)}
+.place-btn{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;width:100%;min-height:52px;padding:var(--s2) var(--s3);border:1px solid var(--line-2);border-radius:var(--radius-sm);background:var(--paper);font:inherit;text-align:left;color:var(--ink);cursor:pointer}
+.place-btn:hover{border-color:var(--accent)}
+.place-btn[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.place-btn__name{font-size:var(--fs-sm);font-weight:500}.place-btn__n{font-size:var(--fs-xs);color:var(--muted)}
+.map{position:relative;top:0}
+.place-list{grid-template-columns:repeat(auto-fill,minmax(8.5rem,1fr))}

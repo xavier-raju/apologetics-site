@@ -13,7 +13,7 @@ function initMenu() {
   let timer;
   const open = (on) => {
     clearTimeout(timer);
-    if (on) { menu.hidden = false; requestAnimationFrame(() => menu.classList.add("is-open")); close.focus(); }
+    if (on) { menu.hidden = false; requestAnimationFrame(() => { menu.classList.add("is-open"); (menu.querySelector(".menu__list a") || close).focus(); }); }
     else { menu.classList.remove("is-open"); timer = setTimeout(() => (menu.hidden = true), 260); toggle.focus(); }
     document.body.classList.toggle("menu-open", on);
     toggle.setAttribute("aria-expanded", String(on));

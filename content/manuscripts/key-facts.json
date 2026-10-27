@@ -1,0 +1,71 @@
+{
+  "facts": [
+    {
+      "id": "greek-manuscripts",
+      "number": "about 5,500 to 5,700",
+      "wording": "About 5,500 to 5,700 handwritten Greek copies of all or part of the New Testament survive.",
+      "detail": "The official register (the Kurzgefasste Liste in Muenster) was reported at 5,711 in April 2026 by the Evangelical Textual Criticism blog (Peter Gurry, ETC blog, 2 April 2026: \"5,711 as of 2 days ago\"; a passing count, so we say about 5,700. INTF's 2023 count after removing lost manuscripts was 5,541.). More catalogue numbers have been handed out over the years (at least 6,014), but some of those manuscripts are lost, destroyed or turned out to be parts of the same book, so we use the lower range.",
+      "source": "INTF Kurzgefasste Liste; Evangelical Textual Criticism blog (Apr 2026 tally); Oxford Handbook chapter (doi 10.1093/oxfordhb/9780197581315.013.0027); Cambridge chapter (doi 10.1017/9781108620420.023)",
+      "url": "https://ntvmr.uni-muenster.de/liste",
+      "confidence": "Confirmed",
+      "confidence_note": "Range Confirmed from published chapters; 5,711 Confirmed as a passing April 2026 tally (Gurry, ETC blog, 2 Apr 2026), browser check by John, 26 Oct 2026."
+    },
+    {
+      "id": "papyri",
+      "number": "about 141",
+      "wording": "About 141 of these are papyri, the earliest group, mostly fragments.",
+      "source": "INTF Kurzgefasste Liste (counts reported in the chapters above)",
+      "url": "https://ntvmr.uni-muenster.de/liste",
+      "confidence": "Confirmed"
+    },
+    {
+      "id": "variants",
+      "number": "about 500,000",
+      "wording": "Scholars estimate about 500,000 differences (variants) among the Greek manuscripts, not counting spelling.",
+      "detail": "That sounds alarming, but it comes from having so many copies. Every extra copy adds its own small slips, so more copies means more variants. Most are word order, small words, or obvious copying mistakes. Peter Gurry, who made the estimate, says the number reflects how often scribes copied, not that they were unfaithful.",
+      "source": "Peter J. Gurry, New Testament Studies 62 (2016) 97-121",
+      "url": "https://doi.org/10.1017/s0028688515000314",
+      "confidence": "Confirmed"
+    },
+    {
+      "id": "p52-date",
+      "number": "probably 2nd century",
+      "wording": "The earliest New Testament fragment, P52 (a few verses of John 18), is probably from the 2nd century.",
+      "detail": "Its first editor dated it 100-150 by the handwriting. Specialists now say handwriting can only give a range, which runs into the later 2nd century or about 200. The John Rylands Library's own catalogue page says: \"Recent research points to a date nearer to 200 CE, but there is as yet no convincing evidence that any earlier fragments from the New Testament survive.\"",
+      "source": "Brent Nongbri, HTR 98 (2005); Brent Nongbri, 'Palaeography, Precision and Publicity: Further Thoughts on P.Ryl. iii.457 (P52)', NTS (2020); John Rylands Library catalogue page",
+      "url": "https://www.digitalcollections.manchester.ac.uk/view/MS-GREEK-P-00457",
+      "confidence": "Confirmed",
+      "urls": [
+        "https://doi.org/10.1017/s0017816005000842",
+        "https://doi.org/10.1017/s0028688520000089",
+        "https://www.digitalcollections.manchester.ac.uk/view/MS-GREEK-P-00457"
+      ]
+    },
+    {
+      "id": "great-codices",
+      "number": "4th century",
+      "wording": "The two oldest near-complete Bibles, Codex Sinaiticus and Codex Vaticanus, were copied in the 4th century.",
+      "source": "Codex Sinaiticus Project ('written in the middle of the fourth century'); Vatican Library",
+      "url": "https://codexsinaiticus.org/en/codex/",
+      "confidence": "Confirmed"
+    },
+    {
+      "id": "early-papyri",
+      "number": "about 200 / 3rd century",
+      "wording": "Several larger papyri are commonly dated about 200 or the 3rd century: P46 (Paul's letters, INTF 'c. 200'), P66 (John, about 200) and P75 (Luke and John, Vatican says early 3rd century). Some specialists argue P66 and P75 could be 4th century.",
+      "source": "INTF via CSNTM P46 record; Vatican Library P75 page; Nongbri 2016 (JBL 135) and P66 study",
+      "url": "https://www.vaticanlibrary.va/en/multimedia/papiro-hanna-1.html",
+      "confidence": "Contested"
+    },
+    {
+      "id": "late-passages",
+      "number": "3 passages",
+      "wording": "Three passages familiar from older Bibles are not in the earliest copies: John 5:4, Mark 16:9-20 and John 7:53-8:11.",
+      "detail": "Modern Bibles mark them with brackets or footnotes. Hiding nothing is the point: we know they are later because we have so many early copies to compare.",
+      "source": "Standard in modern critical editions (SBLGNT, THGNT, NA28 apparatus); see Hixson and Gurry eds., Myths and Mistakes (IVP 2019)",
+      "url": "https://sblgnt.com/",
+      "confidence": "Confirmed",
+      "bsb_note": "The Berean Standard Bible in our data has no text for John 5:4 (the verse number is left empty), which shows how modern Bibles handle it."
+    }
+  ]
+}

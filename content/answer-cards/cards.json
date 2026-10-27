@@ -1,0 +1,497 @@
+{
+  "version": 1,
+  "updated": "2026-10-26",
+  "cards": [
+    {
+      "order": 1,
+      "id": "gospels-contradict",
+      "objection": "The four Gospels disagree on details, like how many women went to the tomb or how many angels were there, so they can't be trusted.",
+      "short_answer": "Independent witnesses almost always differ on details, and that is usually a sign they did not copy one script. The Gospels agree on the core: Jesus was crucified, buried, and his tomb was found empty by women, and he then appeared to his followers. Many differences are a matter of one writer naming more people than another, not one saying the opposite of the other.",
+      "evidence": [
+        "Mentioning two angels does not deny there was one who spoke; naming Mary Magdalene does not mean she was alone (John 20:2 has her say 'we').",
+        "Ancient biographers often compressed, reordered, or summarized events, a normal practice of the time (Licona's research on Plutarch).",
+        "Detectives expect honest witnesses to differ on side details while agreeing on the main event.",
+        "Some differences remain hard to harmonize, and we can say so honestly without losing the core story."
+      ],
+      "primary_text": {
+        "ref": "John 20:1-2; Mark 16:1-8; Matthew 28:1-10; Luke 24:1-12",
+        "translation": "BSB",
+        "quote": "So she came running to Simon Peter and the other disciple, the one whom Jesus loved. “They have taken the Lord out of the tomb,” she said, “and we do not know where they have put Him!”",
+        "quote_ref": "John 20:2"
+      },
+      "scholarly_link": {
+        "name": "Mike Licona, articles on Gospel differences",
+        "url": "https://www.risenjesus.com/blog"
+      },
+      "still_debated": "Scholars still debate how far ancient writing habits explain every difference, and a few details have no agreed solution.",
+      "keywords": [
+        "contradictions",
+        "contradict",
+        "errors",
+        "angels",
+        "tomb",
+        "women",
+        "inconsistent",
+        "disagree",
+        "differences"
+      ],
+      "related": [
+        "late-anonymous",
+        "stolen-body",
+        "resurrection"
+      ],
+      "points_to_jesus": {
+        "text": "Whatever the small differences, all four Gospels agree on the center: Jesus died, was buried and was raised on the third day (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 2,
+      "id": "fairy-tale",
+      "objection": "Jesus is a fairy tale, like Santa Claus or an imaginary friend.",
+      "short_answer": "Fairy tales begin with 'once upon a time' in no real place. The Gospels name real rulers, towns, and dates, and many of those details have been confirmed by history and archaeology. Even historians who are not Christians treat Jesus as a real man who was crucified under Pontius Pilate.",
+      "evidence": [
+        "Luke 3:1 anchors events to named rulers: Tiberius, Pilate, Herod, Philip, Lysanias.",
+        "Roman historian Tacitus records that Christ was executed by Pilate under Tiberius (Annals 15.44).",
+        "Places in the Gospels, such as the Pool of Siloam and first-century Nazareth and Magdala, have been studied by archaeologists (see our Evidence map).",
+        "The earliest Christian reports were written within living memory of the events, not centuries later."
+      ],
+      "primary_text": {
+        "ref": "Luke 1:1-4; Luke 3:1",
+        "translation": "BSB",
+        "quote": "Therefore, having carefully investigated everything from the beginning, it seemed good also to me to write an orderly account for you, most excellent Theophilus,",
+        "quote_ref": "Luke 1:3"
+      },
+      "scholarly_link": {
+        "name": "William Lane Craig, Reasonable Faith writings",
+        "url": "https://www.reasonablefaith.org/writings/"
+      },
+      "still_debated": "Believing Jesus lived is one step; believing he rose is a further one that each person must weigh.",
+      "keywords": [
+        "fairy tale",
+        "myth",
+        "santa",
+        "imaginary friend",
+        "sky daddy",
+        "bronze age",
+        "made up",
+        "fiction"
+      ],
+      "related": [
+        "never-existed",
+        "copied-myths",
+        "no-contemporary-sources"
+      ],
+      "points_to_jesus": {
+        "text": "The question isn't whether miracles sound unusual, but whether Jesus actually rose. Paul lists those who saw Him alive and says most of the five hundred were still living when he wrote (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 3,
+      "id": "late-anonymous",
+      "objection": "The Gospels were written long after Jesus by unknown people who never met him.",
+      "short_answer": "Most scholars date the Gospels between about AD 65 and 100, and many date some before 70. That is within the lifetime of people who knew Jesus or his first followers. The authors' names are not inside the texts, but early church writers consistently link them to Matthew, Mark, Luke, and John, and we know of no early tradition naming different authors.",
+      "evidence": [
+        "1 Corinthians 15:3-7 passes on an earlier creed Paul says he 'received'. Many scholars, skeptics included, think he received it in the 30s, likely when he met Peter and James in Jerusalem (Galatians 1:18-19). See Habermas 2012, p. 25.",
+        "Papias, writing in the early 2nd century and quoted by Eusebius (Church History 3.39.15, McGiffert translation), passes on what an elder told him: that Mark wrote down Peter's teaching accurately, though not in order. https://www.newadvent.org/fathers/250103.htm",
+        "Luke and Mark are unlikely names to invent; neither was one of the Twelve.",
+        "Titles circulated with the texts, and no early copy names anyone else as the author."
+      ],
+      "primary_text": {
+        "ref": "1 Corinthians 15:3-7",
+        "translation": "BSB",
+        "quote": "For what I received I passed on to you as of first importance: that Christ died for our sins according to the Scriptures, that He was buried, that He was raised on the third day according to the Scriptures,",
+        "quote_ref": "1 Corinthians 15:3-4"
+      },
+      "scholarly_link": {
+        "name": "Gary Habermas, The Minimal Facts Approach (2012), p. 25 (free PDF)",
+        "url": "https://www.garyhabermas.com/articles/Habermas_Minimal%20Facts%20STR%202012.pdf"
+      },
+      "still_debated": "Authorship, especially of Matthew and John, is still openly debated among scholars, including some Christian scholars.",
+      "keywords": [
+        "late",
+        "anonymous",
+        "authors",
+        "who wrote",
+        "eyewitness",
+        "dating",
+        "written when",
+        "decades later"
+      ],
+      "related": [
+        "bible-changed",
+        "no-contemporary-sources",
+        "gospels-contradict"
+      ],
+      "points_to_jesus": {
+        "text": "Even before the Gospels were written, Christians were already passing on that Christ died, was buried, was raised and appeared to named witnesses (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 4,
+      "id": "bible-changed",
+      "objection": "The Bible was changed over time. We have no originals, just copies of copies, and verses were added later.",
+      "short_answer": "It is true we have no originals and that copies differ. But we have about 5,500 to 5,700 Greek manuscripts, far more than any other ancient book, so scholars can compare them and see where changes crept in. Those few added passages are known, are marked in most modern Bibles, and no core belief depends on them.",
+      "evidence": [
+        "About 5,500 to 5,700 surviving Greek manuscripts are catalogued (INTF's Kurzgefasste Liste), plus thousands in early translations.",
+        "Peter Gurry estimates about 500,000 variants, not counting spelling. That large number comes from the large number of copies. Most are spelling, word order, or obvious slips.",
+        "Honest examples: John 5:4 (the angel stirring the water), the long ending of Mark (16:9-20), and the woman caught in adultery (John 7:53-8:11) are not in the earliest copies.",
+        "The earliest fragment, P52 (part of John 18), is probably second century, possibly as late as about 200. It is still close to the original by ancient standards.",
+        "The Council of Nicaea (AD 325) did not choose the books of the Bible; that is a popular myth."
+      ],
+      "primary_text": {
+        "ref": "Mark 16:8; John 5:3-4 (compare a modern edition's footnotes)",
+        "translation": "BSB",
+        "quote": "So the women left the tomb and ran away, trembling and bewildered. And in their fear they did not say a word to anyone.",
+        "quote_ref": "Mark 16:8"
+      },
+      "scholarly_link": {
+        "name": "Peter J. Gurry, The Number of Variants in the Greek New Testament (New Testament Studies, 2016)",
+        "url": "https://doi.org/10.1017/s0028688515000314",
+        "link_status": "ok (DOI)"
+      },
+      "still_debated": "Scholars still discuss a small number of meaningful readings, and the exact manuscript count changes as new ones are catalogued.",
+      "keywords": [
+        "changed",
+        "corrupted",
+        "copies",
+        "originals",
+        "manuscripts",
+        "variants",
+        "added verses",
+        "nicaea",
+        "translation",
+        "telephone game",
+        "long ending",
+        "adultery"
+      ],
+      "related": [
+        "late-anonymous",
+        "never-existed"
+      ],
+      "points_to_jesus": {
+        "text": "No manuscript variant changes the core message: Christ died for our sins, was buried, was raised on the third day, and appeared to many (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 5,
+      "id": "copied-myths",
+      "objection": "Jesus is just a copy of older gods like Horus, Mithras, or Dionysus.",
+      "short_answer": "When you read the actual ancient sources on those gods, the famous parallels mostly vanish: no virgin birth on December 25, no twelve disciples, no crucifixion. Many of the claims come from modern popular books and films, not ancient texts. The Gospels are rooted in first-century Jewish life, not in pagan mystery religions.",
+      "evidence": [
+        "Claims like 'Horus was born of a virgin on December 25 and had twelve disciples' have no support in Egyptian sources.",
+        "The Roman cult of Mithras is first attested around the end of the first century AD, and most of its evidence dates to the second and third centuries, after the New Testament was written. To be fair, Plutarch mentions Mithras rites among pirates in the 60s BC, so the name is older, but no early source tells a Mithras story that parallels the Gospels. Source: Roger Beck, \"Mithraism,\" Encyclopaedia Iranica, citing Clauss 2000: https://www.iranicaonline.org/articles/mithraism",
+        "Dying-and-rising god myths describe nature cycles, not a named man executed under a known governor.",
+        "Jewish monotheists of that time would have been repelled by borrowing pagan gods."
+      ],
+      "primary_text": {
+        "ref": "2 Peter 1:16",
+        "translation": "BSB",
+        "quote": "For we did not follow cleverly devised fables when we made known to you the power and coming of our Lord Jesus Christ, but we were eyewitnesses of His majesty.",
+        "quote_ref": "2 Peter 1:16"
+      },
+      "scholarly_link": {
+        "name": "Mike Licona, reviews of copycat and mythicist works",
+        "url": "https://www.risenjesus.com/blog"
+      },
+      "still_debated": "Scholars agree some general similarities exist across religions; they debate what, if anything, those similarities mean.",
+      "keywords": [
+        "horus",
+        "mithras",
+        "dionysus",
+        "copied",
+        "pagan",
+        "zeitgeist",
+        "borrowed",
+        "december 25",
+        "dying and rising"
+      ],
+      "related": [
+        "fairy-tale",
+        "never-existed"
+      ],
+      "points_to_jesus": {
+        "text": "Jesus is not a seasonal myth set in no particular time. He is a real man, executed under Pontius Pilate, whom named people said they saw alive again (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 6,
+      "id": "never-existed",
+      "objection": "There's no good reason to think Jesus ever existed.",
+      "short_answer": "Almost every historian of the ancient world, Christian or not, agrees Jesus existed. We have Paul's letters from the 50s, four Gospels, and non-Christian writers like Josephus and Tacitus who mention him. Doubting Jesus' existence would require doubting most of ancient history.",
+      "evidence": [
+        "Josephus (about AD 93) mentions 'James, the brother of Jesus, who was called Christ' (Antiquities 20.9.1).",
+        "Tacitus (about AD 116) says Christ was executed by Pontius Pilate (Annals 15.44).",
+        "Pliny the Younger (about AD 112) says Christians recited 'a form of prayer to Christ, as to a divinity': Letters 10.96 (X.97 in the Melmoth/Bosanquet numbering).",
+        "Paul met Peter and James, Jesus' brother (Galatians 1:18-19)."
+      ],
+      "primary_text": {
+        "ref": "Tacitus, Annals 15.44",
+        "translation": "John Jackson, Loeb Classical Library (1937), public domain on LacusCurtius",
+        "quote": "Christus, the founder of the name, had undergone the death penalty in the reign of Tiberius, by sentence of the procurator Pontius Pilatus."
+      },
+      "scholarly_link": {
+        "name": "Bart D. Ehrman, Did Jesus Exist? The Historical Argument for Jesus of Nazareth (HarperOne, 2012), ISBN 9780062089946",
+        "url": "https://openlibrary.org/works/OL16643975W"
+      },
+      "still_debated": "A longer Josephus passage (Antiquities 18.3.3) was likely touched up by Christian copyists; most scholars think a shorter original lies underneath.",
+      "keywords": [
+        "exist",
+        "existed",
+        "real",
+        "historical jesus",
+        "mythicist",
+        "proof",
+        "evidence for jesus"
+      ],
+      "related": [
+        "no-contemporary-sources",
+        "fairy-tale",
+        "copied-myths"
+      ],
+      "secondary_link": {
+        "name": "Bart Ehrman, Did Jesus Exist? (free summary)",
+        "url": "https://ehrmanblog.org/did-jesus-exist/"
+      },
+      "points_to_jesus": {
+        "text": "If Jesus was real, the bigger question is what happened after He died. His first followers said He was raised and appeared to them (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 7,
+      "id": "problem-of-evil",
+      "objection": "If God is good and all-powerful, why is there so much suffering?",
+      "short_answer": "This is the hardest question, and it deserves tears as well as answers. The Bible never hides suffering; it is full of lament, and God himself entered it in Jesus, who suffered and died. A world with real love needs real freedom, and Christians hope for a day when God makes all things new.",
+      "evidence": [
+        "Many psalms are honest complaints to God, so faith and hard questions belong together (Psalm 13, Psalm 22).",
+        "If there is no God, it is hard to say evil is truly evil and not just unpleasant.",
+        "The cross shows God did not stay distant from pain.",
+        "The resurrection is a promise that suffering does not get the last word (Revelation 21:4)."
+      ],
+      "primary_text": {
+        "ref": "Revelation 21:4",
+        "translation": "BSB",
+        "quote": "‘He will wipe away every tear from their eyes,’ and there will be no more death or mourning or crying or pain, for the former things have passed away.”",
+        "quote_ref": "Revelation 21:4"
+      },
+      "scholarly_link": {
+        "name": "William Lane Craig, Reasonable Faith writings on suffering",
+        "url": "https://www.reasonablefaith.org/writings/"
+      },
+      "still_debated": "Christians themselves hold different views on why God allows specific suffering; no answer removes all the mystery.",
+      "keywords": [
+        "evil",
+        "suffering",
+        "why does god allow",
+        "pain",
+        "bad things",
+        "cancer",
+        "children suffer",
+        "hell"
+      ],
+      "related": [
+        "resurrection",
+        "fairy-tale"
+      ],
+      "points_to_jesus": {
+        "text": "God did not stay distant from suffering. In Jesus He entered it, died for our sins, and was raised on the third day, which gives real hope that evil will not have the last word (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 8,
+      "id": "no-contemporary-sources",
+      "objection": "No one wrote about Jesus during his lifetime.",
+      "short_answer": "That is true, and it is normal. Very few people in the ancient world, even important ones, were written about while alive; a traveling Jewish teacher would not be. What matters is how soon after: Paul writes within about 20 to 25 years, and passes on a creed that is earlier still.",
+      "evidence": [
+        "Paul's letters date to the 50s, roughly two decades after the crucifixion.",
+        "The creed in 1 Corinthians 15 is earlier still: many scholars, skeptics included, think Paul received it in the 30s (Galatians 1:18-19; Habermas 2012, p. 25).",
+        "Josephus and Tacitus wrote within about 60 to 85 years, which is good by ancient standards.",
+        "Arrian's biography of Alexander the Great, our main source, was written about 450 years after he died in 323 BC, drawing on earlier works now lost. Sources: https://www.livius.org/sources/content/arrian/ and https://www.livius.org/articles/person/alexander-the-great/"
+      ],
+      "primary_text": {
+        "ref": "Galatians 1:18-19",
+        "translation": "BSB",
+        "quote": "Only after three years did I go up to Jerusalem to confer with Cephas, and I stayed with him fifteen days. But I saw none of the other apostles except James, the Lord’s brother.",
+        "quote_ref": "Galatians 1:18-19"
+      },
+      "scholarly_link": {
+        "name": "Gary Habermas, article index",
+        "url": "https://www.garyhabermas.com/articles/articles.htm"
+      },
+      "still_debated": "How early the 1 Corinthians 15 creed is, and exactly when each Gospel was written, are still discussed.",
+      "keywords": [
+        "contemporary",
+        "sources",
+        "during his lifetime",
+        "eyewitness",
+        "no records",
+        "roman records",
+        "written at the time"
+      ],
+      "related": [
+        "never-existed",
+        "late-anonymous"
+      ],
+      "points_to_jesus": {
+        "text": "The earliest witnesses we have point to one event: Christ died, was buried, was raised and appeared to Cephas, the Twelve, James and more than five hundred others (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 9,
+      "id": "stolen-body",
+      "objection": "The disciples stole the body, or Jesus only fainted, or the women went to the wrong tomb.",
+      "short_answer": "Each of these explains one fact but fails on others. Thieves don't suffer and risk death for something they know is a lie, a half-dead man couldn't convince anyone he had conquered death, and the wrong tomb would be easily corrected by producing the body. None explains why Paul, an enemy, and James, a skeptical brother, came to believe.",
+      "evidence": [
+        "Matthew 28:11-15 reports that the stolen-body story was already going around, which assumes the tomb was empty.",
+        "Roman crucifixion was designed to kill; John 19:34 describes a spear wound.",
+        "The tomb belonged to a known man, Joseph of Arimathea, so its location was not a secret.",
+        "The disciples were willing to suffer for their claim. Some, like Peter and James, are well attested as martyrs; we don't claim all twelve (see McDowell)."
+      ],
+      "primary_text": {
+        "ref": "Matthew 28:12-13",
+        "translation": "BSB",
+        "quote": "And after the chief priests had met with the elders and formed a plan, they gave the soldiers a large sum of money and instructed them: “You are to say, ‘His disciples came by night and stole Him away while we were asleep.’",
+        "quote_ref": "Matthew 28:12-13"
+      },
+      "scholarly_link": {
+        "name": "Sean McDowell, Did the Apostles Really Die as Martyrs?",
+        "url": "https://www.equip.org/articles/apostles-really-die-martyrs-faith/"
+      },
+      "still_debated": "Some scholars doubt the burial account or the guard story; the empty tomb is widely but not universally accepted.",
+      "keywords": [
+        "stolen",
+        "stole the body",
+        "swoon",
+        "fainted",
+        "wrong tomb",
+        "didn't die",
+        "guards",
+        "empty tomb"
+      ],
+      "related": [
+        "hallucination",
+        "resurrection",
+        "gospels-contradict"
+      ],
+      "points_to_jesus": {
+        "text": "The empty tomb alone doesn't explain what changed the disciples. They said the risen Jesus appeared to them, and they staked their lives on it (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 10,
+      "id": "hallucination",
+      "objection": "The disciples just had hallucinations or visions because they were grieving.",
+      "short_answer": "Hallucinations happen inside one person's mind, so groups don't share the same one, yet the earliest report lists group appearances, including one to over five hundred people. Visions also wouldn't empty a tomb. And they wouldn't explain why a persecutor like Paul and a doubter like James suddenly believed.",
+      "evidence": [
+        "1 Corinthians 15:5-7 lists appearances to Peter, the Twelve, over 500 at once, James, and all the apostles.",
+        "Grief visions usually comfort; they don't lead people to say a dead man was bodily raised.",
+        "Paul was not grieving Jesus; he was trying to stop his followers.",
+        "Habermas has written academic articles on the hallucination theory (see his index)."
+      ],
+      "primary_text": {
+        "ref": "1 Corinthians 15:5-8",
+        "translation": "BSB",
+        "quote": "After that, He appeared to more than five hundred brothers at once, most of whom are still living, though some have fallen asleep.",
+        "quote_ref": "1 Corinthians 15:6"
+      },
+      "scholarly_link": {
+        "name": "Gary Habermas, articles including on hallucination hypotheses",
+        "url": "https://www.garyhabermas.com/articles/articles.htm"
+      },
+      "still_debated": "Scholars debate what kind of experiences the disciples had; nearly all agree they sincerely believed they saw Jesus.",
+      "keywords": [
+        "hallucination",
+        "visions",
+        "grief",
+        "dreams",
+        "mass hallucination",
+        "psychological",
+        "saw jesus"
+      ],
+      "related": [
+        "stolen-body",
+        "resurrection"
+      ],
+      "points_to_jesus": {
+        "text": "Paul lists appearances to individuals, to groups and to more than five hundred at once, including James, who had not believed before (John 7:5), and Paul himself, who had persecuted the church (1 Corinthians 15:3-9).",
+        "ref": "1 Corinthians 15:3-9",
+        "link": "/resurrection"
+      }
+    },
+    {
+      "order": 11,
+      "id": "isaiah-53-israel",
+      "objection": "Isaiah 53 is about the people of Israel, not Jesus.",
+      "short_answer": "This is a serious reading with a long history in Jewish teaching, and Christians should listen to it carefully. The medieval scholar Rashi understood the servant as Israel, pictured as one person suffering among the nations. Christians answer that the servant in this passage suffers for others' sins without sin of his own, dies, and is then vindicated, which fits Jesus closely, and they note that some early Jewish texts read parts of the passage about the Messiah.",
+      "evidence": [
+        "In Isaiah, Israel is sometimes called God's servant (Isaiah 41:8), which supports the Jewish reading.",
+        "Isaiah 53:9 says the servant had done no violence and no deceit was in his mouth, while Isaiah elsewhere confesses Israel's sin (Isaiah 1:4).",
+        "Isaiah 53:8 says he was cut off 'for the transgression of My people' (BSB), which seems to distinguish the servant from the people.",
+        "The Great Isaiah Scroll from the Dead Sea Scrolls shows the chapter was written long before Jesus.",
+        "The ancient Aramaic paraphrase of Isaiah (Targum Jonathan) reads Isaiah 52:13 as 'Behold, my servant the Messiah shall prosper' (Pauli 1871 translation). It applies the servant's exaltation to the Messiah, though it applies the sufferings of chapter 53 to Israel or others.",
+        "Rashi's reading is paraphrased here, not quoted; read it for yourself at the link in the 'related' notes."
+      ],
+      "primary_text": {
+        "ref": "Isaiah 53:5",
+        "translation": "BSB",
+        "quote": "But He was pierced for our transgressions, He was crushed for our iniquities; the punishment that brought us peace was upon Him, and by His stripes we are healed.",
+        "quote_ref": "Isaiah 53:5"
+      },
+      "scholarly_link": {
+        "name": "Michael L. Brown, Answering Jewish Objections to Jesus, Vol. 3",
+        "url": "https://bakerpublishinggroup.com/products/9780801064234_answering-jewish-objections-to-jesus"
+      },
+      "still_debated": "Jewish and Christian readers have disagreed on this passage for centuries, and both readings are held by thoughtful, devout people.",
+      "keywords": [
+        "isaiah 53",
+        "suffering servant",
+        "israel",
+        "rashi",
+        "jewish",
+        "prophecy",
+        "messiah",
+        "servant"
+      ],
+      "related": [
+        "resurrection"
+      ],
+      "see_also": [
+        {
+          "name": "Rashi on Isaiah 53 (Sefaria; link only, license unverified)",
+          "url": "https://www.sefaria.org/Rashi_on_Isaiah.53.3",
+          "link_status": "403 to curl (site blocks bots); recheck in a browser"
+        },
+        {
+          "name": "Targum Jonathan on Isaiah, Pauli 1871 translation (archive.org, public domain)",
+          "url": "https://archive.org/details/chaldeeparaphra00uzzigoog"
+        },
+        {
+          "name": "Prophecy explorer (Mark's section)",
+          "url": "/prophecy/isaiah-53"
+        }
+      ],
+      "points_to_jesus": {
+        "text": "Christians read Isaiah 53 in the light of what happened to Jesus: He died for our sins according to the Scriptures and was raised on the third day (1 Corinthians 15:3-8).",
+        "ref": "1 Corinthians 15:3-8",
+        "link": "/resurrection"
+      }
+    }
+  ]
+}

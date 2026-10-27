@@ -1,0 +1,917 @@
+[
+  {
+    "id": "birth",
+    "title": "Birth of Jesus in Bethlehem",
+    "date_display": "c. 6-4 BC",
+    "date_start": -6,
+    "date_end": -4,
+    "approximate": true,
+    "category": "life",
+    "summary": "Matthew and Luke place the birth under Herod the Great, who died in 4 BC by the usual reckoning, so most scholars date it about 6-4 BC. A minority dates Herod's death to 1 BC.",
+    "scripture_refs": [
+      "Matthew 2:1",
+      "Luke 1:5",
+      "Luke 2:1-7"
+    ],
+    "sources": [
+      {
+        "label": "Josephus, Antiquities 17 (Herod's death)",
+        "url": "https://penelope.uchicago.edu/josephus/ant-17.html"
+      },
+      {
+        "label": "Matthew 2:1 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/matthew/2.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "bethlehem"
+    ]
+  },
+  {
+    "id": "herod-death",
+    "title": "Death of Herod the Great",
+    "date_display": "4 BC (conventional; minority view 1 BC)",
+    "date_start": -4,
+    "date_end": -4,
+    "approximate": true,
+    "category": "history",
+    "summary": "Herod's death sets the latest likely date for Jesus' birth.",
+    "scripture_refs": [
+      "Matthew 2:19"
+    ],
+    "sources": [
+      {
+        "label": "Josephus, Antiquities 17 (Herod's death)",
+        "url": "https://penelope.uchicago.edu/josephus/ant-17.html"
+      },
+      {
+        "label": "Herod the Great overview",
+        "url": "https://en.wikipedia.org/wiki/Herod_the_Great"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "herodium"
+    ]
+  },
+  {
+    "id": "nazareth-childhood",
+    "title": "Childhood in Nazareth",
+    "date_display": "c. 4 BC - AD 28",
+    "date_start": -4,
+    "date_end": 28,
+    "approximate": true,
+    "category": "life",
+    "summary": "Jesus grew up in Nazareth in Galilee, a small Jewish village. Archaeology shows the village was inhabited at the time.",
+    "scripture_refs": [
+      "Luke 2:39-52",
+      "Matthew 2:23"
+    ],
+    "sources": [
+      {
+        "label": "K. Dark, \"Early Roman-period Nazareth and the Sisters of Nazareth Convent,\" Antiquaries Journal 92 (2012)",
+        "url": "https://doi.org/10.1017/s0003581512001308"
+      },
+      {
+        "label": "Luke 2:39-52 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/luke/2.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "nazareth"
+    ]
+  },
+  {
+    "id": "quirinius-census",
+    "title": "Census under Quirinius",
+    "date_display": "AD 6",
+    "date_start": 6,
+    "date_end": 6,
+    "approximate": false,
+    "category": "history",
+    "summary": "Josephus dates Quirinius's census of Judea to AD 6. How this fits Luke 2:2 and a birth under Herod is a long-debated question.",
+    "scripture_refs": [
+      "Luke 2:1-2"
+    ],
+    "sources": [
+      {
+        "label": "Josephus, Antiquities 18.1 (census of Quirinius)",
+        "url": "https://penelope.uchicago.edu/josephus/ant-18.html"
+      },
+      {
+        "label": "Census of Quirinius overview",
+        "url": "https://en.wikipedia.org/wiki/Census_of_Quirinius"
+      }
+    ],
+    "status": "Contested",
+    "related_places": []
+  },
+  {
+    "id": "pilate-governor",
+    "title": "Pontius Pilate governs Judea",
+    "date_display": "AD 26-36",
+    "date_start": 26,
+    "date_end": 36,
+    "approximate": false,
+    "category": "history",
+    "summary": "Pilate served as Roman prefect of Judea. An inscription found at Caesarea names him with that title.",
+    "scripture_refs": [
+      "Luke 3:1"
+    ],
+    "sources": [
+      {
+        "label": "G. Alföldy, Scripta Classica Israelica 18 (1999) 85-108",
+        "url": "https://doi.org/10.71043/sci.v18i.4067"
+      },
+      {
+        "label": "Pilate stone overview",
+        "url": "https://en.wikipedia.org/wiki/Pilate_stone"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "caesarea"
+    ]
+  },
+  {
+    "id": "baptism",
+    "title": "Baptism by John and start of ministry",
+    "date_display": "c. AD 28-29",
+    "date_start": 28,
+    "date_end": 29,
+    "approximate": true,
+    "category": "ministry",
+    "summary": "Luke dates John the Baptist's work to Tiberius's 15th year (about AD 28/29) and says Jesus was about thirty. Historians count the baptism among the most secure facts about Jesus.",
+    "scripture_refs": [
+      "Luke 3:1-3",
+      "Luke 3:21-23",
+      "Mark 1:9-11"
+    ],
+    "sources": [
+      {
+        "label": "Luke 3:1-3 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/luke/3.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "jordan"
+    ]
+  },
+  {
+    "id": "galilee-ministry",
+    "title": "Ministry in Galilee",
+    "date_display": "c. AD 28-30",
+    "date_start": 28,
+    "date_end": 30,
+    "approximate": true,
+    "category": "ministry",
+    "summary": "Jesus taught and healed around the Sea of Galilee, with Capernaum as a home base, and called the Twelve.",
+    "scripture_refs": [
+      "Mark 1:14-21",
+      "Mark 3:13-19",
+      "Matthew 4:13"
+    ],
+    "sources": [
+      {
+        "label": "Mark 1:14-21 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/mark/1.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "capernaum",
+      "magdala",
+      "el-araj",
+      "sea-of-galilee"
+    ]
+  },
+  {
+    "id": "bethesda",
+    "title": "Healing at the Pool of Bethesda",
+    "date_display": "c. AD 28-33",
+    "date_start": 28,
+    "date_end": 33,
+    "approximate": true,
+    "category": "ministry",
+    "summary": "John sets this healing at a Jerusalem pool near the Sheep Gate with five covered colonnades. Archaeology has found a pool complex that fits his description.",
+    "scripture_refs": [
+      "John 5:1-9"
+    ],
+    "sources": [
+      {
+        "label": "John 5:1-9 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/john/5.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "bethesda"
+    ]
+  },
+  {
+    "id": "siloam",
+    "title": "Man born blind washes at Siloam",
+    "date_display": "c. AD 28-33",
+    "date_start": 28,
+    "date_end": 33,
+    "approximate": true,
+    "category": "ministry",
+    "summary": "Jesus sends a blind man to wash in the Pool of Siloam. A large Second Temple pool, widely identified as the Pool of Siloam, was found in 2004. Excavation of the rest of it is still under way.",
+    "scripture_refs": [
+      "John 9:1-7"
+    ],
+    "sources": [
+      {
+        "label": "John 9:1-7 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/john/9.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "siloam"
+    ]
+  },
+  {
+    "id": "ministry-length",
+    "title": "Length of the ministry",
+    "date_display": "about 1 to 3 years",
+    "date_start": 28,
+    "date_end": 33,
+    "approximate": true,
+    "category": "ministry",
+    "summary": "The first three Gospels fit a ministry of about a year, while John mentions three Passovers, pointing to two or three years.",
+    "scripture_refs": [
+      "John 2:13",
+      "John 6:4",
+      "John 11:55"
+    ],
+    "sources": [
+      {
+        "label": "John 2:13 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/john/2.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": []
+  },
+  {
+    "id": "last-supper",
+    "title": "Last Supper",
+    "date_display": "AD 30 or 33",
+    "date_start": 30,
+    "date_end": 33,
+    "approximate": true,
+    "category": "passion",
+    "summary": "Jesus shares a final meal with his disciples near Passover. Paul records the earliest written account of it.",
+    "scripture_refs": [
+      "Mark 14:12-25",
+      "1 Corinthians 11:23-26"
+    ],
+    "sources": [
+      {
+        "label": "Mark 14:12-25 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/mark/14.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "jerusalem"
+    ]
+  },
+  {
+    "id": "crucifixion",
+    "title": "Crucifixion under Pontius Pilate",
+    "date_display": "AD 30 or AD 33 (both widely held)",
+    "date_start": 30,
+    "date_end": 33,
+    "approximate": true,
+    "category": "passion",
+    "summary": "Jesus was crucified on a Friday near Passover under Pilate. Scholars favor either AD 30 or AD 33. The first three Gospels and John differ on whether that day was Passover itself or the day of Preparation. This is one of the most widely accepted facts about Jesus.",
+    "scripture_refs": [
+      "Mark 15:1-37",
+      "John 19:14-30"
+    ],
+    "sources": [
+      {
+        "label": "C. J. Humphreys and W. G. Waddington, \"Dating the Crucifixion,\" Nature 306 (1983) 743-746",
+        "url": "https://doi.org/10.1038/306743a0"
+      },
+      {
+        "label": "Tacitus, Annals 15.44",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/15B*.html"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "golgotha",
+      "jerusalem"
+    ]
+  },
+  {
+    "id": "burial",
+    "title": "Burial in a tomb",
+    "date_display": "AD 30 or 33",
+    "date_start": 30,
+    "date_end": 33,
+    "approximate": true,
+    "category": "passion",
+    "summary": "Joseph of Arimathea buries Jesus in a rock-cut tomb. The heel bone of Yehohanan shows that crucified men could receive a family burial.",
+    "scripture_refs": [
+      "Mark 15:42-47",
+      "1 Corinthians 15:4"
+    ],
+    "sources": [
+      {
+        "label": "Mark 15:42-47 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/mark/15.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "golgotha"
+    ]
+  },
+  {
+    "id": "empty-tomb",
+    "title": "Empty tomb and resurrection proclaimed",
+    "date_display": "AD 30 or 33, third day",
+    "date_start": 30,
+    "date_end": 33,
+    "approximate": true,
+    "category": "resurrection",
+    "summary": "Women find the tomb empty on the first day of the week. The resurrection itself is a claim of faith; historians assess the empty tomb reports and the appearances.",
+    "scripture_refs": [
+      "Mark 16:1-8",
+      "Luke 24:1-12",
+      "John 20:1-18"
+    ],
+    "sources": [
+      {
+        "label": "Mark 16:1-8 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/mark/16.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "golgotha"
+    ]
+  },
+  {
+    "id": "appearances",
+    "title": "Resurrection appearances",
+    "date_display": "AD 30 or 33, over about 40 days",
+    "date_start": 30,
+    "date_end": 33,
+    "approximate": true,
+    "category": "resurrection",
+    "summary": "The Gospels, Acts and Paul report appearances to Peter, the Twelve, more than 500 at once, James and others. Most historians, skeptics included, accept that the disciples sincerely believed they had seen him alive.",
+    "scripture_refs": [
+      "1 Corinthians 15:5-8",
+      "Luke 24:13-49",
+      "Acts 1:3"
+    ],
+    "sources": [
+      {
+        "label": "Gary R. Habermas, \"The Minimal Facts Approach to the Resurrection of Jesus,\" Southeastern Theological Review 3/1 (Summer 2012) 15-26",
+        "url": "https://www.garyhabermas.com/articles/Habermas_Minimal%20Facts%20STR%202012.pdf"
+      },
+      {
+        "label": "1 Corinthians 15:5-8 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/1_corinthians/15.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "jerusalem",
+      "sea-of-galilee"
+    ]
+  },
+  {
+    "id": "pentecost",
+    "title": "Pentecost and first preaching in Jerusalem",
+    "date_display": "AD 30 or 33",
+    "date_start": 30,
+    "date_end": 33,
+    "approximate": true,
+    "category": "church",
+    "summary": "The apostles begin preaching publicly in Jerusalem that Jesus is risen.",
+    "scripture_refs": [
+      "Acts 2"
+    ],
+    "sources": [
+      {
+        "label": "Acts 2 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/acts/2.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "jerusalem"
+    ]
+  },
+  {
+    "id": "paul-conversion",
+    "title": "Conversion of Paul",
+    "date_display": "c. AD 31-36",
+    "date_start": 31,
+    "date_end": 36,
+    "approximate": true,
+    "category": "church",
+    "summary": "Paul, who had persecuted the church, says the risen Jesus appeared to him. Most date this within a few years of the crucifixion.",
+    "scripture_refs": [
+      "Galatians 1:13-17",
+      "Acts 9:1-19",
+      "1 Corinthians 15:8"
+    ],
+    "sources": [
+      {
+        "label": "Galatians 1:13 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/galatians/1.htm"
+      },
+      {
+        "label": "Conversion of Paul overview",
+        "url": "https://en.wikipedia.org/wiki/Conversion_of_Paul_the_Apostle"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "damascus"
+    ]
+  },
+  {
+    "id": "creed-received",
+    "title": "Paul receives the resurrection creed",
+    "date_display": "in the AD 30s (approximate)",
+    "date_start": 33,
+    "date_end": 39,
+    "approximate": true,
+    "category": "church",
+    "summary": "In 1 Corinthians 15:3-7 Paul passes on an earlier creed he says he \"received.\" Many scholars, skeptics included, think Paul received it in the 30s, likely when he met Peter and James in Jerusalem (Galatians 1:18-19).",
+    "scripture_refs": [
+      "1 Corinthians 15:3-7",
+      "Galatians 1:18-19"
+    ],
+    "sources": [
+      {
+        "label": "Gary R. Habermas, \"The Minimal Facts Approach to the Resurrection of Jesus,\" Southeastern Theological Review 3/1 (Summer 2012) 15-26, see p. 25",
+        "url": "https://www.garyhabermas.com/articles/Habermas_Minimal%20Facts%20STR%202012.pdf"
+      },
+      {
+        "label": "Galatians 1:18-19 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/galatians/1.htm"
+      },
+      {
+        "label": "1 Corinthians 15:3-7 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/1_corinthians/15.htm"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "jerusalem"
+    ]
+  },
+  {
+    "id": "james-killed",
+    "title": "James son of Zebedee killed",
+    "date_display": "c. AD 44",
+    "date_start": 44,
+    "date_end": 44,
+    "approximate": true,
+    "category": "church",
+    "summary": "Herod Agrippa I has the apostle James put to death.",
+    "scripture_refs": [
+      "Acts 12:1-2"
+    ],
+    "sources": [
+      {
+        "label": "Acts 12:1-2 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/acts/12.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "jerusalem"
+    ]
+  },
+  {
+    "id": "paul-letters",
+    "title": "Paul's undisputed letters written",
+    "date_display": "c. AD 50-60",
+    "date_start": 50,
+    "date_end": 60,
+    "approximate": true,
+    "category": "writings",
+    "summary": "Seven letters almost all scholars accept as Paul's, including 1 Corinthians, are the earliest Christian writings we have.",
+    "scripture_refs": [
+      "1 Thessalonians 1:1",
+      "1 Corinthians 15:1-11"
+    ],
+    "sources": [
+      {
+        "label": "R. E. Brown, An Introduction to the New Testament, Yale University Press (Anchor Yale Bible Reference Library), 1997",
+        "url": "https://yalebooks.yale.edu/book/9780300140163/an-introduction-to-the-new-testament/"
+      },
+      {
+        "label": "1 Corinthians 15:1 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/1_corinthians/15.htm"
+      },
+      {
+        "label": "See also: 0xSero dossier (link only)",
+        "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "corinth",
+      "rome"
+    ]
+  },
+  {
+    "id": "1-corinthians",
+    "title": "1 Corinthians written",
+    "date_display": "c. AD 53-55",
+    "date_start": 53,
+    "date_end": 55,
+    "approximate": true,
+    "category": "writings",
+    "summary": "Paul writes to Corinth and records the creed listing those who saw the risen Jesus, noting most of the 500 were still alive.",
+    "scripture_refs": [
+      "1 Corinthians 15:6"
+    ],
+    "sources": [
+      {
+        "label": "1 Corinthians 15:6 (Berean Standard Bible, primary text)",
+        "url": "https://biblehub.com/bsb/1_corinthians/15.htm"
+      },
+      {
+        "label": "1 Corinthians 15 overview",
+        "url": "https://en.wikipedia.org/wiki/1_Corinthians_15"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "corinth"
+    ]
+  },
+  {
+    "id": "james-brother",
+    "title": "James the brother of Jesus executed",
+    "date_display": "AD 62",
+    "date_start": 62,
+    "date_end": 62,
+    "approximate": false,
+    "category": "history",
+    "summary": "Josephus records that the high priest Ananus had \"the brother of Jesus who was called Christ, whose name was James\" stoned. Scholars widely accept this passage as genuine.",
+    "scripture_refs": [],
+    "sources": [
+      {
+        "label": "Josephus, Antiquities 20.200",
+        "url": "https://penelope.uchicago.edu/josephus/ant-20.html"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "jerusalem"
+    ]
+  },
+  {
+    "id": "nero-persecution",
+    "title": "Nero blames Christians for the fire of Rome",
+    "date_display": "AD 64",
+    "date_start": 64,
+    "date_end": 64,
+    "approximate": false,
+    "category": "history",
+    "summary": "Tacitus later describes Nero punishing Christians after the great fire.",
+    "scripture_refs": [],
+    "sources": [
+      {
+        "label": "Tacitus, Annals 15.44",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/15B*.html"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "rome"
+    ]
+  },
+  {
+    "id": "mark-written",
+    "title": "Gospel of Mark written",
+    "date_display": "c. AD 65-75 (some date earlier)",
+    "date_start": 65,
+    "date_end": 75,
+    "approximate": true,
+    "category": "writings",
+    "summary": "Most critical scholars date Mark to about 65-75; conservative scholars often date it earlier.",
+    "scripture_refs": [],
+    "sources": [
+      {
+        "label": "R. E. Brown, An Introduction to the New Testament, Yale University Press (Anchor Yale Bible Reference Library), 1997",
+        "url": "https://yalebooks.yale.edu/book/9780300140163/an-introduction-to-the-new-testament/"
+      },
+      {
+        "label": "Gospel dating overview",
+        "url": "https://en.wikipedia.org/wiki/Gospel"
+      }
+    ],
+    "status": "Contested",
+    "related_places": []
+  },
+  {
+    "id": "ad70",
+    "title": "Fall of Jerusalem and the Temple",
+    "date_display": "AD 70",
+    "date_start": 70,
+    "date_end": 70,
+    "approximate": false,
+    "category": "history",
+    "summary": "Roman forces under Titus capture Jerusalem and destroy the Temple, ending the Second Temple period.",
+    "scripture_refs": [
+      "Mark 13:1-2",
+      "Luke 19:41-44"
+    ],
+    "sources": [
+      {
+        "label": "Josephus, The Wars of the Jews (Project Gutenberg)",
+        "url": "https://www.gutenberg.org/ebooks/2850"
+      },
+      {
+        "label": "Siege of Jerusalem (AD 70) overview",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "jerusalem"
+    ]
+  },
+  {
+    "id": "matthew-luke-written",
+    "title": "Gospels of Matthew and Luke written",
+    "date_display": "c. AD 80-100 (some date earlier)",
+    "date_start": 80,
+    "date_end": 100,
+    "approximate": true,
+    "category": "writings",
+    "summary": "Common critical ranges are Matthew about 80-95 and Luke about 80-100; many conservative scholars date both before AD 70.",
+    "scripture_refs": [],
+    "sources": [
+      {
+        "label": "R. E. Brown, An Introduction to the New Testament, Yale University Press (Anchor Yale Bible Reference Library), 1997",
+        "url": "https://yalebooks.yale.edu/book/9780300140163/an-introduction-to-the-new-testament/"
+      },
+      {
+        "label": "Gospel dating overview",
+        "url": "https://en.wikipedia.org/wiki/Gospel"
+      }
+    ],
+    "status": "Contested",
+    "related_places": []
+  },
+  {
+    "id": "john-written",
+    "title": "Gospel of John written",
+    "date_display": "c. AD 90-100 (some date it later, a few earlier)",
+    "date_start": 90,
+    "date_end": 100,
+    "approximate": true,
+    "category": "writings",
+    "summary": "Most scholars date John last of the four, around AD 90 to 100.",
+    "scripture_refs": [],
+    "sources": [
+      {
+        "label": "R. E. Brown, An Introduction to the New Testament, Yale University Press (Anchor Yale Bible Reference Library), 1997",
+        "url": "https://yalebooks.yale.edu/book/9780300140163/an-introduction-to-the-new-testament/"
+      },
+      {
+        "label": "Gospel dating overview",
+        "url": "https://en.wikipedia.org/wiki/Gospel"
+      }
+    ],
+    "status": "Contested",
+    "related_places": []
+  },
+  {
+    "id": "josephus",
+    "title": "Josephus writes the Antiquities",
+    "date_display": "AD 93-94",
+    "date_start": 93,
+    "date_end": 94,
+    "approximate": false,
+    "category": "witness",
+    "summary": "The Jewish historian Josephus mentions Jesus twice. The longer passage (18.63-64) most scholars see as a genuine core with later Christian additions; the brief mention of James (20.200) is widely accepted.",
+    "scripture_refs": [],
+    "sources": [
+      {
+        "label": "Josephus, Antiquities 18",
+        "url": "https://penelope.uchicago.edu/josephus/ant-18.html"
+      },
+      {
+        "label": "T. C. Schmidt, Josephus and Jesus, OUP 2025",
+        "url": "https://academic.oup.com/book/60034"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "rome"
+    ]
+  },
+  {
+    "id": "pliny",
+    "title": "Pliny the Younger writes to Trajan about Christians",
+    "date_display": "c. AD 112",
+    "date_start": 112,
+    "date_end": 112,
+    "approximate": true,
+    "category": "witness",
+    "summary": "As governor of Bithynia-Pontus, Pliny reports that Christians met on a stated day before light and \"addressed a form of prayer to Christ, as to a divinity\" (Letters 10.96, X.97 in the Melmoth/Bosanquet numbering).",
+    "scripture_refs": [],
+    "sources": [
+      {
+        "label": "Pliny, Letters 10.96 (X.97 in the Melmoth/Bosanquet numbering), our hosted Melmoth/Bosanquet text",
+        "url": "/content/witnesses/texts/pliny-letters-10-96-97.md"
+      },
+      {
+        "label": "Another translation (Georgetown, link only)",
+        "url": "https://faculty.georgetown.edu/jod/texts/pliny.html"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "bithynia"
+    ]
+  },
+  {
+    "id": "tacitus",
+    "title": "Tacitus writes the Annals",
+    "date_display": "c. AD 116 (about 115-117)",
+    "date_start": 115,
+    "date_end": 117,
+    "approximate": true,
+    "category": "witness",
+    "summary": "The Roman historian Tacitus says \"Christus\" was executed by Pontius Pilate in the reign of Tiberius. He uses the later title procurator rather than prefect.",
+    "scripture_refs": [],
+    "sources": [
+      {
+        "label": "Tacitus, Annals 15.44",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/15B*.html"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "rome"
+    ]
+  },
+  {
+    "id": "p52",
+    "title": "Papyrus P52 (John 18) copied",
+    "date_display": "c. AD 100-200 (debated)",
+    "date_start": 100,
+    "date_end": 200,
+    "approximate": true,
+    "category": "manuscript",
+    "summary": "A small fragment of John 18, often called the oldest New Testament papyrus. Its first editor dated it to about 100-150; the Rylands Library notes recent research leans toward a date nearer 200. The honest range is second century.",
+    "scripture_refs": [
+      "John 18:31-33",
+      "John 18:37-38"
+    ],
+    "sources": [
+      {
+        "label": "John Rylands Library: P52",
+        "url": "https://www.digitalcollections.manchester.ac.uk/view/MS-GREEK-P-00457"
+      }
+    ],
+    "status": "Contested",
+    "related_places": []
+  },
+  {
+    "id": "justin",
+    "title": "Justin Martyr's Dialogue with Trypho",
+    "date_display": "c. AD 155-160",
+    "date_start": 155,
+    "date_end": 160,
+    "approximate": true,
+    "category": "witness",
+    "summary": "Justin records a long, respectful debate with a Jewish teacher over the prophecies about the Messiah.",
+    "scripture_refs": [],
+    "sources": [
+      {
+        "label": "Justin Martyr, Dialogue with Trypho (New Advent)",
+        "url": "https://www.newadvent.org/fathers/0128.htm"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "rome"
+    ]
+  },
+  {
+    "id": "p137",
+    "title": "Papyrus P137 (P.Oxy. 5345, Mark 1) copied",
+    "date_display": "late 2nd to early 3rd century",
+    "date_start": 175,
+    "date_end": 225,
+    "approximate": true,
+    "category": "manuscript",
+    "summary": "A fragment of Mark 1, published in 2018. It was once rumored to be a first-century copy of Mark; the published dating is late second to early third century. It is not first-century.",
+    "scripture_refs": [
+      "Mark 1:7-9",
+      "Mark 1:16-18"
+    ],
+    "sources": [
+      {
+        "label": "Egypt Exploration Society: P.Oxy. LXXXIII 5345",
+        "url": "https://www.ees.ac.uk/resource/p-oxy-lxxxiii-5345.html"
+      },
+      {
+        "label": "Papyrus 137 overview",
+        "url": "https://en.wikipedia.org/wiki/Papyrus_137"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": []
+  },
+  {
+    "id": "frankfurt-amulet",
+    "title": "Frankfurt silver amulet buried",
+    "date_display": "c. AD 230-270",
+    "date_start": 230,
+    "date_end": 270,
+    "approximate": true,
+    "category": "archaeology",
+    "summary": "A silver amulet with a Christian text naming Jesus is buried in a grave at Roman Frankfurt.",
+    "scripture_refs": [
+      "Philippians 2:10-11"
+    ],
+    "sources": [
+      {
+        "label": "Goethe University Frankfurt release (2024)",
+        "url": "https://aktuelles.uni-frankfurt.de/en/english/frankfurt-silver-inscription-oldest-christian-testimony-found-north-of-the-alps/"
+      }
+    ],
+    "status": "Confirmed",
+    "related_places": [
+      "nida-frankfurt"
+    ]
+  }
+]

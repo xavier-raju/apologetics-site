@@ -1,0 +1,40 @@
+{
+  "myths": [
+    {
+      "claim": "5,800+ (or 5,900+) Greek manuscripts",
+      "why": "Counts catalogue numbers, including lost, destroyed and duplicate entries.",
+      "use_instead": "About 5,500 to 5,700 surviving (about 5,711 in the April 2026 Liste)."
+    },
+    {
+      "claim": "24,000 (or 25,000+) New Testament manuscripts",
+      "why": "Adds Latin, Syriac, Coptic and other translations using old rough estimates, not an actual count.",
+      "use_instead": "'About 5,600 Greek copies, plus thousands more in early translations.'"
+    },
+    {
+      "claim": "The New Testament is 99% accurate / only 1% of variants matter",
+      "why": "No study produced those exact figures.",
+      "use_instead": "Most variants are spelling, word order or obvious slips; a small share both change meaning and could be original, and no core belief depends on one of them."
+    },
+    {
+      "claim": "P52 dates to AD 125",
+      "why": "Handwriting dating cannot be that precise; the honest range runs to about 200.",
+      "use_instead": "'The earliest fragment, probably 2nd century.'"
+    },
+    {
+      "claim": "A first-century fragment of Mark",
+      "why": "The Egypt Exploration Society published it in 2018 as P.Oxy. LXXXIII 5345 (P137) and assigned it to the late second to early third century AD. The 'first century' idea came from a quick provisional 'I/II' note on a 1980s record card.",
+      "use_instead": "Do not use.",
+      "source": "https://www.ees.ac.uk/news/poxy-lxxxiii-5345/"
+    },
+    {
+      "claim": "Comparison tables (Homer 643 copies, Caesar 10, etc.)",
+      "why": "The numbers in these popular tables are out of date and often wrong, and skeptics know it.",
+      "use_instead": "Make the case from New Testament evidence itself."
+    },
+    {
+      "claim": "We have the originals / nothing was ever added",
+      "why": "False. Three passages were added later (see the explainer).",
+      "use_instead": "Explain how we know, and why it actually builds confidence."
+    }
+  ]
+}

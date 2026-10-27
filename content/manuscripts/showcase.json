@@ -1,0 +1,111 @@
+{
+  "manuscripts": [
+    {
+      "id": "P52",
+      "name": "Papyrus 52 (Rylands Papyrus 457)",
+      "date_range": "2nd century, possibly about 200. First editor: 100-150. The Rylands catalogue page: 'Recent research points to a date nearer to 200 CE'.",
+      "contents": "John 18:31-33 (front) and 18:37-38 (back), Jesus before Pilate. About 8.9 x 6.0 cm",
+      "holding": "John Rylands Library, University of Manchester (Greek P 457)",
+      "image_link": "https://www.digitalcollections.manchester.ac.uk/view/MS-GREEK-P-00457",
+      "image_note": "Link only; reuse terms on the Manchester viewer not checked.",
+      "shows": "John's Gospel was being copied and read in Egypt within roughly a century or so of being written.",
+      "caution": "Do not say AD 125. The date comes only from handwriting.",
+      "sources": [
+        "https://www.digitalcollections.manchester.ac.uk/view/MS-GREEK-P-00457",
+        "https://doi.org/10.1017/s0017816005000842",
+        "https://doi.org/10.1017/s0028688520000089"
+      ],
+      "confidence": "Confirmed"
+    },
+    {
+      "id": "P46",
+      "name": "Papyrus 46 (Chester Beatty Papyrus II)",
+      "date_range": "about 200 (INTF Liste 'c. 200'; University of Michigan says late 2nd century)",
+      "contents": "Most of Paul's letters and Hebrews",
+      "holding": "Split: 56 leaves at the Chester Beatty Library, Dublin (BP II); 30 leaves at the University of Michigan, Ann Arbor (inv. 6238). 86 of an original 104 leaves survive.",
+      "image_link": "https://www.csntm.org/manuscript",
+      "image_note": "Link only. CSNTM images are restricted.",
+      "shows": "An early collection of Paul's letters already gathered into one book.",
+      "caution": "Date is by handwriting only.",
+      "sources": [
+        "http://images.csntm.org/Manuscripts/GA_P46/P46%20(CBL%20BP%20II).pdf",
+        "https://apps.lib.umich.edu/reading/Paul/discovery.html"
+      ],
+      "confidence": "Confirmed"
+    },
+    {
+      "id": "P66",
+      "name": "Papyrus 66 (Bodmer Papyrus II)",
+      "date_range": "commonly about 200 (first editor); CSNTM lists late 2nd or early 3rd century; Nongbri argues the range must include the 4th century",
+      "contents": "Most of John 1:1-21:17, with gaps",
+      "holding": "Bodmer Foundation (Bibliotheca Bodmeriana), Cologny near Geneva, P. Bodmer II; small pieces in Cologne and Dublin (Chester Beatty BP XIX)",
+      "image_link": "https://manuscripts.csntm.org/manuscript/View/GA_P66_Bodmer",
+      "shows": "A large early copy of John with corrections by the scribe and later hands visible on the page.",
+      "caution": "Say 'about 200, possibly later'.",
+      "sources": [
+        "https://manuscripts.csntm.org/manuscript/View/GA_P66_Bodmer",
+        "https://pinakes.irht.cnrs.fr/notices/cote/getPdf/74136/",
+        "https://researchers.mq.edu.au/en/publications/the-limits-of-palaeographic-dating-of-literary-papyri-some-observ/"
+      ],
+      "confidence": "Contested",
+      "image_note": "Link only."
+    },
+    {
+      "id": "P75",
+      "name": "Papyrus 75 (Bodmer XIV-XV, Hanna Papyrus 1)",
+      "date_range": "Vatican Library says early 3rd century; usual range 175-225; Nongbri (JBL 2016; Novum Testamentum) argues the 4th century is more likely",
+      "contents": "About half of Luke and John; includes the end of Luke and start of John on one page",
+      "holding": "Vatican Library (Hanna Papyrus 1, 'Mater Verbi'), donated 2007; formerly P. Bodmer XIV-XV",
+      "image_link": null,
+      "shows": "Where the text varies, P75 and Codex Vaticanus agree roughly 90 to 94 percent of the time (Nongbri, JBL 135, 2016, summarizing earlier studies), compared with about 75 percent for Vaticanus and Sinaiticus. If P75 is early, that shows very careful copying over more than a century. If Nongbri's later date is right, the gap is smaller.",
+      "caution": "Present the agreement as strong, and the date as debated.",
+      "sources": [
+        "https://www.vaticanlibrary.va/en/multimedia/papiro-hanna-1.html",
+        "https://brentnongbri.com/wp-content/uploads/2020/01/nongbri-pbodmer-xiv-xv-jbl-2016-offprint.pdf"
+      ],
+      "confidence": "Contested"
+    },
+    {
+      "id": "Sinaiticus",
+      "name": "Codex Sinaiticus (01, Aleph)",
+      "date_range": "middle of the 4th century",
+      "contents": "The earliest complete copy of the New Testament, plus much of the Greek Old Testament",
+      "holding": "Mostly the British Library; parts in other institutions (see project site)",
+      "image_link": "https://codexsinaiticus.org/en/",
+      "image_note": "Link only; image terms not confirmed.",
+      "shows": "A whole Bible from soon after Christianity became legal, with many early corrections you can see online.",
+      "sources": [
+        "https://codexsinaiticus.org/en/codex/"
+      ],
+      "confidence": "Confirmed"
+    },
+    {
+      "id": "Vaticanus",
+      "name": "Codex Vaticanus (03, B; Vat. gr. 1209)",
+      "date_range": "4th century",
+      "contents": "Most of the Greek Bible (the end of the New Testament is missing)",
+      "holding": "Vatican Library, Rome",
+      "image_link": "https://digi.vatlib.it/view/MSS_Vat.gr.1209",
+      "image_note": "Link only; image terms not confirmed.",
+      "shows": "One of the most important witnesses to the early text; free to view online.",
+      "caution": "Contents detail from standard references, not reloaded this session.",
+      "sources": [
+        "https://digi.vatlib.it/view/MSS_Vat.gr.1209"
+      ],
+      "confidence": "Confirmed"
+    },
+    {
+      "id": "Alexandrinus",
+      "name": "Codex Alexandrinus (02, A)",
+      "date_range": "5th century",
+      "contents": "Most of the Greek Bible",
+      "holding": "British Library, Royal MS 1 D V-VIII (NT in 1 D VIII) per search results",
+      "image_link": null,
+      "shows": "A third great early Bible, a century after Sinaiticus.",
+      "caution": "British Library catalogue returned 504 and its blog 403 on 26 Oct 2026. Only search snippets seen. Keep off the site until a page loads.",
+      "sources": [],
+      "confidence": "Confirmed",
+      "confidence_note": "British Library archive catalogue, Royal MS 1 D VIII, dated \"5th century\" (https://searcharchives.bl.uk/?q=Royal+MS+1+D+VIII), browser check by John, 26 Oct 2026."
+    }
+  ]
+}

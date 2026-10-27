@@ -1,0 +1,12 @@
+---
+title: Tacitus, Annals 15.44
+source_url: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/15B*.html
+translation: John Jackson, Loeb Classical Library vol. V (1937)
+license: Translation in the public domain per LacusCurtius (Bill Thayer). Translator and Thayer notes are NOT reproduced.
+retrieved: 2026-10-26
+---
+
+> Note: Footnote markers and page numbers removed.
+
+1 So far, the precautions taken were suggested by human prudence: now means were sought for appeasing deity, and application was made to the Sibylline books; at the injunction of which public prayers were offered to Vulcan, Ceres, and Proserpine, while Juno was propitiated by the matrons, first in the Capitol, then at the nearest point of the sea-shore, where water was drawn for sprinkling the temple and image of the goddess. Ritual banquets and all-night vigils were celebrated by women in the married state. But neither human help, nor imperial munificence, nor all the modes of placating Heaven, could stifle scandal or dispel the belief that the fire had taken place by order. Therefore, to scotch the rumour, Nero substituted as culprits, and punished with the utmost refinements of cruelty, a class of men, loathed for their vices, whom the crowd styled Christians. Christus, the founder of the name, had undergone the death penalty in the reign of Tiberius, by sentence of the procurator Pontius Pilatus, and the pernicious superstition was checked for a moment, only to break out once more, not merely in Judaea, the home of the disease, but in the capital itself, where all things horrible or shameful in the world collect and find a vogue. First, then, the confessed members of the sect were arrested; next, on their disclosures, vast
+numbers were convicted, not so much on the count of arson as for hatred of the human race. And derision accompanied their end: they were covered with wild beasts' skins and torn to death by dogs; or they were fastened on crosses, and, when daylight failed were burned to serve as lamps by night. Nero had offered his Gardens for the spectacle, and gave an exhibition in his Circus, mixing with the crowd in the habit of a charioteer, or mounted on his car. Hence, in spite of a guilt which had earned the most exemplary punishment, there arose a sentiment of pity, due to the impression that they were being sacrificed not for the welfare of the state but to the ferocity of a single man.

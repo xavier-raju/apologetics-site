@@ -1,0 +1,211 @@
+[
+  {
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "lat": 31.776667,
+    "lon": 35.234167,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a15257a",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bethlehem",
+    "name": "Bethlehem",
+    "lat": 31.704306,
+    "lon": 35.207639,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a112427",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "nazareth",
+    "name": "Nazareth",
+    "lat": 32.70214,
+    "lon": 35.29769,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "af5884f",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "capernaum",
+    "name": "Capernaum (Tell Hum)",
+    "lat": 32.881111,
+    "lon": 35.575,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "af2161c",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "magdala",
+    "name": "Magdala",
+    "lat": 32.827069,
+    "lon": 35.513552,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "af75e9e",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "el-araj",
+    "name": "el-Araj (candidate for Bethsaida)",
+    "lat": 32.893528,
+    "lon": 35.619,
+    "coord_note": "Approximate. OpenBible lists et-Tell and el-Araj as candidate locations for Bethsaida (same dataset record).",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a91b732",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "et-tell",
+    "name": "et-Tell (rival candidate for Bethsaida)",
+    "lat": 32.91038,
+    "lon": 35.63096,
+    "coord_note": "Approximate. OpenBible lists et-Tell and el-Araj as candidate locations for Bethsaida (same dataset record).",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a91b732",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "sea-of-galilee",
+    "name": "Sea of Galilee",
+    "lat": 32.818906,
+    "lon": 35.590033,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a562fcc",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "caesarea",
+    "name": "Caesarea Maritima",
+    "lat": 32.5,
+    "lon": 34.891667,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a58735e",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "herodium",
+    "name": "Herodium",
+    "lat": 31.66567435,
+    "lon": 35.24180505,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "Pleiades",
+    "source_id": "687916",
+    "source_url": "https://pleiades.stoa.org/places/687916",
+    "license": "CC BY 3.0"
+  },
+  {
+    "id": "siloam",
+    "name": "Pool of Siloam, Jerusalem",
+    "lat": 31.770556,
+    "lon": 35.235,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a294859",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bethesda",
+    "name": "Pool of Bethesda, Jerusalem",
+    "lat": 31.781389,
+    "lon": 35.235833,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a0aa8cf",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "golgotha",
+    "name": "Golgotha (traditional site, Church of the Holy Sepulchre)",
+    "lat": 31.778444,
+    "lon": 35.22975,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a631d35",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "jordan",
+    "name": "Jordan River",
+    "lat": null,
+    "lon": null,
+    "coord_note": "Region or river; no single point, use the dataset geometry.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "ae686c9",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "damascus",
+    "name": "Damascus",
+    "lat": 33.511112,
+    "lon": 36.30639,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a69c1d4",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "corinth",
+    "name": "Corinth",
+    "lat": 37.905785,
+    "lon": 22.878741,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a6f437a",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "lat": 41.8922,
+    "lon": 12.4852,
+    "coord_note": "Approximate point from the dataset.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "afc8e7a",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bithynia",
+    "name": "Bithynia (region)",
+    "lat": 40.5,
+    "lon": 31.0,
+    "coord_note": "Region centroid, approximate.",
+    "source_dataset": "OpenBible.info Bible Geocoding Data",
+    "source_id": "a5c0cb0",
+    "source_url": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "nida-frankfurt",
+    "name": "Nida (Roman town at modern Frankfurt)",
+    "lat": 50.154109,
+    "lon": 8.637743,
+    "coord_note": "Approximate. Pleiades point for Roman Nida (Heddernheim); the amulet grave lay in the Praunheim area next to it.",
+    "source_dataset": "Pleiades",
+    "source_id": "109205",
+    "source_url": "https://pleiades.stoa.org/places/109205",
+    "license": "CC BY 3.0"
+  }
+]

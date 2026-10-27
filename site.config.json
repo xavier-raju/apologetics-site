@@ -1,0 +1,10 @@
+{
+  "name": "Certainty",
+  "tagline": "The case for Jesus, honestly examined.",
+  "description": "The case for Jesus, honestly examined. A free guide to the evidence for Jesus: timeline, archaeology, ancient witnesses, manuscripts, prophecy, the resurrection, and honest answers to common questions.",
+  "credit_repo": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ",
+  "base_path": "/apologetics-site/",
+  "_base_path_note": "Only used by 404.html. Set to '/<repo>/' when served from username.github.io/<repo>/ (or '/' on a custom domain).",
+  "subtitle": "A Toolkit for Christians and Apologists",
+  "hero_line": "A toolkit for Christians and apologists."
+}

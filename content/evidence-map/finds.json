@@ -1,0 +1,373 @@
+[
+  {
+    "id": "pilgrimage-road",
+    "name": "Pilgrimage Road (Stepped Street)",
+    "place_id": "siloam",
+    "date_found": "Excavated over many years; opened to the public on January 20, 2026",
+    "era": "Built no earlier than about AD 30/31, in the years Pilate governed",
+    "category": "street",
+    "summary": "A paved street, about 600 m long and about 8 m wide, running up from the Pool of Siloam toward the Temple Mount. More than 100 coins sealed under the paving end with coins of AD 30/31. The dig runs under the Palestinian neighborhood of Silwan and is carried out with the ELAD (City of David) foundation.",
+    "shows": "A major pilgrim route to the Temple was in use in Jerusalem during the years of Jesus' ministry, and its building date falls in the time Pontius Pilate governed Judea.",
+    "does_not_prove": "It does not prove that Pilate himself commissioned the street, which is an inference from the coins, and some reports still say Herod or Pilate. It does not prove that Jesus walked on it.",
+    "sources": [
+      {
+        "label": "Israel Antiquities Authority excavation report (Hadashot Arkheologiyot)",
+        "url": "https://hadashot.iaa.org.il/report_detail_eng.aspx?id=25046"
+      },
+      {
+        "label": "Szanton, Hagbi, Uziel, Ariel, Tel Aviv 46(2), 2019, pp. 147-166",
+        "url": "https://doi.org/10.1080/03344355.2019.1650491"
+      },
+      {
+        "label": "Times of Israel: road opens to the public (Jan 2026)",
+        "url": "https://www.timesofisrael.com/2000-year-old-pilgrimage-road-to-temple-mount-opens-to-public-after-years-of-digging/"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "pool-of-siloam",
+    "name": "Pool of Siloam",
+    "place_id": "siloam",
+    "date_found": "2004, during pipe repair work; wider excavation since December 2022 and still ongoing",
+    "era": "Second Temple period",
+    "category": "pool",
+    "summary": "A large stepped pool from the Second Temple period at the south end of ancient Jerusalem. Only part of it has been uncovered so far, and no final report has been published. The site lies in Silwan and is run with the City of David foundation.",
+    "shows": "A large public pool stood at the south end of Jerusalem in Jesus' day, at the place long identified as Siloam, which fits John 9:7.",
+    "does_not_prove": "It does not prove the healing of the man born blind; it shows only that the place in the story is real.",
+    "sources": [
+      {
+        "label": "City of David: entrance to the Siloam Pool",
+        "url": "https://cityofdavid.org.il/en/product/entrance-to-siloam-pool/"
+      },
+      {
+        "label": "Pool of Siloam overview",
+        "url": "https://en.wikipedia.org/wiki/Pool_of_Siloam"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "magdala-synagogue",
+    "name": "Magdala synagogue and Magdala stone",
+    "place_id": "magdala",
+    "date_found": "2009",
+    "era": "Early first century AD",
+    "category": "synagogue",
+    "summary": "Israel Antiquities Authority archaeologists uncovered a synagogue from the early first century at Magdala on the Sea of Galilee. Inside was a carved stone block showing a menorah, one of the earliest known in a synagogue setting.",
+    "shows": "Galilean towns had synagogues in Jesus' lifetime, which fits the Gospel picture of him teaching in synagogues across Galilee.",
+    "does_not_prove": "It does not prove Jesus taught in this synagogue, only that he could have. Magdala as Mary Magdalene's hometown rests on her name and tradition.",
+    "sources": [
+      {
+        "label": "Israel Antiquities Authority: Magdala",
+        "url": "https://www.antiquities.org.il/Article_eng.aspx?id=4190&sec_id=25&subj_id=240"
+      },
+      {
+        "label": "NPR: The Magdala Stone (2015)",
+        "url": "https://www.npr.org/sections/13.7/2015/12/17/459964768/the-magdala-stone-may-be-a-portal-to-early-religion"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "el-araj",
+    "name": "el-Araj excavations",
+    "place_id": "el-araj",
+    "date_found": "Excavations since 2016",
+    "era": "Roman and Byzantine periods",
+    "category": "town",
+    "summary": "A dig on the north shore of the Sea of Galilee has found a Roman-period settlement and a Byzantine church that tradition linked to the apostles. Finds include coins, lamps and chalkstone vessels typical of Jewish households. Excavators see el-Araj as a leading candidate for Bethsaida; et-Tell, a few kilometers north, is the rival candidate.",
+    "shows": "A Jewish fishing settlement of the first century stood here, and by the Byzantine period Christians honored the site in connection with the apostles.",
+    "does_not_prove": "It does not settle that el-Araj is Bethsaida, which scholars still debate, and it does not identify the house of Peter or any apostle.",
+    "sources": [
+      {
+        "label": "R. S. Notley and M. Aviam, \"Searching for Bethsaida: The Case for El-Araj\" (BAS Library)",
+        "url": "https://library.biblicalarchaeology.org/article/searching-for-bethsaida-the-case-for-el-araj/"
+      },
+      {
+        "label": "el-Araj excavation season reports",
+        "url": "https://www.bethsaida-julias.com/accessseasonreports"
+      }
+    ],
+    "status": "Contested",
+    "image_license": null
+  },
+  {
+    "id": "nazareth-house",
+    "name": "First-century house under the Sisters of Nazareth convent",
+    "place_id": "nazareth",
+    "date_found": "Earlier digs in the late 1800s and 1930s; Ken Dark's study at the convent from 2006 (his survey project began 2004)",
+    "era": "First century AD",
+    "category": "house",
+    "summary": "A partly rock-cut courtyard house of the first century, built by Jewish residents of Nazareth. In the Byzantine period a church was built over it and it was honored as Jesus' childhood home.",
+    "shows": "Nazareth was an inhabited Jewish village in Jesus' day, which answers the claim that the town did not exist then.",
+    "does_not_prove": "It does not prove this was Jesus' family home. Ken Dark treats that link as possible, based on the later Byzantine tradition, but not shown.",
+    "sources": [
+      {
+        "label": "K. Dark, \"Early Roman-period Nazareth and the Sisters of Nazareth Convent,\" Antiquaries Journal 92 (2012)",
+        "url": "https://doi.org/10.1017/s0003581512001308"
+      },
+      {
+        "label": "Archaeological recording at the Sisters of Nazareth Convent, 2006 (CentAUR)",
+        "url": "https://centaur.reading.ac.uk/20744/"
+      },
+      {
+        "label": "Ken Dark, The Sisters of Nazareth Convent, Routledge 2020, ISBN 9780367408237",
+        "url": "https://doi.org/10.4324/9781003088240"
+      },
+      {
+        "label": "Ken Dark, earlier paper (University of Reading, open access)",
+        "url": "https://centaur.reading.ac.uk/29782/1/Ken%20Dark%20Nazareth%20paper%20from%20Ant%20J%20.pdf"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "pilate-stone",
+    "name": "Pilate stone",
+    "place_id": "caesarea",
+    "date_found": "June 1961, Italian excavation under Antonio Frova at the Caesarea theatre",
+    "era": "About AD 26-36",
+    "category": "inscription",
+    "summary": "A limestone block from Caesarea Maritima with a Latin dedication that names Pontius Pilate as prefect of Judea. The title is partly restored as praefectus Iudaeae. The stone came from a building honoring Tiberius (the Tiberieum), which Alföldy argued was a harbor lighthouse tower; it was later reused in the theatre.",
+    "shows": "Pilate was a real Roman governor of Judea with the title prefect, matching the Gospels and the outside writers who name him.",
+    "does_not_prove": "It says nothing about Jesus or the trial; it confirms the governor, not the events.",
+    "sources": [
+      {
+        "label": "G. Alföldy, \"Pontius Pilatus und das Tiberieum von Caesarea Maritima,\" Scripta Classica Israelica 18 (1999) 85-108",
+        "url": "https://doi.org/10.71043/sci.v18i.4067"
+      },
+      {
+        "label": "Pilate stone overview",
+        "url": "https://en.wikipedia.org/wiki/Pilate_stone"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "herodium-ring",
+    "name": "Sealing ring inscribed \"of Pilatus\"",
+    "place_id": "herodium",
+    "date_found": "Excavated 1968-69 (Foerster dig); inscription read and published 2018",
+    "era": "First century BC to mid-first century AD",
+    "category": "seal",
+    "summary": "A simple copper-alloy sealing ring found at Herodium, near Bethlehem, carries a wine vessel image and a Greek inscription reading \"of Pilatus.\" Its owner was most likely someone in Pilate's administration; the authors also raise the possibility that it was Pilate's own.",
+    "shows": "The name Pilatus was in use in Judea in this period, and it adds a further trace of Pilate's administration.",
+    "does_not_prove": "It does not show the ring was Pilate's own (a plain copper-alloy ring is an odd fit for a governor, and the inscription gives no title), and it says nothing about Jesus.",
+    "sources": [
+      {
+        "label": "Amorai-Stark, Hershkovitz, Foerster, Kalman, Chachy, Porat, \"An Inscribed Copper-Alloy Finger Ring from Herodium Depicting a Krater,\" Israel Exploration Journal 68(2), 2018, pp. 208-220",
+        "url": "https://www.jstor.org/stable/26740648"
+      },
+      {
+        "label": "IEJ 68/2 contents with abstracts",
+        "url": "https://docslib.org/doc/65417/iej-68-2-toc-with-abstracts"
+      },
+      {
+        "label": "Pontius Pilate overview (section on the Herodium ring)",
+        "url": "https://en.wikipedia.org/wiki/Pontius_Pilate"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "caiaphas-ossuary",
+    "name": "Caiaphas ossuary",
+    "place_id": "jerusalem",
+    "date_found": "1990",
+    "era": "First century AD",
+    "category": "burial",
+    "summary": "A decorated bone box from a Jerusalem family tomb, inscribed \"Joseph son of Caiaphas.\" It is now in the Israel Museum.",
+    "shows": "A priestly family named Caiaphas buried its dead in Jerusalem in this era, which fits the high priest Josephus calls Joseph Caiaphas.",
+    "does_not_prove": "Most scholars accept the link to the high priest, but the inscription itself does not say high priest; it does not touch the events of the trial.",
+    "sources": [
+      {
+        "label": "Z. Greenhut, \"Burial Cave of the Caiaphas Family\" (BAS Library)",
+        "url": "https://library.biblicalarchaeology.org/article/burial-cave-of-the-caiaphas-family/"
+      },
+      {
+        "label": "Israel Museum: Ossuary of Caiaphas exhibition page",
+        "url": "https://www.imj.org.il/en/exhibitions/ossuary-caiaphas-high-priest-18-36-ce",
+        "note": "Timed out from our box; recheck in a browser."
+      },
+      {
+        "label": "Caiaphas ossuary overview",
+        "url": "https://en.wikipedia.org/wiki/Caiaphas_ossuary"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "yehohanan",
+    "name": "Heel bone of Yehohanan with nail",
+    "place_id": "jerusalem",
+    "date_found": "1968, Giv'at ha-Mivtar, Jerusalem",
+    "era": "First century AD",
+    "category": "burial",
+    "summary": "A man's heel bone with an iron nail still through it was found in an ossuary from a Jewish family tomb. The ossuary names him Yehohanan.",
+    "shows": "Romans crucified people near Jerusalem in this period, and a crucified man could receive a proper Jewish burial in a family tomb, which fits the Gospel account of Jesus' burial.",
+    "does_not_prove": "It is not connected to Jesus, and on its own it does not prove any detail of his crucifixion or burial.",
+    "sources": [
+      {
+        "label": "J. Zias and E. Sekeles, \"The Crucified Man from Giv'at ha-Mivtar: A Reappraisal,\" Israel Exploration Journal 35(1), 1985, pp. 22-27",
+        "url": "https://www.jstor.org/stable/27925968"
+      },
+      {
+        "label": "Yehohanan ben Hagkol overview",
+        "url": "https://en.wikipedia.org/wiki/Yehohanan_ben_Hagkol"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "capernaum",
+    "name": "Capernaum synagogue and \"house of Peter\"",
+    "place_id": "capernaum",
+    "date_found": "Synagogue dug from 1905; Franciscan excavations by Corbo and Loffreda 1968-1986",
+    "era": "Synagogue 4th-5th century on earlier foundations; house from the first century",
+    "category": "town",
+    "summary": "Capernaum holds a white limestone synagogue from the late Roman period, built over older basalt foundations, and a house that early Christians turned into a meeting place and later an octagonal church.",
+    "shows": "Capernaum was a lived-in Jewish fishing town on the lake, and Christians were honoring one of its houses from an early date.",
+    "does_not_prove": "It does not prove the house belonged to Peter or that the visible synagogue is the one in the Gospels; the standing building is later.",
+    "sources": [
+      {
+        "label": "V. Corbo, The House of Saint Peter at Capharnaum, Studium Biblicum Franciscanum (Collectio Minor 5), 1969",
+        "url": "https://sbf.custodia.org/en/publications/collectio-minor/the-house-of-saint-peter-at-capharnaum"
+      },
+      {
+        "label": "Capernaum overview",
+        "url": "https://en.wikipedia.org/wiki/Capernaum"
+      }
+    ],
+    "status": "Contested",
+    "image_license": null
+  },
+  {
+    "id": "pool-of-bethesda",
+    "name": "Pool of Bethesda",
+    "place_id": "bethesda",
+    "date_found": "Identified by Conrad Schick in 1888; later digs by the White Fathers and others continued into the 1960s",
+    "era": "Second Temple period, with later Roman and Byzantine buildings",
+    "category": "pool",
+    "summary": "Digs by the Church of St Anne found twin pools with a dividing wall, which fits John 5:2's pool near the Sheep Gate with five covered colonnades. Later Roman and Byzantine buildings were built over the site.",
+    "shows": "John's description of this Jerusalem pool reflects real local knowledge of the city before AD 70.",
+    "does_not_prove": "It does not prove the healing of the paralyzed man.",
+    "sources": [
+      {
+        "label": "Palestine Exploration Fund Quarterly Statement, July 1888 (Schick's discovery)",
+        "url": "https://biblicalstudies.org.uk/pdf/pefqs/1888_03_111.pdf"
+      },
+      {
+        "label": "C. Schick, \"Pool of Bethesda,\" PEQ 1888",
+        "url": "https://doi.org/10.1179/peq.1888.20.3.115"
+      },
+      {
+        "label": "Pool of Bethesda overview",
+        "url": "https://en.wikipedia.org/wiki/Pool_of_Bethesda"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "galilee-boat",
+    "name": "Ancient Galilee Boat",
+    "place_id": "sea-of-galilee",
+    "date_found": "1986",
+    "era": "About 1st century BC to 1st century AD",
+    "category": "boat",
+    "summary": "A wooden fishing boat preserved in the mud of the Sea of Galilee during a drought, now shown at the Yigal Allon Centre.",
+    "shows": "What fishing boats on the lake looked like in the era of the Gospels.",
+    "does_not_prove": "It is not linked to Jesus or the disciples.",
+    "sources": [
+      {
+        "label": "Yigal Allon Centre: The Ancient Boat",
+        "url": "https://en.yigal-allon-centre.org.il/the-ancient-boat/"
+      },
+      {
+        "label": "Sea of Galilee Boat overview",
+        "url": "https://en.wikipedia.org/wiki/Sea_of_Galilee_Boat"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "nazareth-inscription",
+    "name": "Nazareth inscription",
+    "place_id": "nazareth",
+    "date_found": "Bought in 1878; said to come from Nazareth; now in Paris",
+    "era": "Probably first century BC or AD (debated)",
+    "category": "inscription",
+    "summary": "A Greek marble tablet with an imperial order against disturbing tombs. A 2020 study found the marble came from the island of Kos and proposed it first related to events there.",
+    "shows": "Roman authorities treated grave robbing as a serious crime.",
+    "does_not_prove": "It does not refer to Jesus or the empty tomb, and the 2020 study makes a Nazareth origin doubtful.",
+    "sources": [
+      {
+        "label": "Harper et al., Journal of Archaeological Science: Reports 30 (2020) 102228",
+        "url": "https://doi.org/10.1016/j.jasrep.2020.102228"
+      }
+    ],
+    "status": "Contested",
+    "image_license": null
+  },
+  {
+    "id": "frankfurt-amulet",
+    "name": "Frankfurt silver inscription",
+    "place_id": "nida-frankfurt",
+    "date_found": "Grave dug 2018; text read and announced December 2024",
+    "era": "About AD 230-270 (approximate)",
+    "category": "amulet",
+    "summary": "A tiny rolled silver amulet from a Roman grave at Frankfurt carries a Latin text naming Jesus Christ and echoing Philippians 2:10-11.",
+    "shows": "Faith in Jesus had reached the Roman frontier north of the Alps by the third century.",
+    "does_not_prove": "It is far later than the life of Jesus, so it speaks to the spread of Christianity, not to the events of the Gospels.",
+    "sources": [
+      {
+        "label": "Goethe University Frankfurt release (2024)",
+        "url": "https://aktuelles.uni-frankfurt.de/en/english/frankfurt-silver-inscription-oldest-christian-testimony-found-north-of-the-alps/"
+      }
+    ],
+    "status": "Confirmed",
+    "image_license": null
+  },
+  {
+    "id": "megiddo-mosaic",
+    "name": "Megiddo mosaic (\"God Jesus Christ\")",
+    "place_id": null,
+    "date_found": "October-December 2005, IAA salvage dig at Megiddo Prison (Kefar 'Othnay / Legio)",
+    "era": "About AD 230 per excavators (some argue later)",
+    "category": "inscription",
+    "summary": "A floor mosaic in an early Christian prayer hall dedicates a table to \"God Jesus Christ.\"",
+    "shows": "Christians were worshiping Jesus as God in an organized setting in the region by the third or early fourth century.",
+    "does_not_prove": "The exact date is debated, and it says nothing direct about first-century events.",
+    "sources": [
+      {
+        "label": "Israel Antiquities Authority excavation report, Legio, Kefar 'Otnay (2006)",
+        "url": "https://hadashot.iaa.org.il/report_detail_eng.aspx?id=363&mag_id=111"
+      },
+      {
+        "label": "Israel Antiquities Authority: Megiddo Prison excavation summary",
+        "url": "https://antiquities.org.il/article_eng.aspx?id=932&module_id=&sec_id=25&subj_id=240"
+      },
+      {
+        "label": "Y. Tepper and L. Di Segni, A Christian Prayer Hall of the Third Century CE at Kefar 'Othnay (Legio), IAA 2006, ISBN 9654061937",
+        "url": "https://books.google.com/books/about/A_Christian_Prayer_Hall_of_the_Third_Cen.html?id=THegAAAAMAAJ"
+      },
+      {
+        "label": "Megiddo church overview",
+        "url": "https://en.wikipedia.org/wiki/Megiddo_church"
+      }
+    ],
+    "status": "Contested",
+    "image_license": null,
+    "place_note": "Near Megiddo; no record in our approved datasets yet, so not plotted."
+  }
+]

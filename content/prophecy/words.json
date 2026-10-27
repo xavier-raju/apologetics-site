@@ -1,0 +1,1234 @@
+{
+ "meta": {
+  "generated": "2026-10-26",
+  "owner": "Mark",
+  "checker": "John",
+  "count": 55
+ },
+ "words": {
+  "H5650-isa52.13": {
+   "id": "H5650-isa52.13",
+   "lang": "hebrew",
+   "strongs": "H5650",
+   "stepbible_id": "H5650",
+   "lemma": "עֶ֫בֶד",
+   "transliteration": "e.ved",
+   "gloss": "servant/slave",
+   "definition": "1) slave, servant; 1a) slave, servant, man-servant; 1b) subjects; 1c) servants, worshippers (of God); 1d) servant (in special sense as prophets, Levites etc); 1e) servant (of Israel); 1f) servant (as form of address…",
+   "occurrence": {
+    "ref": "Isa.52.13",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "עַבְדִּ֑י",
+    "segmented": "עַבְדִּ֑/י",
+    "morph_code": "HNcmsc/Sp1cs",
+    "morphology": "noun common masculine singular construct; pronominal suffix 1st person common singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H2490-isa53.5": {
+   "id": "H2490-isa53.5",
+   "lang": "hebrew",
+   "strongs": "H2490",
+   "stepbible_id": "H2490a",
+   "lemma": "חָלַל",
+   "transliteration": "cha.lal",
+   "gloss": "to bore",
+   "definition": "1) to wound (fatally), bore through, pierce, bore; 1a) (Qal) to pierce; 1b) (Pual) to be slain; 1c) (Poel) to wound, pierce; 1d) (Poal) to be wounded",
+   "occurrence": {
+    "ref": "Isa.53.5",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "מְחֹלָ֣ל",
+    "segmented": "מְחֹלָ֣ל",
+    "morph_code": "HVOsmsa",
+    "morphology": "verb Polal participle passive masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H817-isa53.10": {
+   "id": "H817-isa53.10",
+   "lang": "hebrew",
+   "strongs": "H817",
+   "stepbible_id": "H0817",
+   "lemma": "אָשָׁם",
+   "transliteration": "a.sham",
+   "gloss": "guilt (offering)",
+   "definition": "1) guilt, offense, guiltiness; 1a) offense, trespass, fault; 1b) guilt, guiltiness; 1c) compensation (for offense); 1d) trespass offering, guilt offering",
+   "occurrence": {
+    "ref": "Isa.53.10",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "אָשָׁם֙",
+    "segmented": "אָשָׁם֙",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H5959-isa7.14": {
+   "id": "H5959-isa7.14",
+   "lang": "hebrew",
+   "strongs": "H5959",
+   "stepbible_id": "H5959",
+   "lemma": "עַלְמָה",
+   "transliteration": "al.mah",
+   "gloss": "maiden",
+   "definition": "1) virgin, young woman; 1a) of marriageable age; 1b) maid or newly married",
+   "occurrence": {
+    "ref": "Isa.7.14",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "הָעַלְמָ֗ה",
+    "segmented": "הָ/עַלְמָ֗ה",
+    "morph_code": "HTd/Ncfsa",
+    "morphology": "definite article; noun common feminine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G3933-mat1.23": {
+   "id": "G3933-mat1.23",
+   "lang": "greek",
+   "strongs": "G3933",
+   "stepbible_id": "G3933",
+   "lemma": "παρθένος",
+   "transliteration": "parthenos",
+   "gloss": "virgin",
+   "definition": "παρθένος, -ου, ἡ ; [in LXX chiefly for בְּתוּלָה, Exo.22:16 (15), Job.31:1, Isa.23:4, al.; also for נַעַר, נַעֲרָה, Gen.24:14, 16 24:55 34:3, and for עַלְמָה, Gen.24:43, Isa.7:14 ;] ; a maiden, virgin: Mat.1:23 (LXX)…",
+   "occurrence": {
+    "ref": "Matt.1.23",
+    "surface": "παρθένος",
+    "morph_code": "N- ----NSF-",
+    "morphology": "noun nominative singular feminine"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H6005-isa7.14": {
+   "id": "H6005-isa7.14",
+   "lang": "hebrew",
+   "strongs": "H6005",
+   "stepbible_id": "H6005",
+   "lemma": "עִמָּנוּאֵל",
+   "transliteration": "im.ma.nu.el",
+   "gloss": "Immanuel",
+   "definition": "A man living at the time of Divided Monarchy, first mentioned at Isa.7.14; ; son of: Joseph (G2501) and Mary (G3137); ; brother of: James (G2385I), Joseph (G2500), Simon (G4613H) and Jude (G2455I); Also named: Emmanouēl…",
+   "occurrence": {
+    "ref": "Isa.7.14",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "עִמָּ֥נוּ",
+    "segmented": "עִמָּ֥נוּ",
+    "morph_code": "HNp",
+    "morphology": "noun proper"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H410-isa9.5": {
+   "id": "H410-isa9.5",
+   "lang": "hebrew",
+   "strongs": "H410",
+   "stepbible_id": "H0410",
+   "lemma": "אֵל",
+   "transliteration": "el",
+   "gloss": "God",
+   "definition": "This name means god, god-like one, mighty one, strength, power; Another name of ye.ho.vah (יהוה \"LORD\" H3068G)",
+   "occurrence": {
+    "ref": "Isa.9.5",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "אֵ֣ל",
+    "segmented": "אֵ֣ל",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H1368-isa9.5": {
+   "id": "H1368-isa9.5",
+   "lang": "hebrew",
+   "strongs": "H1368",
+   "stepbible_id": "H1368",
+   "lemma": "גִּבּוֹר",
+   "transliteration": "gib.bor",
+   "gloss": "mighty man",
+   "definition": "adj; 1) strong, mighty; n m; 2) strong man, brave man, mighty man",
+   "occurrence": {
+    "ref": "Isa.9.5",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "גִּבּ֔וֹר",
+    "segmented": "גִּבּ֔וֹר",
+    "morph_code": "HAamsa",
+    "morphology": "adjective masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H3678-isa9.6": {
+   "id": "H3678-isa9.6",
+   "lang": "hebrew",
+   "strongs": "H3678",
+   "stepbible_id": "H3678",
+   "lemma": "כִּסֵּא",
+   "transliteration": "kis.se",
+   "gloss": "throne",
+   "definition": "1) seat (of honour), throne, seat, stool; 1a) seat (of honour), throne; 1b) royal dignity, authority, power (fig.)",
+   "occurrence": {
+    "ref": "Isa.9.6",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "כִּסֵּ֤א",
+    "segmented": "כִּסֵּ֤א",
+    "morph_code": "HNcmsc",
+    "morphology": "noun common masculine singular construct"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H1035-mic5.1": {
+   "id": "H1035-mic5.1",
+   "lang": "hebrew",
+   "strongs": "H1035",
+   "stepbible_id": "H1035",
+   "lemma": "בֵּית לֶ֫חֶם",
+   "transliteration": "bet le.chem",
+   "gloss": "Bethlehem",
+   "definition": "§ Beth-lehem = \"house of bread (food)\"; a city in Judah, birthplace of David",
+   "occurrence": {
+    "ref": "Mic.5.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "בֵּֽית",
+    "segmented": "בֵּֽית",
+    "morph_code": "HNp",
+    "morphology": "noun proper"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H6924-mic5.1": {
+   "id": "H6924-mic5.1",
+   "lang": "hebrew",
+   "strongs": "H6924",
+   "stepbible_id": "H6924a",
+   "lemma": "קֶ֫דֶם",
+   "transliteration": "qe.dem",
+   "gloss": "ancient times, of old",
+   "definition": ": east; 1) east, antiquity, front, that which is before, aforetime; 1a) front, from the front or east, in front, mount of the East; 1b) ancient time, aforetime, ancient, from of old, earliest time; 1c) anciently, of old…",
+   "occurrence": {
+    "ref": "Mic.5.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "מִקֶּ֖דֶם",
+    "segmented": "מִ/קֶּ֖דֶם",
+    "morph_code": "HR/Ncmsa",
+    "morphology": "preposition; noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H5769-mic5.1": {
+   "id": "H5769-mic5.1",
+   "lang": "hebrew",
+   "strongs": "H5769",
+   "stepbible_id": "H5769",
+   "lemma": "עוֹלָם",
+   "transliteration": "o.lam",
+   "gloss": "forever: enduring",
+   "definition": ": enduring/eternal; 1) long duration, antiquity, futurity, for ever, ever, everlasting, evermore, perpetual, old, ancient, world; 1a) ancient time, long time (of past); 1b) (of future); 1b1) for ever, always; 1b2)…",
+   "occurrence": {
+    "ref": "Mic.5.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "עוֹלָֽם",
+    "segmented": "עוֹלָֽם",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H5800-ps22.2": {
+   "id": "H5800-ps22.2",
+   "lang": "hebrew",
+   "strongs": "H5800",
+   "stepbible_id": "H5800a",
+   "lemma": "עָזַב",
+   "transliteration": "a.zav",
+   "gloss": "to leave: forsake",
+   "definition": "1) to leave, loose, forsake; 1a) (Qal) to leave; 1a1) to depart from, leave behind, leave, let alone; 1a2) to leave, abandon, forsake, neglect, apostatise; 1a3) to let loose, set free, let go, free; 1b) (Niphal); 1b1)…",
+   "occurrence": {
+    "ref": "Ps.22.2",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "עֲזַבְתָּ֑נִי",
+    "segmented": "עֲזַבְתָּ֑/נִי",
+    "morph_code": "HVqp2ms/Sp1cs",
+    "morphology": "verb Qal perfect 2nd person masculine singular; pronominal suffix 1st person common singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G1459-mat27.46": {
+   "id": "G1459-mat27.46",
+   "lang": "greek",
+   "strongs": "G1459",
+   "stepbible_id": "G1459",
+   "lemma": "ἐγκαταλείπω",
+   "transliteration": "egkataleipō",
+   "gloss": "to leave behind",
+   "definition": "ἐγκαταλείπω, ; [in LXX chiefly for עזב ;] ; __1. to leave behind: ἡμῖν σπέρμα, Rom.9:29 (LXX). ; __2. to abandon, desert, forsake: with accusative of person(s), Mat.27:46 (LXX), Mrk.15:34 (ib.), Act.2:27 (LXX) (WH,…",
+   "occurrence": {
+    "ref": "Matt.27.46",
+    "surface": "ἐγκατέλιπες;",
+    "morph_code": "V- 2AAI-S--",
+    "morphology": "verb 2nd person aorist active indicative singular"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H7845-ps16.10": {
+   "id": "H7845-ps16.10",
+   "lang": "hebrew",
+   "strongs": "H7845",
+   "stepbible_id": "H7845",
+   "lemma": "שַׁ֫חַת",
+   "transliteration": "sha.chat",
+   "gloss": "pit, grave (BSB 'decay', following the Greek in Acts 2:27)",
+   "definition": "1) pit, destruction, grave; 1a) pit (for catching lions)",
+   "occurrence": {
+    "ref": "Ps.16.10",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "שָֽׁחַת",
+    "segmented": "שָֽׁחַת",
+    "morph_code": "HNcfsa",
+    "morphology": "noun common feminine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G1312-act2.27": {
+   "id": "G1312-act2.27",
+   "lang": "greek",
+   "strongs": "G1312",
+   "stepbible_id": "G1312",
+   "lemma": "διαφθορά",
+   "transliteration": "diaphthora",
+   "gloss": "decay",
+   "definition": "δια-φθορὰ, -ᾶς, ἡ; (διαφθείρω), [in LXX chiefly for שָׁחַת, and cogn. forms ;] ; __1. destruction. ; __2. corruption (physical or moral): of the grave, Act.2:27 (LXX), Act.2:31 13:34-37.†; (AS)",
+   "occurrence": {
+    "ref": "Acts.2.27",
+    "surface": "διαφθοράν.",
+    "morph_code": "N- ----ASF-",
+    "morphology": "noun accusative singular feminine"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H113-ps110.1": {
+   "id": "H113-ps110.1",
+   "lang": "hebrew",
+   "strongs": "H113",
+   "stepbible_id": "H0113",
+   "lemma": "אָדוֹן",
+   "transliteration": "a.don",
+   "gloss": "lord",
+   "definition": "1) firm, strong, lord, master; 1a) lord, master; 1a1) reference to men; 1a1a) superintendent of household, of affairs; 1a1b) master; 1a1c) king; 1a2) reference to God; 1a2a) the Lord God; 1a2b) Lord of the whole earth;…",
+   "occurrence": {
+    "ref": "Ps.110.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "לַֽאדֹנִ֗י",
+    "segmented": "לַֽ/אדֹנִ֗/י",
+    "morph_code": "HR/Ncmsc/Sp1cs",
+    "morphology": "preposition; noun common masculine singular construct; pronominal suffix 1st person common singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G2962-mat22.44": {
+   "id": "G2962-mat22.44",
+   "lang": "greek",
+   "strongs": "G2962",
+   "stepbible_id": "G2962",
+   "lemma": "κύριος",
+   "transliteration": "kurios",
+   "gloss": "lord: God",
+   "definition": "κύριος, -α, -ον (also -ος, -ον), ; [in LXX (subst.) chiefly for יהוה, also for בַּעַל ,אָדוֹן, etc. ;] ; having power (κῦρος) or authority; as subst., ὁ κ., lord, master; ; __1. in general: with genitive of thing(s),…",
+   "occurrence": {
+    "ref": "Matt.22.44",
+    "surface": "κύριος",
+    "morph_code": "N- ----NSM-",
+    "morphology": "noun nominative singular masculine"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H4899-dan9.25": {
+   "id": "H4899-dan9.25",
+   "lang": "hebrew",
+   "strongs": "H4899",
+   "stepbible_id": "H4899",
+   "lemma": "מָשִׁיחַ",
+   "transliteration": "ma.shi.ach",
+   "gloss": "anointed",
+   "definition": "1) anointed, anointed one; 1a) of the Messiah, Messianic prince; 1b) of the king of Israel; 1c) of the high priest of Israel; 1d) of Cyrus; 1e) of the patriarchs as anointed kings",
+   "occurrence": {
+    "ref": "Dan.9.25",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "מָשִׁ֣יחַ",
+    "segmented": "מָשִׁ֣יחַ",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G5547-mat2.4": {
+   "id": "G5547-mat2.4",
+   "lang": "greek",
+   "strongs": "G5547",
+   "stepbible_id": "G5547",
+   "lemma": "Χριστός",
+   "transliteration": "Christos",
+   "gloss": "Christ",
+   "definition": "χριστός (Χρ-), -ή, -όν ; (χρίω), [in LXX for מָשִׁיחַ and cogn. forms ;] ; __1. 1. as adj., ; __(a) of things, anointing, to be used as ointment (Æsch., Eur., al.; τ. ἔλαιον τὸ χ., Lev.21:10); ; __(b) of persons,…",
+   "occurrence": {
+    "ref": "Matt.2.4",
+    "surface": "χριστὸς",
+    "morph_code": "N- ----NSM-",
+    "morphology": "noun nominative singular masculine"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H3772-dan9.26": {
+   "id": "H3772-dan9.26",
+   "lang": "hebrew",
+   "strongs": "H3772",
+   "stepbible_id": "H3772",
+   "lemma": "כָּרַת",
+   "transliteration": "ka.rat",
+   "gloss": "to cut: cut",
+   "definition": ": cut/fell; 1) to cut, cut off, cut down, cut off a body part, cut out, eliminate, kill, cut a covenant; 1a) (Qal); 1a1) to cut off; 1a1a) to cut off a body part, behead; 1a2) to cut down; 1a3) to hew; 1a4) to cut or…",
+   "occurrence": {
+    "ref": "Dan.9.26",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "יִכָּרֵ֥ת",
+    "segmented": "יִכָּרֵ֥ת",
+    "morph_code": "HVNi3ms",
+    "morphology": "verb Niphal imperfect 3rd person masculine singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H2543-zec9.9": {
+   "id": "H2543-zec9.9",
+   "lang": "hebrew",
+   "strongs": "H2543",
+   "stepbible_id": "H2543",
+   "lemma": "חֲמוֹר",
+   "transliteration": "cha.mor",
+   "gloss": "donkey",
+   "definition": "(he) ass",
+   "occurrence": {
+    "ref": "Zech.9.9",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "חֲמ֔וֹר",
+    "segmented": "חֲמ֔וֹר",
+    "morph_code": "HNcbsa",
+    "morphology": "noun common masc./fem. singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G3688-mat21.5": {
+   "id": "G3688-mat21.5",
+   "lang": "greek",
+   "strongs": "G3688",
+   "stepbible_id": "G3688",
+   "lemma": "ὄνος",
+   "transliteration": "onos",
+   "gloss": "donkey",
+   "definition": "ὄνος, -ου, ὁ, ἡ ; [in LXX chiefly for חֲמוֹר, also for אָתוֹן, etc. ;] ; an ass: Mat.21:2, 5\" (LXX), Luk.14:5, Jhn.12:15\" (LXX) ; ὁ, Luk.13:15; ἡ, Mat.21:7 .†; (AS)",
+   "occurrence": {
+    "ref": "Matt.21.5",
+    "surface": "ὄνον",
+    "morph_code": "N- ----ASF-",
+    "morphology": "noun accusative singular feminine"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H1856-zec12.10": {
+   "id": "H1856-zec12.10",
+   "lang": "hebrew",
+   "strongs": "H1856",
+   "stepbible_id": "H1856",
+   "lemma": "דָּקַר",
+   "transliteration": "da.qar",
+   "gloss": "to pierce",
+   "definition": "1) to pierce, thrust through, pierce through; 1a) (Qal) to pierce, run through; 1b) (Niphal) to be pierced through; 1c) (Pual) pierced, riddled (participle)",
+   "occurrence": {
+    "ref": "Zech.12.10",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "דָּקָ֑רוּ",
+    "segmented": "דָּקָ֑רוּ",
+    "morph_code": "HVqp3cp",
+    "morphology": "verb Qal perfect 3rd person common plural"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G1574-jhn19.37": {
+   "id": "G1574-jhn19.37",
+   "lang": "greek",
+   "strongs": "G1574",
+   "stepbible_id": "G1574",
+   "lemma": "ἐκκεντέω",
+   "transliteration": "ekkenteō",
+   "gloss": "to pierce",
+   "definition": "ἐκ-κεντέω, -ῶ ; [in LXX chiefly for דָּקַר ;] ; __1. to prick out, put out (Arist.). ; __2. to pierce (Polyb., LXX): with accusative of person(s), Jhn.19:37 (LXX), Rev.1:7.†; (AS)",
+   "occurrence": {
+    "ref": "John.19.37",
+    "surface": "ἐξεκέντησαν.",
+    "morph_code": "V- 3AAI-P--",
+    "morphology": "verb 3rd person aorist active indicative plural"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H2233-gen3.15": {
+   "id": "H2233-gen3.15",
+   "lang": "hebrew",
+   "strongs": "H2233",
+   "stepbible_id": "H2233",
+   "lemma": "זֶ֫רַע",
+   "transliteration": "ze.ra",
+   "gloss": "seed",
+   "definition": ": seed/sowing; 1) seed, sowing, offspring; 1a) a sowing; 1b) seed; 1c) semen virile; 1d) offspring, descendants, posterity, children; 1e) of moral quality; 1e1) a practitioner of righteousness (fig.); 1f) sowing time…",
+   "occurrence": {
+    "ref": "Gen.3.15",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "זַרְעֲךָ֖",
+    "segmented": "זַרְעֲ/ךָ֖",
+    "morph_code": "HNcmsc/Sp2ms",
+    "morphology": "noun common masculine singular construct; pronominal suffix 2nd person masculine singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H7779-gen3.15": {
+   "id": "H7779-gen3.15",
+   "lang": "hebrew",
+   "strongs": "H7779",
+   "stepbible_id": "H7779",
+   "lemma": "שׁוּף",
+   "transliteration": "shuph",
+   "gloss": "to bruise",
+   "definition": "1) to bruise, crush, gape upon, desire?, seize?, strike out?; 1a) (Qal) to fall upon, bruise",
+   "occurrence": {
+    "ref": "Gen.3.15",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "יְשׁוּפְךָ֣",
+    "segmented": "יְשׁוּפְ/ךָ֣",
+    "morph_code": "HVqi3ms/Sp2ms",
+    "morphology": "verb Qal imperfect 3rd person masculine singular; pronominal suffix 2nd person masculine singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H7626-gen49.10": {
+   "id": "H7626-gen49.10",
+   "lang": "hebrew",
+   "strongs": "H7626",
+   "stepbible_id": "H7626",
+   "lemma": "שֵׁ֫בֶט",
+   "transliteration": "she.vet",
+   "gloss": "tribe: staff",
+   "definition": ": staff; 1) rod, staff, branch, offshoot, club, sceptre, tribe; 1a) rod, staff; 1b) shaft (of spear, dart); 1c) club (of shepherd's implement); 1d) truncheon, sceptre (mark of authority); 1e) clan, tribe",
+   "occurrence": {
+    "ref": "Gen.49.10",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "שֵׁ֨בֶט֙",
+    "segmented": "שֵׁ֨בֶט֙",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H7886-gen49.10": {
+   "id": "H7886-gen49.10",
+   "lang": "hebrew",
+   "strongs": "H7886",
+   "stepbible_id": "H7886",
+   "lemma": "שִׁילֹה",
+   "transliteration": "shi.loh",
+   "gloss": "Shiloh (meaning debated: a place name, 'tribute', or 'until he comes')",
+   "definition": "A man living at the time of the Patriarchs, only mentioned at Gen.49.10; also translated \"tribute\" ; meaning uncertain",
+   "occurrence": {
+    "ref": "Gen.49.10",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "שִׁיל֔וֹ",
+    "segmented": "שִׁיל֔וֹ",
+    "morph_code": "HNp",
+    "morphology": "noun proper"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H5030-deu18.15": {
+   "id": "H5030-deu18.15",
+   "lang": "hebrew",
+   "strongs": "H5030",
+   "stepbible_id": "H5030",
+   "lemma": "נָבִיא",
+   "transliteration": "na.vi",
+   "gloss": "prophet",
+   "definition": "1) spokesman, speaker, prophet; 1a) prophet; 1b) false prophet; 1c) heathen prophet; Aramaic equivalent: ne.vi (נְבִיא \"prophet\" H5029)",
+   "occurrence": {
+    "ref": "Deut.18.15",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "נָבִ֨יא",
+    "segmented": "נָבִ֨יא",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G4396-act3.22": {
+   "id": "G4396-act3.22",
+   "lang": "greek",
+   "strongs": "G4396",
+   "stepbible_id": "G4396",
+   "lemma": "προφήτης",
+   "transliteration": "prophētēs",
+   "gloss": "prophet",
+   "definition": "προφήτης, -ου, ὁ [πρόφημι, to speak forth), ; [in LXX chiefly for נָבִיא ;] ; one who acts as an interpreter or forth-teller of the Divine will (see Lft., Notes, 83f.; Tr., Syn., §vi), a prophet; ; __1. in cl. (Æsch.,…",
+   "occurrence": {
+    "ref": "Acts.3.22",
+    "surface": "Προφήτην",
+    "morph_code": "N- ----ASM-",
+    "morphology": "noun accusative singular masculine"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H3678-2sa7.13": {
+   "id": "H3678-2sa7.13",
+   "lang": "hebrew",
+   "strongs": "H3678",
+   "stepbible_id": "H3678",
+   "lemma": "כִּסֵּא",
+   "transliteration": "kis.se",
+   "gloss": "throne",
+   "definition": "1) seat (of honour), throne, seat, stool; 1a) seat (of honour), throne; 1b) royal dignity, authority, power (fig.)",
+   "occurrence": {
+    "ref": "2Sam.7.13",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "כִּסֵּ֥א",
+    "segmented": "כִּסֵּ֥א",
+    "morph_code": "HNcmsc",
+    "morphology": "noun common masculine singular construct"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H2233-2sa7.12": {
+   "id": "H2233-2sa7.12",
+   "lang": "hebrew",
+   "strongs": "H2233",
+   "stepbible_id": "H2233",
+   "lemma": "זֶ֫רַע",
+   "transliteration": "ze.ra",
+   "gloss": "seed",
+   "definition": ": seed/sowing; 1) seed, sowing, offspring; 1a) a sowing; 1b) seed; 1c) semen virile; 1d) offspring, descendants, posterity, children; 1e) of moral quality; 1e1) a practitioner of righteousness (fig.); 1f) sowing time…",
+   "occurrence": {
+    "ref": "2Sam.7.12",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "זַרְעֲךָ֙",
+    "segmented": "זַרְעֲ/ךָ֙",
+    "morph_code": "HNcmsc/Sp2ms",
+    "morphology": "noun common masculine singular construct; pronominal suffix 2nd person masculine singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H6780-jer23.5": {
+   "id": "H6780-jer23.5",
+   "lang": "hebrew",
+   "strongs": "H6780",
+   "stepbible_id": "H6780",
+   "lemma": "צֶ֫מַח",
+   "transliteration": "tse.mach",
+   "gloss": "branch",
+   "definition": "1) sprout, growth, branch; 1a) sprouting, growth, sprout; 1b) growth (of process); 1c) sprout, shoot (of Messiah from Davidic tree)",
+   "occurrence": {
+    "ref": "Jer.23.5",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "צֶ֣מַח",
+    "segmented": "צֶ֣מַח",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H4397-mal3.1": {
+   "id": "H4397-mal3.1",
+   "lang": "hebrew",
+   "strongs": "H4397",
+   "stepbible_id": "H4397",
+   "lemma": "מַלְאָךְ",
+   "transliteration": "ma.le.akh",
+   "gloss": "messenger",
+   "definition": ": messenger; 1) messenger, representative; 1a) messenger; 1b) angel; 1c) the theophanic angel",
+   "occurrence": {
+    "ref": "Mal.3.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "מַלְאָכִ֔י",
+    "segmented": "מַלְאָכִ֔/י",
+    "morph_code": "HNcmsc/Sp1cs",
+    "morphology": "noun common masculine singular construct; pronominal suffix 1st person common singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G32-mrk1.2": {
+   "id": "G32-mrk1.2",
+   "lang": "greek",
+   "strongs": "G32",
+   "stepbible_id": "G32",
+   "lemma": "ἄγγελος",
+   "transliteration": "angelos",
+   "gloss": "angel",
+   "definition": "ἄγγελος, -ου, ὁ, ; [in LXX chiefly for מַלְאָךְ ;] ; __1. a messenger, one sent: Mat.11:10, Jas.22:25.; __2. As in LXX, in the special sense of angel, a spiritual, heavenly being, attendant upon God and employed as his…",
+   "occurrence": {
+    "ref": "Mark.1.2",
+    "surface": "ἄγγελόν",
+    "morph_code": "N- ----ASM-",
+    "morphology": "noun accusative singular masculine"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H1121-hos11.1": {
+   "id": "H1121-hos11.1",
+   "lang": "hebrew",
+   "strongs": "H1121",
+   "stepbible_id": "H1121a",
+   "lemma": "בֵּן",
+   "transliteration": "ben",
+   "gloss": "son: child",
+   "definition": ": child/son",
+   "occurrence": {
+    "ref": "Hos.11.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "לִבְנִֽי",
+    "segmented": "לִ/בְנִֽ/י",
+    "morph_code": "HR/Ncmsc/Sp1cs",
+    "morphology": "preposition; noun common masculine singular construct; pronominal suffix 1st person common singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H4886-isa61.1": {
+   "id": "H4886-isa61.1",
+   "lang": "hebrew",
+   "strongs": "H4886",
+   "stepbible_id": "H4886",
+   "lemma": "מָשַׁח",
+   "transliteration": "ma.shach",
+   "gloss": "to anoint",
+   "definition": "1) to smear, anoint, spread a liquid; 1a) (Qal); 1a1) to smear; 1a2) to anoint (as consecration); 1a3) to anoint, consecrate; 1b) (Niphal) to be anointed",
+   "occurrence": {
+    "ref": "Isa.61.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "מָשַׁח֩",
+    "segmented": "מָשַׁח֩",
+    "morph_code": "HVqp3ms",
+    "morphology": "verb Qal perfect 3rd person masculine singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G2097-luk4.18": {
+   "id": "G2097-luk4.18",
+   "lang": "greek",
+   "strongs": "G2097",
+   "stepbible_id": "G2097",
+   "lemma": "εὐαγγελίζω",
+   "transliteration": "euangelizomai",
+   "gloss": "to speak good news",
+   "definition": "εὐαγγελίζω ; [in LXX for בָּשַׂר pi., hith.; for good news in general: 1Ki.31:9, al.; of God's loving kindness, Psa.40:10 96:2, and esp. of Messianic blessings, Isa.40:9 60:6, al. ;] ; to bring or announce glad tidings;…",
+   "occurrence": {
+    "ref": "Luke.4.18",
+    "surface": "εὐαγγελίσασθαι",
+    "morph_code": "V- -AMN----",
+    "morphology": "verb aorist middle infinitive"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H1870-isa40.3": {
+   "id": "H1870-isa40.3",
+   "lang": "hebrew",
+   "strongs": "H1870",
+   "stepbible_id": "H1870",
+   "lemma": "דֶּ֫רֶךְ",
+   "transliteration": "de.rekh",
+   "gloss": "way: conduct",
+   "definition": ": conduct/lifestyle; 1) way, road, distance, journey, manner; 1a) road, way, path; 1b) journey; 1c) direction; 1d) manner, habit, way; 1e) of course of life (fig.); 1f) of moral character (fig.)",
+   "occurrence": {
+    "ref": "Isa.40.3",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "דֶּ֣רֶךְ",
+    "segmented": "דֶּ֣רֶךְ",
+    "morph_code": "HNcbsc",
+    "morphology": "noun common masc./fem. singular construct"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H4057-isa40.3": {
+   "id": "H4057-isa40.3",
+   "lang": "hebrew",
+   "strongs": "H4057",
+   "stepbible_id": "H4057b",
+   "lemma": "מִדְבָּר",
+   "transliteration": "mid.bar",
+   "gloss": "wilderness",
+   "definition": "1) wilderness; 1a) pasture; 1b) uninhabited land, wilderness; 1c) large tracts of wilderness (around cities); 1d) wilderness (fig.)",
+   "occurrence": {
+    "ref": "Isa.40.3",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "בַּמִּדְבָּ֕ר",
+    "segmented": "בַּ/מִּדְבָּ֕ר",
+    "morph_code": "HRd/Ncmsa",
+    "morphology": "preposition with article; noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H6438-ps118.22": {
+   "id": "H6438-ps118.22",
+   "lang": "hebrew",
+   "strongs": "H6438",
+   "stepbible_id": "H6438",
+   "lemma": "פִּנָּה",
+   "transliteration": "pin.nah",
+   "gloss": "corner (in 'head of the corner', that is, cornerstone)",
+   "definition": "1) corner; 1a) corner (of square objects); 1b) corner (of ruler or chief-fig.); Also means: pen (פֵּן \"Corner\" H6434)",
+   "occurrence": {
+    "ref": "Ps.118.22",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "פִּנָּֽה",
+    "segmented": "פִּנָּֽה",
+    "morph_code": "HNcfsa",
+    "morphology": "noun common feminine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "G1137-mat21.42": {
+   "id": "G1137-mat21.42",
+   "lang": "greek",
+   "strongs": "G1137",
+   "stepbible_id": "G1137",
+   "lemma": "γωνία",
+   "transliteration": "gōnia",
+   "gloss": "corner",
+   "definition": "γωνία, -ας, ἡ ; (γόνυ), [in LXX chiefly for פִּנָּה ;] ; an angle, a corner: Mat.6:5, Act.26:26; τ. τέσσαρας γ. τ. γῆς, Rev.7:1, 20:8; κεφαλὴ γνωνίας (רֹאשׁ פִּנָּה, Ps 117(118):22, LXX), Mat.21:42, Mrk.12:10,…",
+   "occurrence": {
+    "ref": "Matt.21.42",
+    "surface": "γωνίας·",
+    "morph_code": "N- ----GSF-",
+    "morphology": "noun genitive singular feminine"
+   },
+   "sources": [
+    "SBLGNT text (CC BY 4.0) with MorphGNT parsing (CC BY-SA 3.0)",
+    "STEPBible TBESG (CC BY 4.0)"
+   ]
+  },
+  "H4899-ps2.2": {
+   "id": "H4899-ps2.2",
+   "lang": "hebrew",
+   "strongs": "H4899",
+   "stepbible_id": "H4899",
+   "lemma": "מָשִׁיחַ",
+   "transliteration": "ma.shi.ach",
+   "gloss": "anointed",
+   "definition": "1) anointed, anointed one; 1a) of the Messiah, Messianic prince; 1b) of the king of Israel; 1c) of the high priest of Israel; 1d) of Cyrus; 1e) of the patriarchs as anointed kings",
+   "occurrence": {
+    "ref": "Ps.2.2",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "מְשִׁיחֽוֹ",
+    "segmented": "מְשִׁיחֽ/וֹ",
+    "morph_code": "HAamsc/Sp3ms",
+    "morphology": "adjective masculine singular construct; pronominal suffix 3rd person masculine singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H1121-ps2.7": {
+   "id": "H1121-ps2.7",
+   "lang": "hebrew",
+   "strongs": "H1121",
+   "stepbible_id": "H1121a",
+   "lemma": "בֵּן",
+   "transliteration": "ben",
+   "gloss": "son: child",
+   "definition": ": child/son",
+   "occurrence": {
+    "ref": "Ps.2.7",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "בְּנִ֥י",
+    "segmented": "בְּנִ֥/י",
+    "morph_code": "HNcmsc/Sp1cs",
+    "morphology": "noun common masculine singular construct; pronominal suffix 1st person common singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H3701-zec11.12": {
+   "id": "H3701-zec11.12",
+   "lang": "hebrew",
+   "strongs": "H3701",
+   "stepbible_id": "H3701",
+   "lemma": "כֶּ֫סֶף",
+   "transliteration": "ke.seph",
+   "gloss": "silver: money",
+   "definition": ": money/payment/silver; 1) silver, money; 1a) silver; 1a1) as metal; 1a2) as ornament; 1a3) as colour; 1b) money, shekels, talents",
+   "occurrence": {
+    "ref": "Zech.11.12",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "כָּֽסֶף",
+    "segmented": "כָּֽסֶף",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H6106-ps34.21": {
+   "id": "H6106-ps34.21",
+   "lang": "hebrew",
+   "strongs": "H6106",
+   "stepbible_id": "H6106",
+   "lemma": "עֶ֫צֶם",
+   "transliteration": "e.tsem",
+   "gloss": "bone",
+   "definition": ": bone/limb; 1) bone, essence, substance; 1a) bone; 1a1) body, limbs, members, external body; 1b) bone (of animal); 1c) substance, self",
+   "occurrence": {
+    "ref": "Ps.34.21",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "עַצְמוֹתָ֑יו",
+    "segmented": "עַצְמוֹתָ֑י/ו",
+    "morph_code": "HNcfpc/Sp3ms",
+    "morphology": "noun common feminine plural construct; pronominal suffix 3rd person masculine singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H2558-ps69.22": {
+   "id": "H2558-ps69.22",
+   "lang": "hebrew",
+   "strongs": "H2558",
+   "stepbible_id": "H2558",
+   "lemma": "חֹ֫מֶץ",
+   "transliteration": "cho.mets",
+   "gloss": "vinegar",
+   "definition": "vinegar",
+   "occurrence": {
+    "ref": "Ps.69.22",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "חֹֽמֶץ",
+    "segmented": "חֹֽמֶץ",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H6119-ps41.10": {
+   "id": "H6119-ps41.10",
+   "lang": "hebrew",
+   "strongs": "H6119",
+   "stepbible_id": "H6119",
+   "lemma": "עָקֵב",
+   "transliteration": "a.qev",
+   "gloss": "heel",
+   "definition": "1) heel, rear, footprint, hinder part, hoof, rear of a troop, footstep; 1a) heel; 1b) mark of heel, footprint; 1c) hinder part, rear",
+   "occurrence": {
+    "ref": "Ps.41.10",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "עָקֵֽב",
+    "segmented": "עָקֵֽב",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H7462-zec13.7": {
+   "id": "H7462-zec13.7",
+   "lang": "hebrew",
+   "strongs": "H7462",
+   "stepbible_id": "H7462b",
+   "lemma": "רָעָה",
+   "transliteration": "ra.ah",
+   "gloss": "to pasture",
+   "definition": "1) to pasture, tend, graze, feed; 1a) (Qal); 1a1) to tend, pasture; 1a1a) to shepherd; 1a1b) of ruler, teacher (fig); 1a1c) of people as flock (fig); 1a1d) shepherd, herdsman (subst); 1a2) to feed, graze; 1a2a) of cows,…",
+   "occurrence": {
+    "ref": "Zech.13.7",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "הָֽרֹעֶה֙",
+    "segmented": "הָֽ/רֹעֶה֙",
+    "morph_code": "HTd/Vqrmsa",
+    "morphology": "definite article; verb Qal participle active masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H1709-jon2.1": {
+   "id": "H1709-jon2.1",
+   "lang": "hebrew",
+   "strongs": "H1709",
+   "stepbible_id": "H1709",
+   "lemma": "דָּג",
+   "transliteration": "dag",
+   "gloss": "fish",
+   "definition": "fish",
+   "occurrence": {
+    "ref": "Jonah.2.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "דָּ֣ג",
+    "segmented": "דָּ֣ג",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H5650-isa42.1": {
+   "id": "H5650-isa42.1",
+   "lang": "hebrew",
+   "strongs": "H5650",
+   "stepbible_id": "H5650",
+   "lemma": "עֶ֫בֶד",
+   "transliteration": "e.ved",
+   "gloss": "servant/slave",
+   "definition": "1) slave, servant; 1a) slave, servant, man-servant; 1b) subjects; 1c) servants, worshippers (of God); 1d) servant (in special sense as prophets, Levites etc); 1e) servant (of Israel); 1f) servant (as form of address…",
+   "occurrence": {
+    "ref": "Isa.42.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "עַבְדִּי֙",
+    "segmented": "עַבְדִּ/י֙",
+    "morph_code": "HNcmsc/Sp1cs",
+    "morphology": "noun common masculine singular construct; pronominal suffix 1st person common singular"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H4941-isa42.1": {
+   "id": "H4941-isa42.1",
+   "lang": "hebrew",
+   "strongs": "H4941",
+   "stepbible_id": "H4941",
+   "lemma": "מִשְׁפָּט",
+   "transliteration": "mish.pat",
+   "gloss": "justice: judgement",
+   "definition": ": judgement/punishment; 1) judgment, justice, ordinance; 1a) judgment; 1a1) act of deciding a case; 1a2) place, court, seat of judgment; 1a3) process, procedure, litigation (before judges); 1a4) case, cause (presented…",
+   "occurrence": {
+    "ref": "Isa.42.1",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "מִשְׁפָּ֖ט",
+    "segmented": "מִשְׁפָּ֖ט",
+    "morph_code": "HNcmsa",
+    "morphology": "noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "H7536-isa50.6": {
+   "id": "H7536-isa50.6",
+   "lang": "hebrew",
+   "strongs": "H7536",
+   "stepbible_id": "H7536",
+   "lemma": "רֹק",
+   "transliteration": "roq",
+   "gloss": "spittle",
+   "definition": "spittle",
+   "occurrence": {
+    "ref": "Isa.50.6",
+    "versification": "Hebrew (OSHB/WLC)",
+    "surface": "וָרֹֽק",
+    "segmented": "וָ/רֹֽק",
+    "morph_code": "HC/Ncmsa",
+    "morphology": "conjunction; noun common masculine singular absolute"
+   },
+   "sources": [
+    "OSHB morphhb (WLC text public domain; lemma/morph tagging CC BY 4.0)",
+    "STEPBible TBESH (CC BY 4.0)"
+   ]
+  },
+  "ps22-16-textual-question": {
+   "id": "ps22-16-textual-question",
+   "lang": "hebrew",
+   "kind": "textual question",
+   "hand_written": true,
+   "label": "Contested",
+   "contested": true,
+   "lemma": "כָּאֲרִי / ὤρυξαν",
+   "transliteration": "ka'ari (Hebrew MT) / oruxan (Greek LXX)",
+   "gloss": "'like a lion' (MT) or 'they dug, pierced' (LXX)",
+   "title": "Psalm 22:16: 'like a lion' or 'pierced'?",
+   "readings": [
+    {
+     "witness": "Masoretic Text (standard Hebrew text), Ps 22:17 in Hebrew numbering",
+     "form": "כָּאֲרִי",
+     "transliteration": "ka'ari",
+     "meaning": "like a lion"
+    },
+    {
+     "witness": "Septuagint (Greek translation, pre-Christian), Ps 21:17 LXX (= Ps 22:16)",
+     "form": "ὤρυξαν",
+     "transliteration": "oruxan",
+     "meaning": "they dug (often rendered 'pierced')"
+    },
+    {
+     "witness": "A few Hebrew manuscripts, including the Nahal Hever psalms scroll (5/6HevPs)",
+     "form": "כארו",
+     "transliteration": "ka'aru",
+     "meaning": "a verb form, often understood as 'they dug' or 'they pierced'"
+    }
+   ],
+   "explanation": "The standard Hebrew text reads ka'ari, which usually means 'like a lion', giving the line 'like a lion, my hands and my feet.' The ancient Greek translation reads 'they dug', and a few Hebrew manuscripts, including a psalms scroll found at Nahal Hever near the Dead Sea, have a verb form, ka'aru, instead. The two Hebrew spellings differ by one small letter. Translations differ: the BSB, like many English Bibles, reads 'they have pierced my hands and feet', while Jewish translations generally follow 'like a lion.' Scholars still debate which reading is original. Either way, the psalm describes a sufferer surrounded and attacked.",
+   "status_note": "Our team has not confirmed which Nahal Hever plate shows this verse; the plate identification is unconfirmed.",
+   "references": [
+    {
+     "title": "Septuagint, Ps 21:17 LXX (= Ps 22:16)",
+     "url": null,
+     "use": "citation"
+    },
+    {
+     "title": "Peter W. Flint, 5/6HevPs edition, Journal of Jewish Studies 51 (2000)",
+     "url": null,
+     "use": "citation (copyrighted; not quoted)"
+    },
+    {
+     "title": "Qumran Digital transcription of 5/6Hev 1b (Ps)",
+     "url": "https://lexicon.qumran-digital.org/transcriptions/5~6Hev1b/2023-08-21/index.html",
+     "use": "link only",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "IAA Leon Levy Dead Sea Scrolls Library: 5/6Hev 1b fragment page",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=en_US",
+     "use": "link only; plate identification unconfirmed",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  }
+ }
+}

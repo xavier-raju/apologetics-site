@@ -1,0 +1,2 @@
+# what-others-say
+`perspectives.json` = `{version, principles[], perspectives[]}`. Each perspective: `id`, `group` (Skeptics | Other religions | Groups outside historic Christianity | Within historic Christianity), `title`, `their_view` (fair, in their terms), `how_to_respond`, `common_ground[]`, `links[{name,url}]` (internal routes). Page should show a clear label: "What others say, and how to respond."

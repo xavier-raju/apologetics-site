@@ -1,0 +1,2573 @@
+{
+ "meta": {
+  "generated": "2026-10-26",
+  "owner": "Mark",
+  "checker": "John",
+  "count": 29,
+  "english_text": "Berean Standard Bible (public domain), from bereanbible.com/bsb.txt",
+  "strength_labels": {
+   "direct prediction": "A forward-looking promise or oracle that Christians read as about the Messiah. The label describes the passage's form; who fulfils it may still be disputed (see 'contested').",
+   "typological": "A real person or event in its own setting that the New Testament presents as a foreshadowing of Jesus. Not a prediction on its surface.",
+   "pattern": "A broad promise or theme running through Scripture that the New Testament sees completed in Jesus, without quoting it as a one-to-one prediction."
+  }
+ },
+ "prophecies": [
+  {
+   "id": "isaiah-53",
+   "title": "The Suffering Servant",
+   "category": "Suffering and death",
+   "strength": "direct prediction",
+   "contested": true,
+   "ot": {
+    "ref": "Isaiah 52:13-53:12",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Isaiah 52:13",
+      "text": "Behold, My Servant will prosper; He will be raised and lifted up and highly exalted."
+     },
+     {
+      "ref": "Isaiah 52:14",
+      "text": "Just as many were appalled at Him—His appearance was disfigured beyond that of any man, and His form was marred beyond human likeness—"
+     },
+     {
+      "ref": "Isaiah 52:15",
+      "text": "so He will sprinkle many nations. Kings will shut their mouths because of Him. For they will see what they have not been told, and they will understand what they have not heard."
+     },
+     {
+      "ref": "Isaiah 53:1",
+      "text": "Who has believed our message? And to whom has the arm of the LORD been revealed?"
+     },
+     {
+      "ref": "Isaiah 53:2",
+      "text": "He grew up before Him like a tender shoot, and like a root out of dry ground. He had no stately form or majesty to attract us, no beauty that we should desire Him."
+     },
+     {
+      "ref": "Isaiah 53:3",
+      "text": "He was despised and rejected by men, a man of sorrows, acquainted with grief. Like one from whom men hide their faces, He was despised, and we esteemed Him not."
+     },
+     {
+      "ref": "Isaiah 53:4",
+      "text": "Surely He took up our infirmities and carried our sorrows; yet we considered Him stricken, struck down by God, and afflicted."
+     },
+     {
+      "ref": "Isaiah 53:5",
+      "text": "But He was pierced for our transgressions, He was crushed for our iniquities; the punishment that brought us peace was upon Him, and by His stripes we are healed."
+     },
+     {
+      "ref": "Isaiah 53:6",
+      "text": "We all like sheep have gone astray, each one has turned to his own way; and the LORD has laid upon Him the iniquity of us all."
+     },
+     {
+      "ref": "Isaiah 53:7",
+      "text": "He was oppressed and afflicted, yet He did not open His mouth. He was led like a lamb to the slaughter, and as a sheep before her shearers is silent, so He did not open His mouth."
+     },
+     {
+      "ref": "Isaiah 53:8",
+      "text": "By oppression and judgment He was taken away, and who can recount His descendants? For He was cut off from the land of the living; He was stricken for the transgression of My people."
+     },
+     {
+      "ref": "Isaiah 53:9",
+      "text": "He was assigned a grave with the wicked, and with a rich man in His death, although He had done no violence, nor was any deceit in His mouth."
+     },
+     {
+      "ref": "Isaiah 53:10",
+      "text": "Yet it was the LORD’s will to crush Him and to cause Him to suffer; and when His soul is made a guilt offering, He will see His offspring, He will prolong His days, and the good pleasure of the LORD will prosper in His hand."
+     },
+     {
+      "ref": "Isaiah 53:11",
+      "text": "After the anguish of His soul, He will see the light of life and be satisfied. By His knowledge My righteous Servant will justify many, and He will bear their iniquities."
+     },
+     {
+      "ref": "Isaiah 53:12",
+      "text": "Therefore I will allot Him a portion with the great, and He will divide the spoils with the strong, because He has poured out His life unto death, and He was numbered with the transgressors. Yet He bore the sin of many and made intercession for the transgressors."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Acts 8:32-35",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Acts 8:32",
+       "text": "The eunuch was reading this passage of Scripture: “He was led like a sheep to the slaughter, and as a lamb before the shearer is silent, so He did not open His mouth."
+      },
+      {
+       "ref": "Acts 8:33",
+       "text": "In His humiliation He was deprived of justice. Who can recount His descendants? For His life was removed from the earth.”"
+      },
+      {
+       "ref": "Acts 8:34",
+       "text": "“Tell me,” said the eunuch, “who is the prophet talking about, himself or someone else?”"
+      },
+      {
+       "ref": "Acts 8:35",
+       "text": "Then Philip began with this very Scripture and told him the good news about Jesus."
+      }
+     ]
+    },
+    {
+     "ref": "1 Peter 2:22-25",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "1 Peter 2:22",
+       "text": "“He committed no sin, and no deceit was found in His mouth.”"
+      },
+      {
+       "ref": "1 Peter 2:23",
+       "text": "When they heaped abuse on Him, He did not retaliate; when He suffered, He made no threats, but entrusted Himself to Him who judges justly."
+      },
+      {
+       "ref": "1 Peter 2:24",
+       "text": "He Himself bore our sins in His body on the tree, so that we might die to sin and live to righteousness. “By His stripes you are healed.”"
+      },
+      {
+       "ref": "1 Peter 2:25",
+       "text": "For “you were like sheep going astray,” but now you have returned to the Shepherd and Overseer of your souls."
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 8:17",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 8:17",
+       "text": "This was to fulfill what was spoken through the prophet Isaiah: “He took up our infirmities and carried our diseases.”"
+      }
+     ]
+    },
+    {
+     "ref": "Luke 22:37",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Luke 22:37",
+       "text": "For I tell you that this Scripture must be fulfilled in Me: ‘And He was numbered with the transgressors.’ For what is written about Me is reaching its fulfillment.”"
+      }
+     ]
+    },
+    {
+     "ref": "Romans 10:16",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Romans 10:16",
+       "text": "But not all of them welcomed the good news. For Isaiah says, “Lord, who has believed our message?”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "The passage describes a servant who is innocent, is rejected, is struck down for other people's wrongs, is counted among sinners, dies and is buried, and yet afterward 'sees his offspring' and is exalted. Philip uses it to explain Jesus to the Ethiopian official in Acts 8, and Peter builds on it in 1 Peter 2. Christians see in it the clearest Old Testament picture of a death that pays for others.",
+   "traditional_jewish_reading": "The most common Jewish reading, associated with Rashi and later medieval commentators, takes the servant as the people of Israel, who are called God's servant elsewhere in Isaiah (41:8; 49:3). On this view the speakers in chapter 53 are the nations, who come to realize that Israel's suffering in exile was not what they assumed. Some older rabbinic sources did apply parts of the chapter to the Messiah (for example a passage in the Talmud, Sanhedrin 98b), so the individual reading has Jewish history too. The Aramaic Targum Jonathan reads Isaiah 52:13 as 'My servant the Messiah', but it applies only the servant's exaltation to the Messiah; the suffering in chapter 53 it applies to others, such as Israel. Jewish teachers today often point to details they say do not fit Jesus, such as 'he will see offspring and prolong his days.'",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Checked by John (2026-10-26) against the linked sources. Jewish sources are link only.",
+   "note": "Whether the servant is an individual or Israel is the central debate. Christians usually answer that in 53:8 the servant suffers 'for the transgression of my people', which separates him from the people, and that Isaiah 49:5-6 has the servant restoring Israel.",
+   "word_ids": [
+    "H5650-isa52.13",
+    "H2490-isa53.5",
+    "H817-isa53.10"
+   ],
+   "sources": [
+    {
+     "title": "Babylonian Talmud, Sanhedrin 98a-b, Soncino English translation (halakhah.com)",
+     "url": "https://halakhah.com/sanhedrin/sanhedrin_98.html",
+     "use": "link only (Jewish source; checked by John)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "C. W. H. Pauli, The Chaldee Paraphrase on the Prophet Isaiah (1871), archive.org",
+     "url": "https://archive.org/details/chaldeeparaphra00uzzigoog",
+     "use": "link only (Jewish source; checked by John)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Michael L. Brown, Answering Jewish Objections to Jesus, Vol. 3: Messianic Prophecy Objections (Baker, 2003), ISBN 9780801064234",
+     "url": "https://bakerpublishinggroup.com/products/9780801064234_answering-jewish-objections-to-jesus",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Isaiah 53 project (Chosen People Ministries)",
+     "url": "https://isaiah53.com",
+     "use": "link only",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    },
+    {
+     "title": "NET Bible translators' notes, Isaiah 53",
+     "url": "https://netbible.org/bible/Isaiah+53",
+     "use": "link only (notes license unverified)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Sefaria: Rashi on Isaiah 53",
+     "url": "https://www.sefaria.org/Rashi_on_Isaiah.53.3",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    },
+    {
+     "title": "Sefaria: Ibn Ezra on Isaiah 52:13",
+     "url": "https://www.sefaria.org/Ibn_Ezra_on_Isaiah.52.13",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    },
+    {
+     "title": "Babylonian Talmud, Sanhedrin 98b (Sefaria)",
+     "url": "https://www.sefaria.org/Sanhedrin.98b",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    },
+    {
+     "title": "Jewish Virtual Library: Isaiah 53",
+     "url": "https://www.jewishvirtuallibrary.org/isaiah-53",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Outreach Judaism (Tovia Singer): Isaiah 53",
+     "url": "https://outreachjudaism.org/isaiah-53/",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "isa-7-14",
+   "title": "The virgin (or young woman) will bear a son: Immanuel",
+   "category": "Birth and identity",
+   "strength": "direct prediction",
+   "contested": true,
+   "ot": {
+    "ref": "Isaiah 7:14",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Isaiah 7:14",
+      "text": "Therefore the Lord Himself will give you a sign: Behold, the virgin will be with child and give birth to a son, and will call Him Immanuel."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 1:22-23",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 1:22",
+       "text": "All this took place to fulfill what the Lord had said through the prophet:"
+      },
+      {
+       "ref": "Matthew 1:23",
+       "text": "“Behold, the virgin will be with child and will give birth to a son, and they will call Him Immanuel” (which means, “God with us”)."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Matthew sees the virgin birth as the full meaning of the sign given to the house of David: a child whose name means 'God with us.' Isaiah 7-11 goes on to describe a child who rules on David's throne (9:6-7; 11:1-10), so many Christians read the sign as reaching beyond Ahaz's own time. Conservative scholars also note that almah is never clearly used in the Hebrew Bible of a married woman.",
+   "traditional_jewish_reading": "Jewish interpreters read the verse as a sign for King Ahaz in his own day: a young woman already known to him would have a son, and before the boy was old enough to choose between good and bad, the two kings threatening Judah would be gone (7:16). The Hebrew word almah means a young woman, and the usual word for virgin is betulah. The child is often identified as a son of Ahaz (such as Hezekiah) or of the prophet.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Matthew follows the Greek Septuagint, which had already translated almah as parthenos ('virgin') before Jesus was born. A 'near and far' (dual) fulfilment reading is common among Christian scholars.",
+   "word_ids": [
+    "H5959-isa7.14",
+    "G3933-mat1.23",
+    "H6005-isa7.14"
+   ],
+   "sources": [
+    {
+     "title": "Michael L. Brown, Answering Jewish Objections to Jesus, Vol. 3: Messianic Prophecy Objections (Baker, 2003), ISBN 9780801064234",
+     "url": "https://bakerpublishinggroup.com/products/9780801064234_answering-jewish-objections-to-jesus",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "NET Bible translators' notes, Isaiah 7",
+     "url": "https://netbible.org/bible/Isaiah+7",
+     "use": "link only (notes license unverified)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Sefaria: Isaiah 7:14 with commentaries",
+     "url": "https://www.sefaria.org/Isaiah.7.14",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    }
+   ]
+  },
+  {
+   "id": "isa-9-6",
+   "title": "A child born, called Mighty God",
+   "category": "Birth and identity",
+   "strength": "direct prediction",
+   "contested": true,
+   "ot": {
+    "ref": "Isaiah 9:6-7",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Isaiah 9:6",
+      "text": "For unto us a child is born, unto us a son is given, and the government will be upon His shoulders. And He will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace."
+     },
+     {
+      "ref": "Isaiah 9:7",
+      "text": "Of the increase of His government and peace there will be no end. He will reign on the throne of David and over his kingdom, to establish and sustain it with justice and righteousness from that time and forevermore. The zeal of the LORD of Hosts will accomplish this."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Luke 1:32-33",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Luke 1:32",
+       "text": "He will be great and will be called the Son of the Most High. The Lord God will give Him the throne of His father David,"
+      },
+      {
+       "ref": "Luke 1:33",
+       "text": "and He will reign over the house of Jacob forever. His kingdom will never end!”"
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 4:13-16",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 4:13",
+       "text": "Leaving Nazareth, He went and lived in Capernaum, which is by the sea in the region of Zebulun and Naphtali,"
+      },
+      {
+       "ref": "Matthew 4:14",
+       "text": "to fulfill what was spoken through the prophet Isaiah:"
+      },
+      {
+       "ref": "Matthew 4:15",
+       "text": "“Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles—"
+      },
+      {
+       "ref": "Matthew 4:16",
+       "text": "the people living in darkness have seen a great light; on those living in the land of the shadow of death, a light has dawned.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "A child of David is given titles that sound divine, including 'Mighty God' (El Gibbor), the same title Isaiah uses for the LORD himself a chapter later (10:21). He rules on David's throne forever. The angel's words to Mary in Luke 1:32-33 echo this promise, and Matthew 4 ties the light dawning on Galilee (Isaiah 9:1-2) to Jesus' ministry.",
+   "traditional_jewish_reading": "Jewish readers generally see the passage as celebrating a king of Judah, most often Hezekiah. They read the long name as a throne name that praises God, along the lines of 'the Mighty God is planning wonders', rather than as titles describing the child's own nature. In Hebrew Bibles this verse is numbered 9:5.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "The New Testament never quotes 9:6 with a fulfilment formula. The link is drawn from its themes and from 9:1-2, which Matthew does quote.",
+   "word_ids": [
+    "H410-isa9.5",
+    "H1368-isa9.5",
+    "H3678-isa9.6"
+   ],
+   "sources": [
+    {
+     "title": "Michael L. Brown, Answering Jewish Objections to Jesus, Vol. 3: Messianic Prophecy Objections (Baker, 2003), ISBN 9780801064234",
+     "url": "https://bakerpublishinggroup.com/products/9780801064234_answering-jewish-objections-to-jesus",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Sefaria: Isaiah 9:5 (Hebrew numbering)",
+     "url": "https://www.sefaria.org/Isaiah.9.5",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    }
+   ]
+  },
+  {
+   "id": "mic-5-2",
+   "title": "A ruler from Bethlehem",
+   "category": "Birth and identity",
+   "strength": "direct prediction",
+   "contested": false,
+   "ot": {
+    "ref": "Micah 5:2",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Micah 5:2",
+      "text": "But you, Bethlehem Ephrathah, who are small among the clans of Judah, out of you will come forth for Me One to be ruler over Israel—One whose origins are of old, from the days of eternity."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 2:4-6",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 2:4",
+       "text": "And when he had assembled all the chief priests and scribes of the people, he asked them where the Christ was to be born."
+      },
+      {
+       "ref": "Matthew 2:5",
+       "text": "“In Bethlehem in Judea,” they replied, “for this is what the prophet has written:"
+      },
+      {
+       "ref": "Matthew 2:6",
+       "text": "‘But you, Bethlehem, in the land of Judah, are by no means least among the rulers of Judah, for out of you will come a ruler who will be the shepherd of My people Israel.’”"
+      }
+     ]
+    },
+    {
+     "ref": "John 7:42",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 7:42",
+       "text": "Doesn’t the Scripture say that the Christ will come from the line of David and from Bethlehem, the village where David lived?”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Micah names little Bethlehem, David's hometown, as the place a coming ruler of Israel would come from. In Matthew 2 the chief priests and scribes cite this verse when Herod asks where the Messiah is to be born, which shows it was already read messianically. Christians also note the ruler's origins are 'from of old, from the days of eternity.'",
+   "traditional_jewish_reading": "Jewish tradition also reads this as a messianic promise: the Messiah will come from David's line, which traces back to Bethlehem. The phrase about ancient origins is usually understood as the long-ago roots of David's family, not as a person existing before birth. In Hebrew Bibles the verse is Micah 5:1.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "This is one of the few passages that Jews and Christians both read messianically. The disagreement is about who fulfils it, not whether it points to the Messiah.",
+   "word_ids": [
+    "H1035-mic5.1",
+    "H6924-mic5.1",
+    "H5769-mic5.1"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Maimonides, Mishneh Torah, Kings and Wars 11 (Sefaria)",
+     "url": "https://www.sefaria.org/Mishneh_Torah%2C_Kings_and_Wars.11",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    },
+    {
+     "title": "Sefaria: Micah 5:1 (Hebrew numbering)",
+     "url": "https://www.sefaria.org/Micah.5.1",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    }
+   ]
+  },
+  {
+   "id": "ps-22",
+   "title": "My God, my God, why have You forsaken me?",
+   "category": "Suffering and death",
+   "strength": "typological",
+   "contested": true,
+   "ot": {
+    "ref": "Psalm 22:1,7-8,14-18",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Psalm 22:1",
+      "text": "For the choirmaster. To the tune of “The Doe of the Dawn.” A Psalm of David. My God, my God, why have You forsaken me? Why are You so far from saving me, so far from my words of groaning?"
+     },
+     {
+      "ref": "Psalm 22:7",
+      "text": "All who see me mock me; they sneer and shake their heads:"
+     },
+     {
+      "ref": "Psalm 22:8",
+      "text": "“He trusts in the LORD, let the LORD deliver him; let the LORD rescue him, since He delights in him.”"
+     },
+     {
+      "ref": "Psalm 22:14",
+      "text": "I am poured out like water, and all my bones are disjointed. My heart is like wax; it melts away within me."
+     },
+     {
+      "ref": "Psalm 22:15",
+      "text": "My strength is dried up like a potsherd, and my tongue sticks to the roof of my mouth. You lay me in the dust of death."
+     },
+     {
+      "ref": "Psalm 22:16",
+      "text": "For dogs surround me; a band of evil men encircles me; they have pierced my hands and feet."
+     },
+     {
+      "ref": "Psalm 22:17",
+      "text": "I can count all my bones; they stare and gloat over me."
+     },
+     {
+      "ref": "Psalm 22:18",
+      "text": "They divide my garments among them and cast lots for my clothing."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 27:35",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 27:35",
+       "text": "When they had crucified Him, they divided up His garments by casting lots."
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 27:39-43",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 27:39",
+       "text": "And those who passed by heaped abuse on Him, shaking their heads"
+      },
+      {
+       "ref": "Matthew 27:40",
+       "text": "and saying, “You who are going to destroy the temple and rebuild it in three days, save Yourself! If You are the Son of God, come down from the cross!”"
+      },
+      {
+       "ref": "Matthew 27:41",
+       "text": "In the same way, the chief priests, scribes, and elders mocked Him, saying,"
+      },
+      {
+       "ref": "Matthew 27:42",
+       "text": "“He saved others, but He cannot save Himself. He is the King of Israel! Let Him come down now from the cross, and we will believe in Him."
+      },
+      {
+       "ref": "Matthew 27:43",
+       "text": "He trusts in God. Let God deliver Him now if He wants Him. For He said, ‘I am the Son of God.’”"
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 27:46",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 27:46",
+       "text": "About the ninth hour Jesus cried out in a loud voice, “Eli, Eli, lema sabachthani?” which means, “My God, My God, why have You forsaken Me?”"
+      }
+     ]
+    },
+    {
+     "ref": "John 19:23-24",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 19:23",
+       "text": "When the soldiers had crucified Jesus, they divided His garments into four parts, one for each soldier, with the tunic remaining. It was seamless, woven in one piece from top to bottom."
+      },
+      {
+       "ref": "John 19:24",
+       "text": "So they said to one another, “Let us not tear it. Instead, let us cast lots to see who will get it.” This was to fulfill the Scripture: “They divided My garments among them, and cast lots for My clothing.” So that is what the soldiers did."
+      }
+     ]
+    },
+    {
+     "ref": "Hebrews 2:12",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Hebrews 2:12",
+       "text": "He says: “I will proclaim Your name to My brothers; I will sing Your praises in the assembly.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Jesus prays the first line of this psalm from the cross. The Gospels then echo it in the mocking crowd, the shaking of heads, and the soldiers dividing his clothes by lot. The psalm moves from abandonment to rescue and worldwide praise (22:22-31), and Christians read it as the shape of the cross and resurrection.",
+   "traditional_jewish_reading": "Jewish readers take the psalm as the prayer of David, or of the righteous sufferer or the people of Israel in distress, who are rescued by God. In verse 16 (Hebrew 22:17) the standard Hebrew text reads ka'ari, 'like a lion [at] my hands and feet', rather than 'they pierced', and Jewish teachers often point this out.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "The 'pierced' wording is a real textual question. The Greek Septuagint, made before Christianity, reads 'they dug', and a Dead Sea Scrolls-era fragment from Nahal Hever is often cited for a verb here. Our team has not yet confirmed which plate shows this, so we treat it as Contested.",
+   "word_ids": [
+    "H5800-ps22.2",
+    "G1459-mat27.46",
+    "ps22-16-textual-question"
+   ],
+   "sources": [
+    {
+     "title": "Michael L. Brown, Answering Jewish Objections to Jesus, Vol. 3: Messianic Prophecy Objections (Baker, 2003), ISBN 9780801064234",
+     "url": "https://bakerpublishinggroup.com/products/9780801064234_answering-jewish-objections-to-jesus",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "NET Bible translators' notes, Psalms 22",
+     "url": "https://netbible.org/bible/Psalms+22",
+     "use": "link only (notes license unverified)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Sefaria: Psalms 22:17 (Hebrew numbering)",
+     "url": "https://www.sefaria.org/Psalms.22.17",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    },
+    {
+     "title": "IAA Leon Levy Dead Sea Scrolls Library: 5/6Hev 1b fragment page",
+     "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/5_6Hev%201b%20891-1?locale=en_US",
+     "use": "link only; plate identification unconfirmed",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Qumran Digital transcription of 5/6Hev 1b (Ps), ed. Flint, JJS 51 (2000)",
+     "url": "https://lexicon.qumran-digital.org/transcriptions/5~6Hev1b/2023-08-21/index.html",
+     "use": "link only",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "ps-16-10",
+   "title": "You will not let Your Holy One see decay",
+   "category": "Resurrection and exaltation",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Psalm 16:8-11",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Psalm 16:8",
+      "text": "I have set the LORD always before me. Because He is at my right hand, I will not be shaken."
+     },
+     {
+      "ref": "Psalm 16:9",
+      "text": "Therefore my heart is glad and my tongue rejoices; my body also will dwell securely."
+     },
+     {
+      "ref": "Psalm 16:10",
+      "text": "For You will not abandon my soul to Sheol, nor will You let Your Holy One see decay."
+     },
+     {
+      "ref": "Psalm 16:11",
+      "text": "You have made known to me the path of life; You will fill me with joy in Your presence, with eternal pleasures at Your right hand."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Acts 2:25-32",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Acts 2:25",
+       "text": "David says about Him: ‘I saw the Lord always before me; because He is at my right hand, I will not be shaken."
+      },
+      {
+       "ref": "Acts 2:26",
+       "text": "Therefore my heart is glad and my tongue rejoices; my body also will dwell in hope,"
+      },
+      {
+       "ref": "Acts 2:27",
+       "text": "because You will not abandon my soul to Hades, nor will You let Your Holy One see decay."
+      },
+      {
+       "ref": "Acts 2:28",
+       "text": "You have made known to me the paths of life; You will fill me with joy in Your presence.’"
+      },
+      {
+       "ref": "Acts 2:29",
+       "text": "Brothers, I can tell you with confidence that the patriarch David died and was buried, and his tomb is with us to this day."
+      },
+      {
+       "ref": "Acts 2:30",
+       "text": "But he was a prophet and knew that God had promised him on oath that He would place one of his descendants on his throne."
+      },
+      {
+       "ref": "Acts 2:31",
+       "text": "Foreseeing this, David spoke about the resurrection of the Christ, that He was not abandoned to Hades, nor did His body see decay."
+      },
+      {
+       "ref": "Acts 2:32",
+       "text": "God has raised this Jesus to life, to which we are all witnesses."
+      }
+     ]
+    },
+    {
+     "ref": "Acts 13:35-37",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Acts 13:35",
+       "text": "So also, He says in another Psalm: ‘You will not let Your Holy One see decay.’"
+      },
+      {
+       "ref": "Acts 13:36",
+       "text": "For when David had served God’s purpose in his own generation, he fell asleep. His body was buried with his fathers and saw decay."
+      },
+      {
+       "ref": "Acts 13:37",
+       "text": "But the One whom God raised from the dead did not see decay."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Peter argues at Pentecost that David died, was buried and stayed buried, so the promise that God's Holy One would not see decay must reach beyond David to the Messiah, whom God raised. Paul makes the same argument in Acts 13.",
+   "traditional_jewish_reading": "Jewish readers take this as David's own expression of trust that God will protect him from death and the grave, in the sense of rescuing him from danger. The Hebrew shachat can mean 'pit' as well as 'decay.'",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "The apostles' argument depends on David speaking as a prophet (Acts 2:30). That is a reading of the psalm, not a plain prediction on its surface.",
+   "word_ids": [
+    "H7845-ps16.10",
+    "G1312-act2.27"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "ps-110-1",
+   "title": "The LORD said to my Lord, 'Sit at My right hand'",
+   "category": "Resurrection and exaltation",
+   "strength": "direct prediction",
+   "contested": false,
+   "ot": {
+    "ref": "Psalm 110:1,4",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Psalm 110:1",
+      "text": "A Psalm of David. The LORD said to my Lord: “Sit at My right hand until I make Your enemies a footstool for Your feet.”"
+     },
+     {
+      "ref": "Psalm 110:4",
+      "text": "The LORD has sworn and will not change His mind: “You are a priest forever in the order of Melchizedek.”"
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 22:41-45",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 22:41",
+       "text": "While the Pharisees were assembled, Jesus questioned them:"
+      },
+      {
+       "ref": "Matthew 22:42",
+       "text": "“What do you think about the Christ? Whose son is He?” “David’s,” they answered."
+      },
+      {
+       "ref": "Matthew 22:43",
+       "text": "Jesus said to them, “How then does David in the Spirit call Him ‘Lord’? For he says:"
+      },
+      {
+       "ref": "Matthew 22:44",
+       "text": "‘The Lord said to my Lord, “Sit at My right hand until I put Your enemies under Your feet.”’"
+      },
+      {
+       "ref": "Matthew 22:45",
+       "text": "So if David calls Him ‘Lord,’ how can He be David’s son?”"
+      }
+     ]
+    },
+    {
+     "ref": "Acts 2:34-36",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Acts 2:34",
+       "text": "For David did not ascend into heaven, but he himself says: ‘The Lord said to my Lord, “Sit at My right hand"
+      },
+      {
+       "ref": "Acts 2:35",
+       "text": "until I make Your enemies a footstool for Your feet.”’"
+      },
+      {
+       "ref": "Acts 2:36",
+       "text": "Therefore let all Israel know with certainty that God has made this Jesus, whom you crucified, both Lord and Christ!”"
+      }
+     ]
+    },
+    {
+     "ref": "Hebrews 1:13",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Hebrews 1:13",
+       "text": "Yet to which of the angels did God ever say: “Sit at My right hand until I make Your enemies a footstool for Your feet”?"
+      }
+     ]
+    },
+    {
+     "ref": "Hebrews 5:5-6",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Hebrews 5:5",
+       "text": "So also Christ did not take upon Himself the glory of becoming a high priest, but He was called by the One who said to Him: “You are My Son; today I have become Your Father.”"
+      },
+      {
+       "ref": "Hebrews 5:6",
+       "text": "And in another passage God says: “You are a priest forever in the order of Melchizedek.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "This is the Old Testament verse the New Testament quotes most often. Jesus uses it to ask how the Messiah can be David's son if David calls him 'my Lord.' The apostles use it for Jesus' ascension to God's right hand, and Hebrews draws on verse 4 for a king who is also a priest like Melchizedek.",
+   "traditional_jewish_reading": "Jewish interpreters commonly read the psalm as spoken about David, or about Abraham, by a court poet: 'The LORD said to my master.' In the Hebrew the second word is adoni, a title often used for human masters, which differs from the divine name and divine title.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Jesus' question in Matthew 22 assumes his hearers already read the psalm as about the Messiah.",
+   "word_ids": [
+    "H113-ps110.1",
+    "G2962-mat22.44"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "dan-9-24",
+   "title": "Seventy 'sevens' and an Anointed One cut off",
+   "category": "Timing and kingdom",
+   "strength": "direct prediction",
+   "contested": true,
+   "ot": {
+    "ref": "Daniel 9:24-27",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Daniel 9:24",
+      "text": "Seventy weeks are decreed for your people and your holy city to stop their transgression, to put an end to sin, to make atonement for iniquity, to bring in everlasting righteousness, to seal up vision and prophecy, and to anoint the Most Holy Place."
+     },
+     {
+      "ref": "Daniel 9:25",
+      "text": "Know and understand this: From the issuance of the decree to restore and rebuild Jerusalem until the Messiah, the Prince, there will be seven weeks and sixty-two weeks. It will be rebuilt with streets and a trench, but in times of distress."
+     },
+     {
+      "ref": "Daniel 9:26",
+      "text": "Then after the sixty-two weeks the Messiah will be cut off and will have nothing. Then the people of the prince who is to come will destroy the city and the sanctuary. The end will come like a flood, and until the end there will be war; desolations have been decreed."
+     },
+     {
+      "ref": "Daniel 9:27",
+      "text": "And he will confirm a covenant with many for one week, but in the middle of the week he will put an end to sacrifice and offering. And on the wing of the temple will come the abomination that causes desolation, until the decreed destruction is poured out upon him.”"
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Mark 1:15",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Mark 1:15",
+       "text": "“The time is fulfilled,” He said, “and the kingdom of God is near. Repent and believe in the gospel!”"
+      }
+     ]
+    },
+    {
+     "ref": "Galatians 4:4",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Galatians 4:4",
+       "text": "But when the time had fully come, God sent His Son, born of a woman, born under the law,"
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 24:15",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 24:15",
+       "text": "So when you see standing in the holy place ‘the abomination of desolation,’ spoken of by the prophet Daniel (let the reader understand),"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Daniel is told of a set period for ending sin, bringing in everlasting righteousness and anointing the most holy, during which an Anointed One (mashiach) will be 'cut off' before the city and sanctuary are destroyed. Since early church writers, many Christians have read this as pointing to the Messiah's death before the Temple fell in AD 70. Jesus himself refers to Daniel's 'abomination of desolation' in Matthew 24:15.",
+   "traditional_jewish_reading": "Jewish interpreters usually read the 'sevens' as leading up to the destruction of the Second Temple, and identify the anointed figures with leaders of the Jewish people, such as a high priest or king, rather than the Messiah. Many critical scholars instead connect the passage with the crisis under Antiochus IV in the 160s BC.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "We do not set dates here. Christian calculations of the seventy sevens differ, and we present the passage as pointing to the Messiah's coming and death before the Temple's fall, not as a countdown.",
+   "word_ids": [
+    "H4899-dan9.25",
+    "G5547-mat2.4",
+    "H3772-dan9.26"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Sefaria: Daniel 9:24 with commentaries",
+     "url": "https://www.sefaria.org/Daniel.9.24",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    }
+   ]
+  },
+  {
+   "id": "zech-9-9",
+   "title": "Your King comes, riding on a donkey",
+   "category": "Ministry and passion week",
+   "strength": "direct prediction",
+   "contested": false,
+   "ot": {
+    "ref": "Zechariah 9:9",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Zechariah 9:9",
+      "text": "Rejoice greatly, O Daughter of Zion! Shout in triumph, O Daughter of Jerusalem! See, your King comes to you, righteous and victorious, humble and riding on a donkey, on a colt, the foal of a donkey."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 21:4-5",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 21:4",
+       "text": "This took place to fulfill what was spoken through the prophet:"
+      },
+      {
+       "ref": "Matthew 21:5",
+       "text": "“Say to the Daughter of Zion, ‘See, your King comes to you, gentle and riding on a donkey, on a colt, the foal of a donkey.’”"
+      }
+     ]
+    },
+    {
+     "ref": "John 12:14-16",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 12:14",
+       "text": "Finding a young donkey, Jesus sat on it, as it is written:"
+      },
+      {
+       "ref": "John 12:15",
+       "text": "“Do not be afraid, O Daughter of Zion. See, your King is coming, seated on the colt of a donkey.”"
+      },
+      {
+       "ref": "John 12:16",
+       "text": "At first His disciples did not understand these things, but after Jesus was glorified they remembered what had been done to Him, and they realized that these very things had also been written about Him."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Zechariah pictures Jerusalem's king arriving humble and bringing peace, riding a donkey. Jesus chose to enter Jerusalem this way, and the crowds greeted him as the son of David. John notes that the disciples understood the connection only after the resurrection.",
+   "traditional_jewish_reading": "Jewish tradition also reads this as the Messiah's arrival. The Talmud (Sanhedrin 98a) contrasts coming 'with the clouds of heaven' (Daniel 7) with coming 'humble on a donkey' depending on whether Israel is worthy. The disagreement is over whether Jesus is that king, since Jewish readers expect the age of peace in the next verse (9:10) to come with him.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Checked by John (2026-10-26) against the linked sources. Jewish sources are link only.",
+   "note": "Jesus' choice of a donkey was deliberate. Critics say this makes it staged; Christians answer that he was openly claiming the role.",
+   "word_ids": [
+    "H2543-zec9.9",
+    "G3688-mat21.5"
+   ],
+   "sources": [
+    {
+     "title": "Babylonian Talmud, Sanhedrin 98a-b, Soncino English translation (halakhah.com)",
+     "url": "https://halakhah.com/sanhedrin/sanhedrin_98.html",
+     "use": "link only (Jewish source; checked by John)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Babylonian Talmud, Sanhedrin 98a (Sefaria)",
+     "url": "https://www.sefaria.org/Sanhedrin.98a",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    }
+   ]
+  },
+  {
+   "id": "zech-12-10",
+   "title": "They will look on Me, the One they have pierced",
+   "category": "Suffering and death",
+   "strength": "direct prediction",
+   "contested": true,
+   "ot": {
+    "ref": "Zechariah 12:10",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Zechariah 12:10",
+      "text": "Then I will pour out on the house of David and on the people of Jerusalem a spirit of grace and prayer, and they will look on Me, the One they have pierced. They will mourn for Him as one mourns for an only child, and grieve bitterly for Him as one grieves for a firstborn son."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "John 19:34-37",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 19:34",
+       "text": "Instead, one of the soldiers pierced His side with a spear, and immediately blood and water flowed out."
+      },
+      {
+       "ref": "John 19:35",
+       "text": "The one who saw it has testified to this, and his testimony is true. He knows that he is telling the truth, so that you also may believe."
+      },
+      {
+       "ref": "John 19:36",
+       "text": "Now these things happened so that the Scripture would be fulfilled: “Not one of His bones will be broken.”"
+      },
+      {
+       "ref": "John 19:37",
+       "text": "And, as another Scripture says: “They will look on the One they have pierced.”"
+      }
+     ]
+    },
+    {
+     "ref": "Revelation 1:7",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Revelation 1:7",
+       "text": "Behold, He is coming with the clouds, and every eye will see Him—even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "God says the house of David will look on 'Me, the One they have pierced' and mourn as for an only son. John sees this in the soldier's spear piercing Jesus' side, and Revelation applies it to his return.",
+   "traditional_jewish_reading": "Jewish readers often take the pierced one as those killed defending Jerusalem in the battle of chapter 12, mourned by the nation. The Talmud (Sukkah 52a) connects the mourning with the slaying of a Messiah son of Joseph, so a messianic reading also exists in Jewish tradition.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Checked by John (2026-10-26) against the linked sources. Jewish sources are link only.",
+   "note": "The Hebrew shifts from 'Me' to 'him' in the same verse, and some manuscripts read 'to him'. This affects how the verse is translated and is worth handling with care.",
+   "word_ids": [
+    "H1856-zec12.10",
+    "G1574-jhn19.37"
+   ],
+   "sources": [
+    {
+     "title": "Babylonian Talmud, Sukkah 52a, Soncino English translation (halakhah.com PDF)",
+     "url": "https://halakhah.com/pdf/moed/Sukkah.pdf",
+     "use": "link only (Jewish source; checked by John)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Michael L. Brown, Answering Jewish Objections to Jesus, Vol. 3: Messianic Prophecy Objections (Baker, 2003), ISBN 9780801064234",
+     "url": "https://bakerpublishinggroup.com/products/9780801064234_answering-jewish-objections-to-jesus",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Babylonian Talmud, Sukkah 52a (Sefaria)",
+     "url": "https://www.sefaria.org/Sukkah.52a",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    },
+    {
+     "title": "Sefaria: Zechariah 12:10 with commentaries",
+     "url": "https://www.sefaria.org/Zechariah.12.10",
+     "use": "link only (Jewish source; pending John's check)",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    }
+   ]
+  },
+  {
+   "id": "gen-3-15",
+   "title": "The offspring of the woman will crush the serpent",
+   "category": "Promise line",
+   "strength": "pattern",
+   "contested": false,
+   "ot": {
+    "ref": "Genesis 3:15",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Genesis 3:15",
+      "text": "And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.”"
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Galatians 4:4",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Galatians 4:4",
+       "text": "But when the time had fully come, God sent His Son, born of a woman, born under the law,"
+      }
+     ]
+    },
+    {
+     "ref": "Romans 16:20",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Romans 16:20",
+       "text": "The God of peace will soon crush Satan under your feet. The grace of our Lord Jesus Christ be with you."
+      }
+     ]
+    },
+    {
+     "ref": "Hebrews 2:14",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Hebrews 2:14",
+       "text": "Now since the children have flesh and blood, He too shared in their humanity, so that by His death He might destroy him who holds the power of death, that is, the devil,"
+      }
+     ]
+    },
+    {
+     "ref": "1 John 3:8",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "1 John 3:8",
+       "text": "The one who practices sin is of the devil, because the devil has been sinning from the very start. This is why the Son of God was revealed, to destroy the works of the devil."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Right after the first sin, God promises lasting conflict between the serpent and the woman's offspring, ending with the serpent's head crushed. Early Christians called this the 'first gospel', and the New Testament describes Jesus as born of a woman and destroying the devil's work.",
+   "traditional_jewish_reading": "Jewish readers take the verse as describing the ongoing struggle between humanity and the serpent, often understood as the inclination to evil. The Aramaic Targums Pseudo-Jonathan and the Jerusalem (Fragment) Targum connect the healing of the 'heel' to the days of the King Messiah.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Checked by John (2026-10-26) against the linked sources. Jewish sources are link only.",
+   "note": "No New Testament writer quotes this verse directly. It is a pattern or theme, not a direct quotation.",
+   "word_ids": [
+    "H2233-gen3.15",
+    "H7779-gen3.15"
+   ],
+   "sources": [
+    {
+     "title": "J. W. Etheridge, The Targums of Onkelos and Jonathan ben Uzziel on the Pentateuch, with the Fragments of the Jerusalem Targum (1862), archive.org",
+     "url": "https://archive.org/details/targumsonkelosa00ethegoog",
+     "use": "link only (Jewish source; checked by John)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "gen-49-10",
+   "title": "The scepter will not depart from Judah",
+   "category": "Promise line",
+   "strength": "pattern",
+   "contested": false,
+   "ot": {
+    "ref": "Genesis 49:10",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Genesis 49:10",
+      "text": "The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Revelation 5:5",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Revelation 5:5",
+       "text": "Then one of the elders said to me, “Do not weep! Behold, the Lion of the tribe of Judah, the Root of David, has triumphed to open the scroll and its seven seals.”"
+      }
+     ]
+    },
+    {
+     "ref": "Hebrews 7:14",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Hebrews 7:14",
+       "text": "For it is clear that our Lord descended from Judah, a tribe as to which Moses said nothing about priests."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Jacob promises that kingship will belong to the tribe of Judah until a ruler comes to whom the nations will be obedient. The New Testament calls Jesus 'the Lion of the tribe of Judah' and stresses that he came from Judah.",
+   "traditional_jewish_reading": "Ancient Jewish interpretation, including the Aramaic Targums Onkelos and Pseudo-Jonathan, also read 'Shiloh' or 'until he comes' as a reference to the King Messiah. Jewish interpreters see this as the promise of Davidic kingship, with the Messiah still to come.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Checked by John (2026-10-26) against the linked sources. Jewish sources are link only.",
+   "note": "The Hebrew 'Shiloh' is hard to translate, and versions differ. Avoid using it to argue for specific dates.",
+   "word_ids": [
+    "H7626-gen49.10",
+    "H7886-gen49.10"
+   ],
+   "sources": [
+    {
+     "title": "J. W. Etheridge, The Targums of Onkelos and Jonathan ben Uzziel on the Pentateuch, with the Fragments of the Jerusalem Targum (1862), archive.org",
+     "url": "https://archive.org/details/targumsonkelosa00ethegoog",
+     "use": "link only (Jewish source; checked by John)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "deut-18-15",
+   "title": "A prophet like Moses",
+   "category": "Ministry and passion week",
+   "strength": "direct prediction",
+   "contested": false,
+   "ot": {
+    "ref": "Deuteronomy 18:15-19",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Deuteronomy 18:15",
+      "text": "The LORD your God will raise up for you a prophet like me from among your brothers. You must listen to him."
+     },
+     {
+      "ref": "Deuteronomy 18:16",
+      "text": "This is what you asked of the LORD your God at Horeb on the day of the assembly, when you said, “Let us not hear the voice of the LORD our God or see this great fire anymore, so that we will not die!”"
+     },
+     {
+      "ref": "Deuteronomy 18:17",
+      "text": "Then the LORD said to me, “They have spoken well."
+     },
+     {
+      "ref": "Deuteronomy 18:18",
+      "text": "I will raise up for them a prophet like you from among their brothers. I will put My words in his mouth, and he will tell them everything I command him."
+     },
+     {
+      "ref": "Deuteronomy 18:19",
+      "text": "And I will hold accountable anyone who does not listen to My words that the prophet speaks in My name."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Acts 3:20-23",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Acts 3:20",
+       "text": "that times of refreshing may come from the presence of the Lord, and that He may send Jesus, the Christ, who has been appointed for you."
+      },
+      {
+       "ref": "Acts 3:21",
+       "text": "Heaven must take Him in until the time comes for the restoration of all things, which God announced long ago through His holy prophets."
+      },
+      {
+       "ref": "Acts 3:22",
+       "text": "For Moses said, ‘The Lord your God will raise up for you a prophet like me from among your brothers. You must listen to Him in everything He tells you."
+      },
+      {
+       "ref": "Acts 3:23",
+       "text": "Everyone who does not listen to Him will be completely cut off from among his people.’"
+      }
+     ]
+    },
+    {
+     "ref": "Acts 7:37",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Acts 7:37",
+       "text": "This is the same Moses who told the Israelites, ‘God will raise up for you a prophet like me from among your brothers.’"
+      }
+     ]
+    },
+    {
+     "ref": "John 6:14",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 6:14",
+       "text": "When the people saw the sign that Jesus had performed, they began to say, “Truly this is the Prophet who is to come into the world.”"
+      }
+     ]
+    },
+    {
+     "ref": "John 1:45",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 1:45",
+       "text": "Philip found Nathanael and told him, “We have found the One Moses wrote about in the Law, the One the prophets foretold—Jesus of Nazareth, the son of Joseph.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Moses promises that God will raise up a prophet like him from among Israel, and the people must listen to him. Peter and Stephen both apply this to Jesus, and crowds in John 6 wondered whether Jesus was 'the Prophet.' Deuteronomy 34:10 notes that no prophet like Moses had arisen yet.",
+   "traditional_jewish_reading": "Jewish readers generally take this as God's promise to keep sending true prophets, such as Joshua, Samuel or Jeremiah, so Israel would not need fortune-tellers. Maimonides taught that Moses' prophecy differed from that of every other prophet.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "This is about a role and an office, not a single detailed event.",
+   "word_ids": [
+    "H5030-deu18.15",
+    "G4396-act3.22"
+   ],
+   "sources": [
+    {
+     "title": "Maimonides, Mishneh Torah, Yesodei HaTorah 7:6 (Sefaria)",
+     "url": "https://www.sefaria.org/Mishneh_Torah%2C_Foundations_of_the_Torah.7.6",
+     "use": "link only (Touger translation, CC BY-NC); Confirmed by John 2026-10-26",
+     "link_check": "UNVERIFIED (curl returned HTTP 403; site likely blocks automated requests)"
+    },
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "2sam-7-12",
+   "title": "God's covenant with David: an eternal throne",
+   "category": "Promise line",
+   "strength": "pattern",
+   "contested": false,
+   "ot": {
+    "ref": "2 Samuel 7:12-16",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "2 Samuel 7:12",
+      "text": "And when your days are fulfilled and you rest with your fathers, I will raise up your descendant after you, who will come from your own body, and I will establish his kingdom."
+     },
+     {
+      "ref": "2 Samuel 7:13",
+      "text": "He will build a house for My Name, and I will establish the throne of his kingdom forever."
+     },
+     {
+      "ref": "2 Samuel 7:14",
+      "text": "I will be his Father, and he will be My son. When he does wrong, I will discipline him with the rod of men and with the blows of the sons of men."
+     },
+     {
+      "ref": "2 Samuel 7:15",
+      "text": "But My loving devotion will never be removed from him as I removed it from Saul, whom I removed from before you."
+     },
+     {
+      "ref": "2 Samuel 7:16",
+      "text": "Your house and kingdom will endure forever before Me, and your throne will be established forever.”"
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Luke 1:32-33",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Luke 1:32",
+       "text": "He will be great and will be called the Son of the Most High. The Lord God will give Him the throne of His father David,"
+      },
+      {
+       "ref": "Luke 1:33",
+       "text": "and He will reign over the house of Jacob forever. His kingdom will never end!”"
+      }
+     ]
+    },
+    {
+     "ref": "Hebrews 1:5",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Hebrews 1:5",
+       "text": "For to which of the angels did God ever say: “You are My Son; today I have become Your Father”? Or again: “I will be His Father, and He will be My Son”?"
+      }
+     ]
+    },
+    {
+     "ref": "Acts 13:22-23",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Acts 13:22",
+       "text": "After removing Saul, He raised up David as their king and testified about him: ‘I have found David son of Jesse a man after My own heart; he will carry out My will in its entirety.’"
+      },
+      {
+       "ref": "Acts 13:23",
+       "text": "From the descendants of this man, God has brought to Israel the Savior Jesus, as He promised."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "God promises David a descendant whose throne will last forever, and says 'I will be his Father, and he will be My son.' Gabriel's words to Mary and the opening of Hebrews apply this promise to Jesus.",
+   "traditional_jewish_reading": "Jewish readers see this as God's covenant with David's dynasty, first fulfilled in Solomon, who built the Temple, and the basis of the hope for a future anointed king from David's line.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Hebrews 1:5 quotes only the first half of 7:14. The second half, about punishing wrongdoing, fits Solomon and later kings, which is why this is a pattern rather than a one-to-one prediction.",
+   "word_ids": [
+    "H3678-2sa7.13",
+    "H2233-2sa7.12"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "jer-23-5",
+   "title": "A righteous Branch for David",
+   "category": "Promise line",
+   "strength": "direct prediction",
+   "contested": false,
+   "ot": {
+    "ref": "Jeremiah 23:5-6",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Jeremiah 23:5",
+      "text": "Behold, the days are coming, declares the LORD, when I will raise up for David a righteous Branch, and He will reign wisely as King and will administer justice and righteousness in the land."
+     },
+     {
+      "ref": "Jeremiah 23:6",
+      "text": "In His days Judah will be saved, and Israel will dwell securely. And this is His name by which He will be called: The LORD Our Righteousness."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Luke 1:32-33",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Luke 1:32",
+       "text": "He will be great and will be called the Son of the Most High. The Lord God will give Him the throne of His father David,"
+      },
+      {
+       "ref": "Luke 1:33",
+       "text": "and He will reign over the house of Jacob forever. His kingdom will never end!”"
+      }
+     ]
+    },
+    {
+     "ref": "1 Corinthians 1:30",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "1 Corinthians 1:30",
+       "text": "It is because of Him that you are in Christ Jesus, who has become for us wisdom from God: our righteousness, holiness, and redemption."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Jeremiah promises a king from David's line, 'a righteous Branch', whose name is 'The LORD Our Righteousness'. Christians see Jesus, the son of David, as the one who makes people right with God (1 Corinthians 1:30).",
+   "traditional_jewish_reading": "Jewish tradition reads this as a clear promise of the coming King Messiah from David's line. Jewish readers take his name as a statement about God, not a claim that the king himself is divine.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "The New Testament does not quote this verse directly; the 'Branch' theme is echoed across the prophets (Isaiah 11:1; Zechariah 3:8; 6:12).",
+   "word_ids": [
+    "H6780-jer23.5"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "mal-3-1",
+   "title": "My messenger will prepare the way",
+   "category": "Ministry and passion week",
+   "strength": "direct prediction",
+   "contested": false,
+   "ot": {
+    "ref": "Malachi 3:1",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Malachi 3:1",
+      "text": "“Behold, I will send My messenger, who will prepare the way before Me. Then the Lord whom you seek will suddenly come to His temple—the Messenger of the covenant, in whom you delight—see, He is coming,” says the LORD of Hosts."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Mark 1:2",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Mark 1:2",
+       "text": "As it is written in Isaiah the prophet: “Behold, I will send My messenger ahead of You, who will prepare Your way.”"
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 11:10",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 11:10",
+       "text": "This is the one about whom it is written: ‘Behold, I will send My messenger ahead of You, who will prepare Your way before You.’"
+      }
+     ]
+    },
+    {
+     "ref": "Luke 7:27",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Luke 7:27",
+       "text": "This is the one about whom it is written: ‘Behold, I will send My messenger ahead of You, who will prepare Your way before You.’"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "God promises to send a messenger to prepare the way, after which the Lord will suddenly come to his temple. Jesus identifies John the Baptist as this messenger, and Mark opens his Gospel with this verse.",
+   "traditional_jewish_reading": "Jewish readers connect this with Malachi 4:5, where the messenger is Elijah, who is expected to return before the Day of the LORD. Elijah is still awaited, which is why a seat is set for him at the Passover meal.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Jesus said John came 'in the spirit and power of Elijah' (Luke 1:17; Matthew 11:14), not that John was Elijah returned (John 1:21).",
+   "word_ids": [
+    "H4397-mal3.1",
+    "G32-mrk1.2"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "hos-11-1",
+   "title": "Out of Egypt I called My Son",
+   "category": "Birth and identity",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Hosea 11:1",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Hosea 11:1",
+      "text": "When Israel was a child, I loved him, and out of Egypt I called My son."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 2:13-15",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 2:13",
+       "text": "When the Magi had gone, an angel of the Lord appeared to Joseph in a dream. “Get up!” he said. “Take the Child and His mother and flee to Egypt. Stay there until I tell you, for Herod is going to search for the Child to kill Him.”"
+      },
+      {
+       "ref": "Matthew 2:14",
+       "text": "So he got up, took the Child and His mother by night, and withdrew to Egypt,"
+      },
+      {
+       "ref": "Matthew 2:15",
+       "text": "where he stayed until the death of Herod. This fulfilled what the Lord had spoken through the prophet: “Out of Egypt I called My Son.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Hosea looks back on the exodus, when God called his 'son' Israel out of Egypt. Matthew sees Jesus repeating Israel's story: he goes down to Egypt and comes back, passes through water, and is tested in the wilderness. Jesus is presented as the faithful Son where Israel struggled.",
+   "traditional_jewish_reading": "Jewish readers point out, correctly, that Hosea is speaking about Israel's past, not predicting a future person.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Christians agree this is not a prediction. It is a classic example of typology, which was a recognized way of reading Scripture in Jesus' time. We present it honestly as typology.",
+   "word_ids": [
+    "H1121-hos11.1"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "isa-61-1",
+   "title": "The Spirit of the Lord is on Me",
+   "category": "Ministry and passion week",
+   "strength": "direct prediction",
+   "contested": false,
+   "ot": {
+    "ref": "Isaiah 61:1-2",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Isaiah 61:1",
+      "text": "The Spirit of the Lord GOD is on Me, because the LORD has anointed Me to preach good news to the poor. He has sent Me to bind up the brokenhearted, to proclaim liberty to the captives and freedom to the prisoners,"
+     },
+     {
+      "ref": "Isaiah 61:2",
+      "text": "to proclaim the year of the LORD’s favor and the day of our God’s vengeance, to comfort all who mourn,"
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Luke 4:16-21",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Luke 4:16",
+       "text": "Then Jesus came to Nazareth, where He had been brought up. As was His custom, He entered the synagogue on the Sabbath. And when He stood up to read,"
+      },
+      {
+       "ref": "Luke 4:17",
+       "text": "the scroll of the prophet Isaiah was handed to Him. Unrolling it, He found the place where it was written:"
+      },
+      {
+       "ref": "Luke 4:18",
+       "text": "“The Spirit of the Lord is on Me, because He has anointed Me to preach good news to the poor. He has sent Me to proclaim liberty to the captives and recovery of sight to the blind, to release the oppressed,"
+      },
+      {
+       "ref": "Luke 4:19",
+       "text": "to proclaim the year of the Lord’s favor.”"
+      },
+      {
+       "ref": "Luke 4:20",
+       "text": "Then He rolled up the scroll, returned it to the attendant, and sat down. The eyes of everyone in the synagogue were fixed on Him,"
+      },
+      {
+       "ref": "Luke 4:21",
+       "text": "and He began by saying, “Today this Scripture is fulfilled in your hearing.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "In his hometown synagogue, Jesus reads this passage and announces, 'Today this Scripture is fulfilled in your hearing.' He stops before the line about 'the day of vengeance', which Christians link to his second coming.",
+   "traditional_jewish_reading": "Jewish readers often hear the prophet speaking about his own calling to comfort the exiles returning to Zion. Some Jewish interpreters also read it as describing the messianic age.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Here Jesus himself makes the claim, so the passage shows how he understood his mission.",
+   "word_ids": [
+    "H4886-isa61.1",
+    "G2097-luk4.18"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "isa-40-3",
+   "title": "A voice crying in the wilderness",
+   "category": "Ministry and passion week",
+   "strength": "direct prediction",
+   "contested": false,
+   "ot": {
+    "ref": "Isaiah 40:3",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Isaiah 40:3",
+      "text": "A voice of one calling: “Prepare the way for the LORD in the wilderness; make a straight highway for our God in the desert."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 3:1-3",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 3:1",
+       "text": "In those days John the Baptist came, preaching in the wilderness of Judea"
+      },
+      {
+       "ref": "Matthew 3:2",
+       "text": "and saying, “Repent, for the kingdom of heaven is near.”"
+      },
+      {
+       "ref": "Matthew 3:3",
+       "text": "This is he who was spoken of through the prophet Isaiah: “A voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for Him.’”"
+      }
+     ]
+    },
+    {
+     "ref": "Mark 1:3",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Mark 1:3",
+       "text": "“A voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for Him.’”"
+      }
+     ]
+    },
+    {
+     "ref": "John 1:23",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 1:23",
+       "text": "John replied in the words of Isaiah the prophet: “I am a voice of one calling in the wilderness, ‘Make straight the way for the Lord.’”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Isaiah hears a voice calling for a road to be prepared for the LORD. All four Gospels apply it to John the Baptist, who prepared the way for Jesus. That makes the coming of Jesus the coming of the LORD himself.",
+   "traditional_jewish_reading": "In context the voice announces God leading the exiles home from Babylon. The Dead Sea Scrolls community also read this verse as its own calling to prepare in the wilderness, which shows it was read as forward-looking around Jesus' time.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "The Gospel punctuation ('a voice in the wilderness') follows the Greek; the Hebrew reads 'in the wilderness prepare the way.'",
+   "word_ids": [
+    "H1870-isa40.3",
+    "H4057-isa40.3"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "ps-118-22",
+   "title": "The stone the builders rejected",
+   "category": "Resurrection and exaltation",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Psalm 118:22-23",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Psalm 118:22",
+      "text": "The stone the builders rejected has become the cornerstone."
+     },
+     {
+      "ref": "Psalm 118:23",
+      "text": "This is from the LORD, and it is marvelous in our eyes."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 21:42",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 21:42",
+       "text": "Jesus said to them, “Have you never read in the Scriptures: ‘The stone the builders rejected has become the cornerstone. This is from the Lord, and it is marvelous in our eyes’?"
+      }
+     ]
+    },
+    {
+     "ref": "Acts 4:10-11",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Acts 4:10",
+       "text": "then let this be known to all of you and to all the people of Israel: It is by the name of Jesus Christ of Nazareth, whom you crucified but whom God raised from the dead, that this man stands before you healed."
+      },
+      {
+       "ref": "Acts 4:11",
+       "text": "This Jesus is ‘the stone you builders rejected, which has become the cornerstone.’"
+      }
+     ]
+    },
+    {
+     "ref": "1 Peter 2:7",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "1 Peter 2:7",
+       "text": "To you who believe, then, this stone is precious. But to those who do not believe, “The stone the builders rejected has become the cornerstone,”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Jesus applies this to himself after the parable of the tenants: the leaders reject him, but God makes him the cornerstone. Peter repeats it before the council after the resurrection.",
+   "traditional_jewish_reading": "Jewish readers commonly see the stone as Israel, despised by the nations but chosen by God, or as David, who was overlooked before he became king.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Psalm 118 was part of the festival psalms (Hallel) sung at Passover; the crowds quoted 118:26 when Jesus entered Jerusalem.",
+   "word_ids": [
+    "H6438-ps118.22",
+    "G1137-mat21.42"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "ps-2-7",
+   "title": "You are My Son; today I have become Your Father",
+   "category": "Resurrection and exaltation",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Psalm 2:7-8",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Psalm 2:7",
+      "text": "I will proclaim the decree spoken to Me by the LORD: “You are My Son; today I have become Your Father."
+     },
+     {
+      "ref": "Psalm 2:8",
+      "text": "Ask Me, and I will make the nations Your inheritance, the ends of the earth Your possession."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Acts 13:32-33",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Acts 13:32",
+       "text": "And now we proclaim to you the good news: What God promised our fathers"
+      },
+      {
+       "ref": "Acts 13:33",
+       "text": "He has fulfilled for us, their children, by raising up Jesus. As it is written in the second Psalm: ‘You are My Son; today I have become Your Father.’"
+      }
+     ]
+    },
+    {
+     "ref": "Hebrews 1:5",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Hebrews 1:5",
+       "text": "For to which of the angels did God ever say: “You are My Son; today I have become Your Father”? Or again: “I will be His Father, and He will be My Son”?"
+      }
+     ]
+    },
+    {
+     "ref": "Mark 1:11",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Mark 1:11",
+       "text": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "The psalm speaks of the LORD's anointed king (mashiach) whom the nations oppose and God declares his son. Paul applies it to the resurrection, Hebrews to Jesus' superiority to angels, and the voice at Jesus' baptism echoes it.",
+   "traditional_jewish_reading": "Jewish readers see a coronation psalm for David or a later king of Judah, adopted as God's 'son' on the day he is enthroned. Some later rabbinic texts also apply it to the Messiah (for example the Talmud, Sukkah 52a, applies it to the Messiah son of David).",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Checked by John (2026-10-26) against the linked sources. Jewish sources are link only.",
+   "note": null,
+   "word_ids": [
+    "H4899-ps2.2",
+    "H1121-ps2.7"
+   ],
+   "sources": [
+    {
+     "title": "Babylonian Talmud, Sukkah 52a, Soncino English translation (halakhah.com PDF)",
+     "url": "https://halakhah.com/pdf/moed/Sukkah.pdf",
+     "use": "link only (Jewish source; checked by John)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "zech-11-12",
+   "title": "Thirty pieces of silver",
+   "category": "Ministry and passion week",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Zechariah 11:12-13",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Zechariah 11:12",
+      "text": "Then I told them, “If it seems right to you, give me my wages; but if not, keep them.” So they weighed out my wages, thirty pieces of silver."
+     },
+     {
+      "ref": "Zechariah 11:13",
+      "text": "And the LORD said to me, “Throw it to the potter”—this magnificent price at which they valued me. So I took the thirty pieces of silver and threw them to the potter in the house of the LORD."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 26:14-15",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 26:14",
+       "text": "Then one of the Twelve, the one called Judas Iscariot, went to the chief priests"
+      },
+      {
+       "ref": "Matthew 26:15",
+       "text": "and asked, “What are you willing to give me if I hand Him over to you?” And they set out for him thirty pieces of silver."
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 27:3-10",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 27:3",
+       "text": "When Judas, who had betrayed Him, saw that Jesus was condemned, he was filled with remorse and returned the thirty pieces of silver to the chief priests and elders."
+      },
+      {
+       "ref": "Matthew 27:4",
+       "text": "“I have sinned by betraying innocent blood,” he said. “What is that to us?” they replied. “You bear the responsibility.”"
+      },
+      {
+       "ref": "Matthew 27:5",
+       "text": "So Judas threw the silver into the temple and left. Then he went away and hanged himself."
+      },
+      {
+       "ref": "Matthew 27:6",
+       "text": "The chief priests picked up the pieces of silver and said, “It is unlawful to put this into the treasury, since it is blood money.”"
+      },
+      {
+       "ref": "Matthew 27:7",
+       "text": "After conferring together, they used the money to buy the potter’s field as a burial place for foreigners."
+      },
+      {
+       "ref": "Matthew 27:8",
+       "text": "That is why it has been called the Field of Blood to this day."
+      },
+      {
+       "ref": "Matthew 27:9",
+       "text": "Then what was spoken through Jeremiah the prophet was fulfilled: “They took the thirty pieces of silver, the price set on Him by the people of Israel,"
+      },
+      {
+       "ref": "Matthew 27:10",
+       "text": "and they gave them for the potter’s field, as the Lord had commanded me.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Zechariah, acting as a shepherd rejected by the people, is paid the insulting wage of thirty pieces of silver and throws it to the potter in the house of the LORD. Matthew sees this in Judas' payment and the purchase of the potter's field.",
+   "traditional_jewish_reading": "Jewish readers see an acted-out parable about Israel's leaders rejecting God's care in the prophet's own day.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Matthew names Jeremiah, though most of the wording is from Zechariah 11:12-13. A common explanation is that he combines it with Jeremiah's potter and field passages (Jer 18-19; 32) and, as was customary, names the more prominent prophet.",
+   "word_ids": [
+    "H3701-zec11.12"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "ps-34-20",
+   "title": "Not one of His bones will be broken",
+   "category": "Suffering and death",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Psalm 34:20",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Psalm 34:20",
+      "text": "He protects all his bones; not one of them will be broken."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "John 19:31-36",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 19:31",
+       "text": "It was the day of Preparation, and the next day was a High Sabbath. In order that the bodies would not remain on the cross during the Sabbath, the Jews asked Pilate to have the legs broken and the bodies removed."
+      },
+      {
+       "ref": "John 19:32",
+       "text": "So the soldiers came and broke the legs of the first man who had been crucified with Jesus, and those of the other."
+      },
+      {
+       "ref": "John 19:33",
+       "text": "But when they came to Jesus and saw that He was already dead, they did not break His legs."
+      },
+      {
+       "ref": "John 19:34",
+       "text": "Instead, one of the soldiers pierced His side with a spear, and immediately blood and water flowed out."
+      },
+      {
+       "ref": "John 19:35",
+       "text": "The one who saw it has testified to this, and his testimony is true. He knows that he is telling the truth, so that you also may believe."
+      },
+      {
+       "ref": "John 19:36",
+       "text": "Now these things happened so that the Scripture would be fulfilled: “Not one of His bones will be broken.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "John notes the soldiers broke the legs of the men crucified with Jesus but not his, because he was already dead. John probably has both this psalm and the Passover lamb rules (Exodus 12:46) in mind, since he presents Jesus as the Lamb of God.",
+   "traditional_jewish_reading": "Jewish readers see a promise of God's protection for the righteous in general.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "In Hebrew Bibles this verse is Psalm 34:21.",
+   "word_ids": [
+    "H6106-ps34.21"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "ps-69-21",
+   "title": "Vinegar to drink",
+   "category": "Suffering and death",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Psalm 69:21",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Psalm 69:21",
+      "text": "They poisoned my food with gall and gave me vinegar to quench my thirst."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 27:34",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 27:34",
+       "text": "they offered Him wine to drink, mixed with gall; but after tasting it, He refused to drink it."
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 27:48",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 27:48",
+       "text": "One of them quickly ran and brought a sponge. He filled it with sour wine, put it on a reed, and held it up for Jesus to drink."
+      }
+     ]
+    },
+    {
+     "ref": "John 19:28-30",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 19:28",
+       "text": "After this, knowing that everything had now been accomplished, and to fulfill the Scripture, Jesus said, “I am thirsty.”"
+      },
+      {
+       "ref": "John 19:29",
+       "text": "A jar of sour wine was sitting there. So they soaked a sponge in the wine, put it on a stalk of hyssop, and lifted it to His mouth."
+      },
+      {
+       "ref": "John 19:30",
+       "text": "When Jesus had received the sour wine, He said, “It is finished.” And bowing His head, He yielded up His spirit."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "A righteous sufferer, hated without cause, is given gall and sour wine. The Gospels record Jesus being offered sour wine on the cross, and John says it fulfilled Scripture. The same psalm is quoted elsewhere for zeal for God's house (John 2:17) and being hated without reason (John 15:25).",
+   "traditional_jewish_reading": "Jewish readers see David's lament in his own distress, with no future figure in view.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "In Hebrew Bibles this verse is Psalm 69:22.",
+   "word_ids": [
+    "H2558-ps69.22"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "ps-41-9",
+   "title": "My close friend has lifted his heel against me",
+   "category": "Ministry and passion week",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Psalm 41:9",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Psalm 41:9",
+      "text": "Even my close friend whom I trusted, the one who shared my bread, has lifted up his heel against me."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "John 13:18",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "John 13:18",
+       "text": "I am not speaking about all of you; I know whom I have chosen. But this is to fulfill the Scripture: ‘The one who shares My bread has lifted up his heel against Me.’"
+      }
+     ]
+    },
+    {
+     "ref": "Mark 14:18",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Mark 14:18",
+       "text": "And while they were reclining and eating, Jesus said, “Truly I tell you, one of you who is eating with Me will betray Me.”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "David grieves that a trusted friend who shared his bread turned against him. Jesus applies the verse to Judas at the Last Supper.",
+   "traditional_jewish_reading": "Jewish readers see a lament about a real betrayal in David's life, often linked with Ahithophel.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Jesus quotes only the part about the betrayal, not the earlier line about the speaker's own sin (41:4).",
+   "word_ids": [
+    "H6119-ps41.10"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "zech-13-7",
+   "title": "Strike the shepherd, and the sheep will scatter",
+   "category": "Ministry and passion week",
+   "strength": "direct prediction",
+   "contested": false,
+   "ot": {
+    "ref": "Zechariah 13:7",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Zechariah 13:7",
+      "text": "Awake, O sword, against My Shepherd, against the man who is My Companion, declares the LORD of Hosts. Strike the Shepherd, and the sheep will be scattered, and I will turn My hand against the little ones."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 26:31",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 26:31",
+       "text": "Then Jesus said to them, “This very night you will all fall away on account of Me. For it is written: ‘I will strike the Shepherd, and the sheep of the flock will be scattered.’"
+      }
+     ]
+    },
+    {
+     "ref": "Mark 14:27",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Mark 14:27",
+       "text": "Then Jesus said to them, “You will all fall away, for it is written: ‘I will strike the Shepherd, and the sheep will be scattered.’"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "On the way to Gethsemane, Jesus quotes this verse to warn that the disciples will scatter when he is arrested, which happens that night.",
+   "traditional_jewish_reading": "Jewish readers see a judgment on Israel's unworthy leaders, followed by the refining of a remnant (13:8-9).",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": null,
+   "word_ids": [
+    "H7462-zec13.7"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "jonah-1-17",
+   "title": "Three days and three nights",
+   "category": "Resurrection and exaltation",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Jonah 1:17",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Jonah 1:17",
+      "text": "Now the LORD had appointed a great fish to swallow Jonah, and Jonah spent three days and three nights in the belly of the fish."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 12:39-41",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 12:39",
+       "text": "Jesus replied, “A wicked and adulterous generation demands a sign, but none will be given it except the sign of the prophet Jonah."
+      },
+      {
+       "ref": "Matthew 12:40",
+       "text": "For as Jonah was three days and three nights in the belly of the great fish, so the Son of Man will be three days and three nights in the heart of the earth."
+      },
+      {
+       "ref": "Matthew 12:41",
+       "text": "The men of Nineveh will stand at the judgment with this generation and condemn it; for they repented at the preaching of Jonah, and now One greater than Jonah is here."
+      }
+     ]
+    },
+    {
+     "ref": "Luke 11:29-30",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Luke 11:29",
+       "text": "As the crowds were increasing, Jesus said, “This is a wicked generation. It demands a sign, but none will be given it except the sign of Jonah."
+      },
+      {
+       "ref": "Luke 11:30",
+       "text": "For as Jonah was a sign to the Ninevites, so the Son of Man will be a sign to this generation."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "Jesus himself calls Jonah's three days in the fish 'the sign of Jonah', a picture of his own burial and resurrection.",
+   "traditional_jewish_reading": "Jewish readers read Jonah as a story about God's mercy toward repentant people, even Israel's enemies. It is read in synagogues on Yom Kippur.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "Counting 'three days and three nights' follows the ancient way of counting part of a day as a day. In Hebrew Bibles this verse is Jonah 2:1.",
+   "word_ids": [
+    "H1709-jon2.1"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "isa-42-1",
+   "title": "Here is My Servant, My Chosen One",
+   "category": "Ministry and passion week",
+   "strength": "direct prediction",
+   "contested": true,
+   "ot": {
+    "ref": "Isaiah 42:1-4",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Isaiah 42:1",
+      "text": "“Here is My Servant, whom I uphold, My Chosen One, in whom My soul delights. I will put My Spirit on Him, and He will bring justice to the nations."
+     },
+     {
+      "ref": "Isaiah 42:2",
+      "text": "He will not cry out or raise His voice, nor make His voice heard in the streets."
+     },
+     {
+      "ref": "Isaiah 42:3",
+      "text": "A bruised reed He will not break and a smoldering wick He will not extinguish; He will faithfully bring forth justice."
+     },
+     {
+      "ref": "Isaiah 42:4",
+      "text": "He will not grow weak or discouraged before He has established justice on the earth. In His law the islands will put their hope.”"
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Matthew 12:15-21",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 12:15",
+       "text": "Aware of this, Jesus withdrew from that place. Large crowds followed Him, and He healed them all,"
+      },
+      {
+       "ref": "Matthew 12:16",
+       "text": "warning them not to make Him known."
+      },
+      {
+       "ref": "Matthew 12:17",
+       "text": "This was to fulfill what was spoken through the prophet Isaiah:"
+      },
+      {
+       "ref": "Matthew 12:18",
+       "text": "“Here is My Servant, whom I have chosen, My beloved, in whom My soul delights. I will put My Spirit on Him, and He will proclaim justice to the nations."
+      },
+      {
+       "ref": "Matthew 12:19",
+       "text": "He will not quarrel or cry out; no one will hear His voice in the streets."
+      },
+      {
+       "ref": "Matthew 12:20",
+       "text": "A bruised reed He will not break, and a smoldering wick He will not extinguish, till He leads justice to victory."
+      },
+      {
+       "ref": "Matthew 12:21",
+       "text": "In His name the nations will put their hope.”"
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 3:17",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 3:17",
+       "text": "And a voice from heaven said, “This is My beloved Son, in whom I am well pleased!”"
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "God introduces his Servant, gentle and empowered by the Spirit, who will bring justice to the nations. Matthew quotes the passage at length when Jesus heals quietly and tells people not to make him known. The voice at Jesus' baptism also echoes 'My Chosen One, in whom My soul delights.'",
+   "traditional_jewish_reading": "As with Isaiah 53, many Jewish readers take the servant as Israel. The Aramaic Targum Jonathan, however, reads 'My servant, the Messiah' here.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Checked by John (2026-10-26) against the linked sources. Jewish sources are link only.",
+   "note": "This is the first of Isaiah's four Servant Songs (42; 49; 50; 52-53).",
+   "word_ids": [
+    "H5650-isa42.1",
+    "H4941-isa42.1"
+   ],
+   "sources": [
+    {
+     "title": "C. W. H. Pauli, The Chaldee Paraphrase on the Prophet Isaiah (1871), archive.org",
+     "url": "https://archive.org/details/chaldeeparaphra00uzzigoog",
+     "use": "link only (Jewish source; checked by John)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Michael L. Brown, Answering Jewish Objections to Jesus, Vol. 3: Messianic Prophecy Objections (Baker, 2003), ISBN 9780801064234",
+     "url": "https://bakerpublishinggroup.com/products/9780801064234_answering-jewish-objections-to-jesus",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  },
+  {
+   "id": "isa-50-6",
+   "title": "I offered My back to those who strike",
+   "category": "Suffering and death",
+   "strength": "typological",
+   "contested": false,
+   "ot": {
+    "ref": "Isaiah 50:6",
+    "translation": "BSB",
+    "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+    "verses": [
+     {
+      "ref": "Isaiah 50:6",
+      "text": "I offered My back to those who struck Me, and My cheeks to those who tore out My beard. I did not hide My face from scorn and spittle."
+     }
+    ]
+   },
+   "nt": [
+    {
+     "ref": "Mark 14:65",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Mark 14:65",
+       "text": "Then some of them began to spit on Him. They blindfolded Him, struck Him with their fists, and said to Him, “Prophesy!” And the officers received Him with slaps in His face."
+      }
+     ]
+    },
+    {
+     "ref": "Matthew 26:67",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 26:67",
+       "text": "Then they spit in His face and struck Him. Others slapped Him"
+      }
+     ]
+    },
+    {
+     "ref": "Mark 15:19",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Mark 15:19",
+       "text": "They kept striking His head with a staff and spitting on Him. And they knelt down and bowed before Him."
+      }
+     ]
+    }
+   ],
+   "why_christians_read_it_this_way": "In the third Servant Song the servant does not resist beating, spitting and insult, and trusts God to vindicate him. The Gospels record Jesus struck and spat on during his trial.",
+   "traditional_jewish_reading": "Jewish readers see the prophet describing his own mistreatment, or Israel's, while trusting God.",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Pending John's check. Jewish sources are link only.",
+   "note": "The Gospels do not mention beards being pulled; the link is the overall picture, not every detail.",
+   "word_ids": [
+    "H7536-isa50.6"
+   ],
+   "sources": [
+    {
+     "title": "Walter C. Kaiser Jr., The Messiah in the Old Testament (Zondervan, 1995), ISBN 9780310200307",
+     "url": "https://zondervanacademic.com/products/the-messiah-in-the-old-testament",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    }
+   ]
+  }
+ ]
+}

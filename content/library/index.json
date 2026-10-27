@@ -1,0 +1,66 @@
+{
+  "title": "Library",
+  "intro": "Every document we use, arranged by topic. Hosted files are public domain or openly licensed; everything else is a link to its owner.",
+  "topics": [
+    {
+      "id": "scripture",
+      "label": "Scripture & original languages"
+    },
+    {
+      "id": "ancient",
+      "label": "Ancient sources"
+    },
+    {
+      "id": "early-church",
+      "label": "Early church"
+    },
+    {
+      "id": "archaeology",
+      "label": "Archaeology"
+    },
+    {
+      "id": "research",
+      "label": "Research & scholarship"
+    }
+  ],
+  "items": [
+    {
+      "id": "bsb",
+      "title": "Berean Standard Bible",
+      "author": "Berean Bible",
+      "date": "2023",
+      "topic": "scripture",
+      "kind": "Bible",
+      "access": "link",
+      "license": "Public domain",
+      "url": "https://berean.bible/",
+      "description": "Main English text used across this site."
+    },
+    {
+      "id": "0xsero",
+      "title": "All Historical Evidence of Jesus Christ (research report)",
+      "author": "0xSero",
+      "date": "2026",
+      "topic": "research",
+      "kind": "Report",
+      "access": "link",
+      "license": "No license — link only",
+      "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ",
+      "description": "The research dossier that inspired this site. Linked, not copied."
+    },
+    {
+      "id": "ex-dark",
+      "example": true,
+      "title": "Ken Dark, Roman-Period and Byzantine Nazareth and Its Hinterland",
+      "author": "Ken Dark",
+      "date": "2020",
+      "topic": "archaeology",
+      "kind": "Book",
+      "access": "link",
+      "license": "Copyrighted — link only",
+      "url": "https://www.routledge.com/",
+      "description": "EXAMPLE — scholar's book: listed with a link, never hosted."
+    }
+  ],
+  "note": "Hosted public-domain witness texts (content/witnesses/texts/*.md) are added automatically by build.py; list only extra items here."
+}

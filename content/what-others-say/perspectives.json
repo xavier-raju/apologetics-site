@@ -45,8 +45,8 @@
       "id": "judaism",
       "group": "Other religions",
       "title": "Judaism",
-      "their_view": "Jewish tradition reads its Scriptures, including Isaiah 53, through centuries of careful interpretation. Many Jewish readers see the Messiah's work as still to come: world peace, the return of the exiles, and the rebuilding of the Temple. They see the servant of Isaiah 53 as Israel.",
-      "how_to_respond": "Approach with deep respect and gratitude: Jesus and the apostles were Jewish, and the Scriptures came to us through the Jewish people. Christians must also own the painful history of Christian mistreatment of Jews. Share why you believe Jesus fulfills the Hebrew Scriptures, listen well, and never pressure.",
+      "their_view": "Jewish tradition reads its Scriptures through centuries of careful interpretation. Many Jewish readers see the Messiah's work as still to come: world peace, the return of the exiles, and the rebuilding of the Temple. Since the Middle Ages most Jewish teachers have read the servant of Isaiah 53 as the people of Israel, a reading already known by the 3rd century.",
+      "how_to_respond": "Approach with deep respect and gratitude: Jesus and the apostles were Jewish, and the Scriptures came to us through the Jewish people. Christians must also own the painful history of Christian mistreatment of Jews. Then gently open Isaiah 53 together. Everyone in Isaiah confesses sin, the prophet too, but the servant alone is sinless. He suffers 'for the transgression of My people', restores Israel, dies, and then lives again, which points to one person, Jesus. You can also share that early Jewish sources such as the Targum and the Talmud connect the passage with the Messiah. Listen well, and never pressure.",
       "common_ground": [
         "One God",
         "The Hebrew Scriptures",
@@ -56,6 +56,10 @@
         {
           "name": "Answer card: Isaiah 53 is about Israel",
           "url": "/answers/isaiah-53-israel"
+        },
+        {
+          "name": "Prophecy explorer: The Suffering Servant",
+          "url": "/prophecy/isaiah-53"
         }
       ]
     },

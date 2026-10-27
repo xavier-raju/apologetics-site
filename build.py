@@ -275,6 +275,7 @@ def layout(route, title, body, page_js=None, desc=None):
 <link rel="stylesheet" href="{root}assets/css/site.css">
 <script src="{root}assets/js/nojs.js"></script>
 {js}
+<script data-goatcounter="https://xavier-raju.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body{' class="is-home"' if route == "" else ""}>
 <a class="skip" href="#main">Skip to content</a>

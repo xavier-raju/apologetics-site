@@ -164,18 +164,71 @@
        "text": "But not all of them welcomed the good news. For Isaiah says, “Lord, who has believed our message?”"
       }
      ]
+    },
+    {
+     "ref": "Matthew 27:57-60",
+     "translation": "BSB",
+     "text_source": "site/data/bible/bsb.json (team copy of bereanbible.com/bsb.txt; matched against independent download)",
+     "verses": [
+      {
+       "ref": "Matthew 27:57",
+       "text": "When it was evening, there came a rich man from Arimathea named Joseph, who himself was a disciple of Jesus."
+      },
+      {
+       "ref": "Matthew 27:58",
+       "text": "He went to Pilate to ask for the body of Jesus, and Pilate ordered that it be given to him."
+      },
+      {
+       "ref": "Matthew 27:59",
+       "text": "So Joseph took the body, wrapped it in a clean linen cloth,"
+      },
+      {
+       "ref": "Matthew 27:60",
+       "text": "and placed it in his own new tomb that he had cut into the rock. Then he rolled a great stone across the entrance to the tomb and went away."
+      }
+     ]
     }
    ],
-   "why_christians_read_it_this_way": "The passage describes a servant who is innocent, is rejected, is struck down for other people's wrongs, is counted among sinners, dies and is buried, and yet afterward 'sees his offspring' and is exalted. Philip uses it to explain Jesus to the Ethiopian official in Acts 8, and Peter builds on it in 1 Peter 2. Christians see in it the clearest Old Testament picture of a death that pays for others.",
-   "traditional_jewish_reading": "The most common Jewish reading, associated with Rashi and later medieval commentators, takes the servant as the people of Israel, who are called God's servant elsewhere in Isaiah (41:8; 49:3). On this view the speakers in chapter 53 are the nations, who come to realize that Israel's suffering in exile was not what they assumed. Some older rabbinic sources did apply parts of the chapter to the Messiah (for example a passage in the Talmud, Sanhedrin 98b), so the individual reading has Jewish history too. The Aramaic Targum Jonathan reads Isaiah 52:13 as 'My servant the Messiah', but it applies only the servant's exaltation to the Messiah; the suffering in chapter 53 it applies to others, such as Israel. Jewish teachers today often point to details they say do not fit Jesus, such as 'he will see offspring and prolong his days.'",
-   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Checked by John (2026-10-26) against the linked sources. Jewish sources are link only.",
-   "note": "Whether the servant is an individual or Israel is the central debate. Christians usually answer that in 53:8 the servant suffers 'for the transgression of my people', which separates him from the people, and that Isaiah 49:5-6 has the servant restoring Israel.",
+   "why_christians_read_it_this_way": "Because the details fit only Jesus. The servant is innocent, yet he is rejected and struck down 'for the transgression of My people', so he is distinct from the people he suffers for. The LORD lays on him 'the iniquity of us all' and makes his soul 'a guilt offering'. He is counted among sinners, dies, and is buried with a rich man, as Jesus was laid in the new tomb of Joseph of Arimathea, 'a rich man' (Matthew 27:57-60). Then 'He will see His offspring, He will prolong His days'. That is a substitute who dies and then lives again. Philip uses the passage to tell the Ethiopian official about Jesus (Acts 8), Peter applies it to Christ's sinless death (1 Peter 2), and Jesus says it is fulfilled in him (Luke 22:37). The earliest Christian writers outside the New Testament, Clement of Rome and Justin Martyr, read it the same way.",
+   "traditional_jewish_reading": "Jewish interpretation of this passage has a long history with more than one view. Many early Jewish readings apply it to the Messiah, though Origen (about AD 248) already met Jews who read it of the nation. The Aramaic Targum Jonathan reads Isaiah 52:13 as 'my servant Messiah', though it applies the sufferings of chapter 53 mostly to others: the nation, the Temple and the wicked. The Talmud (Sanhedrin 98b) names the Messiah 'the leprous one' or 'the sick one' from Isaiah 53:4, and the later Zohar (about the 13th century) pictures the Messiah taking on Israel's sicknesses and pains. From Rashi (11th century) on, followed by Ibn Ezra and the Kimchis, the reading of the servant as the people of Israel became the majority Jewish view. Israel is called God's servant elsewhere in Isaiah (41:8; 49:3), and on this view the speakers in chapter 53 are the nations, who come to see that Israel's suffering in exile was not what they assumed. Some medieval Jewish teachers, such as Moshe Kohen ibn Crispin, still held to the Messiah reading. Jewish teachers today often point to details they say do not fit Jesus, such as 'he will see offspring and prolong his days.'",
+   "traditional_jewish_reading_status": "Paraphrased in our own words; not quoted. Rewritten 2026-10-27 against the linked sources (Driver and Neubauer vol. 2; Pauli 1871; Soncino Sanhedrin 98; Origen, Contra Celsum 1.55). Jewish sources are link only. Checked by John (2026-10-27).",
+   "note": "The heart of the question is whether the servant is one person or the nation. The text answers it: in 53:8 the servant suffers 'for the transgression of My people', so he is not the people. Isaiah 49:3 calls the servant 'Israel', but in 49:5-6 he restores Israel, so Christians see him as the one true Israel, the faithful Israelite who embodies the nation and brings it back. And while everyone in Isaiah confesses sin, the prophet included (6:5; 53:6), the servant alone is sinless (53:9). An innocent individual who dies for others and then lives again points to Jesus.",
    "word_ids": [
     "H5650-isa52.13",
     "H2490-isa53.5",
     "H817-isa53.10"
    ],
    "sources": [
+    {
+     "title": "S. R. Driver and A. Neubauer, The Fifty-Third Chapter of Isaiah According to the Jewish Interpreters, vol. 2, Translations (Oxford, 1877), archive.org",
+     "url": "https://archive.org/details/fiftythirdchapte02neub",
+     "use": "link only (public domain; Jewish sources in English; used for Targum, Talmud, Zohar, and Ibn Crispin, pp. 5-7, 14-15, 99-100)",
+     "link_check": "ok (HTTP 200, curl 2026-10-27)"
+    },
+    {
+     "title": "A. Neubauer, The Fifty-Third Chapter of Isaiah According to the Jewish Interpreters, vol. 1, Texts (Oxford, 1876), archive.org",
+     "url": "https://archive.org/details/fiftythirdchapte01neub",
+     "use": "link only (public domain; Hebrew and Aramaic texts)",
+     "link_check": "ok (HTTP 200, curl 2026-10-27)"
+    },
+    {
+     "title": "1 Clement 16, trans. Roberts and Donaldson (New Advent)",
+     "url": "https://www.newadvent.org/fathers/1010.htm",
+     "use": "link only (public domain translation; chapter 16 quotes Isaiah 53 of Christ)",
+     "link_check": "ok (HTTP 200, curl 2026-10-27; chapter 16 text confirmed)"
+    },
+    {
+     "title": "Justin Martyr, Dialogue with Trypho, chapter 13 (New Advent)",
+     "url": "https://www.newadvent.org/fathers/01282.htm",
+     "use": "link only (public domain translation; chapter 13 quotes Isaiah 52:10-54:6)",
+     "link_check": "ok (HTTP 200, curl 2026-10-27; chapter 13 text confirmed)"
+    },
+    {
+     "title": "Origen, Against Celsus, Book 1, chapter 55, trans. Frederick Crombie (New Advent)",
+     "url": "https://www.newadvent.org/fathers/04161.htm",
+     "use": "link only (public domain translation; reports a Jewish reading of the servant as the whole people)",
+     "link_check": "ok (HTTP 200, curl 2026-10-27; chapter 55 text confirmed)"
+    },
     {
      "title": "Babylonian Talmud, Sanhedrin 98a-b, Soncino English translation (halakhah.com)",
      "url": "https://halakhah.com/sanhedrin/sanhedrin_98.html",
@@ -187,6 +240,24 @@
      "url": "https://archive.org/details/chaldeeparaphra00uzzigoog",
      "use": "link only (Jewish source; checked by John)",
      "link_check": "ok (HTTP 200, curl 2026-10-26)"
+    },
+    {
+     "title": "Darrell L. Bock and Mitch Glaser, eds., The Gospel According to Isaiah 53 (Kregel, 2012)",
+     "url": "https://www.kregel.com/biblical-studies/the-gospel-according-to-isaiah-53/",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-27)"
+    },
+    {
+     "title": "J. Alec Motyer, The Prophecy of Isaiah (IVP)",
+     "url": "https://www.ivpress.com/the-prophecy-of-isaiah",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-27)"
+    },
+    {
+     "title": "John N. Oswalt, The Book of Isaiah, Chapters 40-66, NICOT (Eerdmans)",
+     "url": "https://www.eerdmans.com/9780802825346/the-book-of-isaiah-chapters-4066/",
+     "use": "link only (copyrighted)",
+     "link_check": "ok (HTTP 200, curl 2026-10-27; final URL after redirect)"
     },
     {
      "title": "Michael L. Brown, Answering Jewish Objections to Jesus, Vol. 3: Messianic Prophecy Objections (Baker, 2003), ISBN 9780801064234",

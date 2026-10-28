@@ -128,3 +128,6 @@ Content lives in `content/<section>/`. Owners edit only their folder, then run `
 
 ## 14. Publishing (when Xavier connects GitHub)
 Publish `_site/` with GitHub Pages (Actions: `actions/upload-pages-artifact` with `path: site/_site`, then `actions/deploy-pages`), or commit `_site/` contents to a `gh-pages` branch. Set `base_path` in `site.config.json` to `/<repo>/` first (only the 404 page uses it). `.nojekyll` is included.
+
+## Hero motion (v8)
+The home hero is an "armillary cross": the thin-line cross with three tilted orbit rings, each carrying one blue bead with a short trail, faint rays, and slow light pulses travelling along the beams. It draws in over ~3s, then moves continuously and leans gently toward the pointer (desktop) or device tilt (phones). Rules: one accent blue, strokes 1–1.5px, no extra colors or glows beyond the soft pulse. Code lives in `assets/js/hero.js` (canvas, DPR-aware, pauses offscreen/tab hidden). The static SVG in `build.py` `hero_art()` stays as the no-JS and `prefers-reduced-motion` fallback; keep both in sync if the figure changes.

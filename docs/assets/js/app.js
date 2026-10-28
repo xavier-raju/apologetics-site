@@ -2,6 +2,7 @@
 // this file only adds interaction, so every page still reads fine without JavaScript.
 import { initWidgets } from "./ui.js";
 import { initFilters } from "./filters.js";
+import { initHero } from "./hero.js";
 
 export const ROOT = new URL(document.documentElement.dataset.root || "./", location.href);
 
@@ -75,7 +76,7 @@ function openFromHash() {
   el?.classList.add("is-in", "is-target");
 }
 
-initMenu(); initHeader(); initWidgets(document); initFilters(document); initExpandAll(); observeReveals(); openFromHash();
+initMenu(); initHeader(); initWidgets(document); initFilters(document); initExpandAll(); observeReveals(); openFromHash(); initHero();
 addEventListener("hashchange", openFromHash);
 
 const page = document.documentElement.dataset.page;

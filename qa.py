@@ -4,19 +4,23 @@ Usage: python qa.py http://127.0.0.1:8765/apologetics-site/   (needs playwright 
 import sys, json, pathlib
 from playwright.sync_api import sync_playwright
 BASE = sys.argv[1].rstrip("/") + "/"
-SITE = pathlib.Path(__file__).parent / "_site"
+SITE = pathlib.Path(__file__).parent / "docs"
 OUT = pathlib.Path(__file__).parent / "_qa"; OUT.mkdir(exist_ok=True)
 routes = sorted(str(p.parent.relative_to(SITE)).replace(".", "") for p in SITE.rglob("index.html"))
 routes = [r + "/" if r else "" for r in routes]
-SIZES = [(360, 740), (375, 812), (412, 915), (1280, 800)]
+SIZES = [(320, 640), (360, 740), (375, 812), (412, 915), (1280, 800)]
 TAP_JS = """() => [...document.querySelectorAll('a,button,input,[role=button],summary,[tabindex="0"]')].filter(e=>{
   const r=e.getBoundingClientRect(); if(!r.width||!r.height) return false;
   if(e.closest('.menu[hidden],[hidden]')) return false;
-  if(e.matches('main p a, main li a:not(.q-link), .prose a, .lede a, figcaption a, dd a, .small a, td a')) return false; // inline text links: WCAG 2.5.8 inline exception
-  return r.height<44 || r.width<24 }).map(e=>(e.className||e.tagName)+':'+e.textContent.trim().slice(0,30)+' '+Math.round(e.getBoundingClientRect().height))"""
+  if(e.tagName==='A'){ // inline exception (WCAG 2.5.8) only for links inside running text
+    const blk=e.closest('p,li,td,figcaption,blockquote');
+    if(blk && !e.matches('.points-to-jesus__more') && !blk.matches('.source-list li, .q-link')){const all=blk.textContent.replace(/\\s+/g,' ').trim().length;
+      const lk=[...blk.querySelectorAll('a')].reduce((n,a)=>n+a.textContent.trim().length,0); if(all-lk>40 && (all-lk)/all>0.4) return false;}}
+  return r.height<44 || r.width<44 }).map(e=>(e.className||e.tagName)+':'+e.textContent.trim().slice(0,30)+' '+Math.round(e.getBoundingClientRect().width)+'x'+Math.round(e.getBoundingClientRect().height))"""
 res = {"pages": len(routes), "errors": [], "overflow": [], "tap": {}}
 with sync_playwright() as p:
-    b = p.chromium.launch()
+    try: b = p.chromium.launch()
+    except Exception: b = p.chromium.launch(channel="chrome")  # bundled Chromium missing: use system Chrome
     for w, h in SIZES:
         ctx = b.new_context(viewport={"width": w, "height": h}, device_scale_factor=1)
         pg = ctx.new_page()

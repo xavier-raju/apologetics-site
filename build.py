@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 C = ROOT / "content"
-OUT = ROOT / "_site"
+OUT = ROOT / os.environ.get("CERTAINTY_OUT", "docs")  # v10: build straight into docs/ (GitHub Pages folder)
 CFG = json.loads((ROOT / "site.config.json").read_text())
 WARN = []
 
@@ -23,7 +23,24 @@ def jload(p, default=None):
         WARN.append(f"missing content file {p.relative_to(ROOT)}"); return default
     return json.loads(p.read_text())
 
-def esc(s): return html.escape("" if s is None else str(s), quote=True)
+SRC_TEXT = [0]  # >0 while rendering quoted or hosted source text (kept exactly as the source has it)
+def esc(s):
+    s = "" if s is None else str(s)
+    return html.escape(s if SRC_TEXT[0] else no_dash(s), quote=True)
+def esc_src(s):
+    SRC_TEXT[0] += 1
+    try: return esc(s)
+    finally: SRC_TEXT[0] -= 1
+def src_text(fn):
+    def w(*a, **k):
+        SRC_TEXT[0] += 1
+        try: return fn(*a, **k)
+        finally: SRC_TEXT[0] -= 1
+    return w
+
+def no_dash(s):
+    """Rule 5: no em dashes in output text."""
+    return s.replace(" \u2014 ", ", ").replace("\u2014", "\u2013")
 
 # ---------------------------------------------------------------- navigation
 NAV = [  # (route, label, note, show in desktop bar)
@@ -37,6 +54,7 @@ NAV = [  # (route, label, note, show in desktop bar)
     ("answers/", "Answer an objection", "Common questions", True),
     ("learn/", "Learn", "Lessons & quiz", False),
     ("what-others-say/", "What others say", "And how to respond", False),
+    ("explore/", "Explore the repo", "Sources, life, prophecy, dating", False),
     ("library/", "Library", "Every document", True),
     ("ask/", "Ask a question", "Search our answers", False),
 ]
@@ -173,6 +191,7 @@ def verses_for(ref, limit=6):
         v += 1
     return res
 
+@src_text
 def verse_btn(ref):
     vs = verses_for(ref)
     if not vs: return f'<span class="ref">{esc(ref)}</span>'
@@ -241,7 +260,7 @@ def answer_card(c, root, open_=False):
     body = f'''
       <div><p class="answer__label">30-second answer</p><p class="answer__short">{esc(c.get("short_answer"))}</p></div>
       <div><p class="answer__label">Evidence</p><ul class="evidence-list">{"".join(f"<li>{esc(e)}</li>" for e in c.get("evidence", []))}</ul></div>
-      {f'<figure class="quote quote--inline"><blockquote>{esc(pt.get("quote"))}</blockquote><figcaption>{verse_btn(pt.get("ref",""))} · {esc(pt.get("translation",""))}</figcaption></figure>' if pt.get("quote") else ""}
+      {f'<figure class="quote quote--inline"><blockquote>{esc_src(pt.get("quote"))}</blockquote><figcaption>{verse_btn(pt.get("ref",""))} · {esc(pt.get("translation",""))}</figcaption></figure>' if pt.get("quote") else ""}
       {f'<div><p class="answer__label">Still debated</p><p class="muted">{esc(c["still_debated"])}</p></div>' if c.get("still_debated") else ""}
       {points_to_html(c.get("points_to_jesus"), root)}
       <div><p class="answer__label">Go deeper</p><ul class="source-list">
@@ -268,7 +287,7 @@ def layout(route, title, body, page_js=None, desc=None):
     bar = "".join(f"<li>{a(r, esc(l))}</li>" for r, l, _, p in NAV if p)
     menu = "".join(f"<li>{a(r, f'<span>{esc(l)}</span><small>{esc(n)}</small>')}</li>" for r, l, n, _ in NAV)
     foot_nav = "".join(f"<li>{a(r, esc(l))}</li>" for r, l, _, _ in NAV)
-    creds = "".join(f'<li>{link(n, u.replace("{root}", root), "")} <span>— {esc(l)}</span></li>' for n, u, l in CREDITS)
+    creds = "".join(f'<li>{link(n, u.replace("{root}", root), "")} <span>· {esc(l)}</span></li>' for n, u, l in CREDITS)
     full = f"{title} · {CFG['name']}" if title else f"{CFG['name']}: {CFG['subtitle']}"
     js = f'<script type="module" src="{root}assets/js/app.js"></script>'
     return f'''<!doctype html>
@@ -332,14 +351,14 @@ def build_home():
     top = "".join(f'<li><a class="q-link" href="answers/{esc(c["id"])}/"><span>{esc(c["objection"])}</span>{ARROW}</a></li>' for c in sorted(cards, key=lambda c: c.get("order", 99))[:5])
     stats = "".join(f'<div class="stat reveal"><div class="stat__n">{esc(f.get("number"))}</div><div class="stat__l">{esc(f.get("wording"))}</div></div>' for f in facts[:3])
     q = next((w for w in wit if w.get("id") == "tacitus" and w.get("quote")), next((w for w in wit if w.get("quote")), None))
-    quote = f'''<figure class="quote quote--hero reveal"><blockquote>{esc(q["quote"])}</blockquote><figcaption><strong>{esc(q["name"])}</strong>, {esc(q["work"])} · {esc(q["date_written"])}<br>{status_tag(q.get("confidence"))}</figcaption></figure>
+    quote = f'''<figure class="quote quote--hero reveal"><blockquote>{esc_src(q["quote"])}</blockquote><figcaption><strong>{esc(q["name"])}</strong>, {esc(q["work"])} · {esc(q["date_written"])}<br>{status_tag(q.get("confidence"))}</figcaption></figure>
       <p><a class="btn btn--ghost" href="witnesses/">All outside witnesses {ARROW}</a></p>''' if q else ""
     art = hero_art()
     body = f'''
 <section class="hero"><div class="wrap">
   <div class="hero__inner">
     <h1 class="hero__title">{esc(CFG['name'])}</h1>
-    <figure class="hero__verse"><blockquote>{re.sub(r"\b(certainty)\b", r'<strong class="hl">\1</strong>', esc(BSB.get("Luke 1:4", "")), count=1, flags=re.I)}</blockquote><figcaption>Luke 1:4 · BSB</figcaption></figure>
+    <figure class="hero__verse"><blockquote>{re.sub(r"\b(certainty)\b", r'<strong class="hl">\1</strong>', esc_src(BSB.get("Luke 1:4", "")), count=1, flags=re.I)}</blockquote><figcaption>Luke 1:4 · BSB</figcaption></figure>
     <p class="lede hero__desc">{esc(CFG['hero_line'])}</p>
     <form class="ask-form" action="ask/" method="get" role="search">
       <label class="sr-only" for="hero-q">Ask a question</label>
@@ -347,10 +366,13 @@ def build_home():
     </form>
     <div class="btn-row hero__cta"><a class="btn" href="start-here/">Start here {ARROW}</a><a class="btn btn--link" href="start-here/doubting/">Have doubts? Read this first</a></div>
   </div>{art}</div></section>
+<section class="section res-band"><div class="wrap"><p class="eyebrow">The resurrection</p><h2>Five facts. Every theory. You decide.</h2>
+  <p class="muted measure">Start with the five facts nearly every historian grants, weigh each theory against them, then walk through the case as the jury.</p>
+  <ol class="res-links">{"".join(f'<li><a class="q-link" href="{r}"><span>{l}</span>{ARROW}</a></li>' for r, l in (("resurrection/", "The five Confirmed facts"), ("resurrection/tester/", "Theory tester"), ("resurrection/timeline/", "Easter to Pentecost, with a map"), ("resurrection/courtroom/", "The courtroom walk-through"), ("resurrection/voices/", "Voices: what sceptics grant"), ("explore/", "Explore the 0xSero repo")))}</ol></div></section>
 <section class="section section--mist"><div class="wrap split">
   <div><p class="eyebrow">Questions people ask</p><h2>Ready answers, honest sources</h2><p class="muted">Each answer gives you something to say in thirty seconds, then the evidence behind it.</p><a class="btn btn--ghost" href="answers/">See all answers {ARROW}</a></div>
   <ol class="q-list">{top}</ol></div></section>
-<section class="section"><div class="wrap"><p class="eyebrow">Explore</p><h2>Twelve ways in</h2><div class="grid grid--3 tiles">{tiles}</div></div></section>
+<section class="section"><div class="wrap"><p class="eyebrow">Explore</p><h2>{["Twelve","Thirteen","Fourteen"][len(NAV) - 12] if 12 <= len(NAV) <= 14 else len(NAV)} ways in</h2><div class="grid grid--3 tiles">{tiles}</div></div></section>
 <section class="section section--mist"><div class="wrap"><p class="eyebrow">The text we have</p><h2>Numbers that hold up</h2><div class="grid grid--3">{stats}</div><p><a href="manuscripts/">How we know the text wasn't changed {ARROW}</a></p></div></section>
 <section class="section"><div class="wrap measure-wide"><p class="eyebrow">Outside the Bible</p><h2>What a Roman historian wrote</h2>{quote}</div></section>'''
     page("", "", body)
@@ -540,7 +562,7 @@ def build_witnesses():
     cards = []
     for w in d.get("cards", []):
         ft = w.get("full_text"); ft = [ft] if isinstance(ft, str) else (ft or [])
-        q = f'<blockquote>{esc(w["quote"])}</blockquote>' if w.get("quote") else f'<p class="paraphrase"><span class="tag tag--neutral">Our paraphrase</span> {esc(w.get("paraphrase"))}</p>'
+        q = f'<blockquote>{esc_src(w["quote"])}</blockquote>' if w.get("quote") else f'<p class="paraphrase"><span class="tag tag--neutral">Our paraphrase</span> {esc(w.get("paraphrase"))}</p>'
         cards.append(f'''<figure class="quote witness reveal" id="{esc(w["id"])}">
           <div class="card__meta">{status_tag(w.get("confidence"))}<span>{esc(w.get("date_written"))}</span>{f"<span>· {esc(w['years_after_cross'])} years after the cross</span>" if w.get("years_after_cross") else ""}</div>
           {q}<figcaption><strong>{esc(w.get("name"))}</strong> · {esc(w.get("work"))}<br><span>{esc(w.get("stance"))}</span>{f" · tr. {esc(w['translator'])}" if w.get("translator") else ""}</figcaption>
@@ -559,7 +581,7 @@ def build_witnesses():
         r = f"library/{slug(p.stem)}/"; rt = "../../"
         info = f'''<dl class="meta-list"><div><dt>Translation</dt><dd>{esc(meta.get("translation"))}</dd></div><div><dt>License</dt><dd>{esc(meta.get("license"))}</dd></div>
           <div><dt>Online source</dt><dd>{link(short_url(meta.get("source_url", "")), meta.get("source_url"), rt)}</dd></div><div><dt>Retrieved</dt><dd>{esc(meta.get("retrieved"))}</dd></div></dl>'''
-        body = page_head(meta.get("title", p.stem), "Full text, public domain.", [("Library", "/library/"), (meta.get("title", p.stem), "/" + r)], rt) + f'<div class="wrap section"><div class="prose reading">{info}{md(text, rt)}</div><p class="btn-row"><a class="btn btn--ghost btn--sm" href="{rt}{r}{p.name}" download>Download (.md)</a><a class="btn btn--ghost btn--sm" href="{rt}witnesses/">Back to outside witnesses</a></p></div>'
+        body = page_head(meta.get("title", p.stem), "Full text, public domain.", [("Library", "/library/"), (meta.get("title", p.stem), "/" + r)], rt) + f'<div class="wrap section"><div class="prose reading">{info}{src_text(md)(text, rt)}</div><p class="btn-row"><a class="btn btn--ghost btn--sm" href="{rt}{r}{p.name}" download>Download (.md)</a><a class="btn btn--ghost btn--sm" href="{rt}witnesses/">Back to outside witnesses</a></p></div>'
         page(r, meta.get("title", p.stem), body, copy=(p, p.name))
         LIB_HOSTED.append({"id": "text-" + slug(p.stem), "title": meta.get("title", p.stem), "author": meta.get("translation", ""), "topic": "ancient", "kind": "Ancient text", "access": "hosted", "license": "Public domain", "url": "/" + r, "description": f"Full text. {meta.get('translation','')}"})
         index("Library", meta.get("title", p.stem), r, text[:3000], snippet="Full public-domain text")
@@ -602,6 +624,7 @@ def word_btn(w):
     return f'''<button type="button" class="word-chip" aria-label="{esc(lab)}" aria-haspopup="dialog" aria-expanded="false" data-word="{esc(json.dumps(data, ensure_ascii=False))}">
       <span class="word-chip__orig" lang="{lang}" dir="{"rtl" if lang == "he" else "ltr"}">{esc(data["orig"])}</span><span class="word-chip__gloss">{esc(w.get("gloss"))}</span></button>'''
 
+@src_text
 def verses_html(block):
     vs = block.get("verses") or [{"ref": r, "text": t} for r, t in verses_for(block.get("ref", ""), 30)]
     return "".join(f'<p class="verse-line"><sup>{esc(v["ref"].rsplit(":", 1)[-1])}</sup> {esc(v["text"])}</p>' for v in vs)
@@ -644,7 +667,7 @@ def build_prophecy():
         page(f"prophecy/{p['id']}/", p.get("title"), body)
         index("Prophecy", p.get("title"), f"prophecy/{p['id']}/", f"{ot.get('ref')} {p.get('why_christians_read_it_this_way')} {p.get('traditional_jewish_reading')} {p.get('category')}", snippet=p.get("why_christians_read_it_this_way", ""))
 
-def build_resurrection():
+def build_resurrection_v8():  # retired in v10; kept for reference
     p = C / "resurrection/resurrection.md"
     root = "../"
     if not p.exists(): WARN.append("resurrection.md missing"); return
@@ -724,7 +747,7 @@ def build_library():
         hosted = i.get("access") == "hosted"
         rows.append(f'''<li class="lib-item" data-tags="{esc(i.get("topic"))}" data-access="{"hosted" if hosted else "link"}" data-text="{esc((i.get("title","") + " " + i.get("author","") + " " + i.get("description","") + " " + " ".join(i.get("keywords", []))).lower())}">
           <div><div class="card__meta">{example_tag(i)}<span class="tag tag--{"hosted" if hosted else "link"}">{"Hosted here" if hosted else "Link only"}</span><span>{esc(tl.get(i.get("topic"), i.get("topic")))}</span><span>· {esc(i.get("kind"))}</span><span>· {esc(i.get("license"))}</span></div>
-          <h2 class="lib-item__title">{link(i.get("title"), i.get("url"), root)}</h2><p class="muted small">{esc(i.get("author"))}{" · " + esc(i.get("date")) if i.get("date") else ""}</p><p class="small">{esc(i.get("description"))}</p></div>
+          <h2 class="lib-item__title">{link(i.get("title"), i.get("url"), root)}</h2>{f'<p class="small"><a class="lib-item__backup" href="{esc(i["url_backup"])}" rel="noopener" target="_blank">Backup link (DOI)</a></p>' if i.get("url_backup") else ""}<p class="muted small">{esc(i.get("author"))}{" · " + esc(i.get("date")) if i.get("date") else ""}</p><p class="small">{esc(i.get("description"))}</p></div>
           <a class="btn {"" if hosted else "btn--ghost"} btn--sm" href="{esc(href(i.get("url"), root))}"{ext_attrs(i.get("url"))}>{"Read" if hosted else "Visit source"} {ARROW}</a></li>''')
         if not str(i.get("id", "")).startswith("text-"):
             index("Library", i.get("title"), "library/?q=" + re.sub(r"\W+", "+", i.get("title", "")[:40]), f"{i.get('author')} {i.get('description')}", kw=i.get("keywords", []), snippet=i.get("description", ""))
@@ -755,6 +778,11 @@ def build_pages():
         body = page_head(meta.get("title", p.stem), esc(meta.get("summary", "")), [(meta.get("title", p.stem), "/" + r)], root, eyebrow=meta.get("eyebrow", "")) + f'<div class="wrap section"><div class="prose">{md(text, root)}</div></div>'
         page(r, meta.get("title", p.stem), body)
         index("Page", meta.get("title", p.stem), r, text, snippet=meta.get("summary", ""))
+
+def build_resurrection():
+    import build_evidence
+    st = build_evidence.run(sys.modules[__name__])
+    print("EVIDENCE", json.dumps({"shipped": st["shipped"], "dropped": st["dropped"], "dropped_ids": st["dropped_ids"], "nested_dropped": st["nested_dropped"], "dropped_cites": st["dropped_cites"], "timeline": st.get("timeline"), "why_lines": st.get("why_lines")}))
 
 def build_404():
     body = page_head("Page not found", "That page may have moved. Try the search, or start from the home page.", [], "")
@@ -797,6 +825,7 @@ if __name__ == "__main__":
     for fn in (build_home, build_start, build_timeline, build_map, build_witnesses, build_manuscripts, build_prophecy,
                build_resurrection, build_answers, build_learn, build_others, build_library, build_ask, build_pages, build_404):
         try: fn()
+        except SystemExit: raise  # hard data rules fail the whole build
         except Exception as e:  # one broken content file must not break the whole site
             import traceback; traceback.print_exc(); WARN.append(f"{fn.__name__} failed: {e}")
     write()

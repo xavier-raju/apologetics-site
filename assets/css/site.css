@@ -454,3 +454,90 @@ table{border-collapse:collapse;width:100%;font-size:var(--fs-sm)} th,td{text-ali
 /* Hero motion (assets/js/hero.js): canvas takes over from the static SVG when JS runs and motion is allowed */
 .hero__canvas{aspect-ratio:1/1;height:auto}
 .hero__art.is-live{visibility:hidden}
+
+/* ---- v10: Orbit hero motion (prototype A) ---- */
+@media(max-width:899px){.hero__art{opacity:.42}}
+.hero__canvas{pointer-events:none}
+/* ---- v10: Resurrection section ---- */
+.chapters ol{display:flex;gap:var(--s2);overflow-x:auto;list-style:none;padding:0 0 var(--s2);margin:0 0 var(--s6);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chapters a{display:inline-flex;align-items:center;gap:var(--s2);min-height:var(--tap);padding:0 var(--s4);border:1px solid var(--line-2);border-radius:var(--radius-pill);white-space:nowrap;text-decoration:none;color:var(--ink-2);font-size:var(--fs-sm)}
+.chapters a[aria-current]{border-color:var(--accent);color:var(--accent-ink);background:var(--accent-soft)}
+.chapters__n{font-variant-numeric:tabular-nums;color:var(--muted)}
+.facts{display:grid;gap:var(--s4)}
+.fact-card{position:relative;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:var(--s5);overflow:hidden}
+.fact-card__title{margin:var(--s3) 0 var(--s2);font-size:var(--fs-md)}
+.fact-card__n{font-variant-numeric:tabular-nums;color:var(--accent);font-weight:600}
+.fact-card__deep{display:none;border-top:1px solid var(--line);margin-top:var(--s4);padding-top:var(--s4)}
+.fact-card.is-open .fact-card__deep,.no-js .fact-card__deep{display:block}
+.fact-card.is-open .fact-card__front .fact-card__toggle,.no-js .fact-card__toggle{display:none}
+.fact-card__sec{margin-top:var(--s4)}
+.conc{list-style:none;padding:0;margin:0;display:grid;gap:var(--s3)}
+.conc__q{margin:0;font-family:var(--font-serif);font-size:var(--fs-base);line-height:1.45;color:var(--ink-2);border-left:2px solid var(--accent);padding-left:var(--s3)}
+.tomb__fig{display:flex;flex-direction:column;gap:2px;margin:var(--s3) 0}
+.tomb__n{font-family:var(--font-serif);font-size:var(--fs-xl);color:var(--accent-ink)}
+.mt{margin-top:var(--s7)}
+.res-band .res-links{list-style:none;padding:0;margin:var(--s4) 0 0;display:grid;gap:0}
+@media(min-width:900px){.res-band .res-links{grid-template-columns:1fr 1fr;column-gap:var(--s6)}}
+/* tester */
+.tester__chips{margin-bottom:var(--s4);flex-wrap:nowrap;overflow-x:auto;padding-bottom:var(--s2);scrollbar-width:thin}
+.tester__chips .chip{flex:none;white-space:nowrap}
+.js .tester.is-live .theory:not([data-active]){display:none}
+.theory+.theory{margin-top:var(--s4)}
+.score{font-size:var(--fs-md)}
+.verdicts{list-style:none;padding:0;margin:0;display:grid;gap:var(--s3)}
+.verdict{display:grid;grid-template-columns:32px 1fr;gap:var(--s3);padding:var(--s3) 0;border-top:1px solid var(--line)}
+.verdict__tag{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;font-weight:700}
+.verdict--ok .verdict__tag{color:var(--ok);background:var(--ok-soft)}
+.verdict--warn .verdict__tag{color:var(--warn);background:var(--warn-soft)}
+.verdict--bad .verdict__tag{color:var(--bad);background:var(--bad-soft)}
+.verdict__fact{margin:0;font-weight:600}
+.verdict__fact a{display:inline-flex;min-height:var(--tap);align-items:center}
+.source-list--inline{margin:0}
+.plain{list-style:none;padding:0;display:grid;gap:var(--s2)}
+/* timeline + map */
+.rmap{margin:0 0 var(--s5);max-width:520px}
+.rmap svg{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:var(--radius);background:var(--mist)}
+.rmap__pin circle{fill:var(--accent);stroke:var(--paper);stroke-width:2}
+.rmap__pin.is-framing circle{fill:var(--paper);stroke:var(--accent);stroke-width:1.5;stroke-dasharray:3 2}
+.rmap__pin text{font:500 11px var(--font-sans);fill:var(--ink-2)}
+.rmap__region{font:600 10px var(--font-sans);letter-spacing:.16em;fill:var(--muted)}
+.rmap__sea{fill:var(--accent-soft);stroke:var(--accent);stroke-width:.8}
+.rmap__river{fill:none;stroke:var(--accent);stroke-width:.8;opacity:.5}
+.tl{margin-top:var(--s5)}
+.tl-sub{list-style:none;padding:0;margin:var(--s3) 0 0;display:grid;gap:var(--s3)}
+.tl-life{border-left:2px solid var(--line-2);padding-left:var(--s3)}
+.tl-life__t{margin:var(--s1) 0}
+/* courtroom */
+.steps{list-style:none;padding:0;margin:0;display:grid;gap:var(--s4)}
+.step{display:grid;grid-template-columns:36px 1fr;gap:var(--s3);align-items:start}
+.step__n{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border:1px solid var(--accent);border-radius:50%;color:var(--accent);font-variant-numeric:tabular-nums;margin-top:var(--s4)}
+.bio{margin-top:var(--s6)}
+/* voices */
+.voice__cols{display:grid;gap:var(--s4)}
+@media(min-width:700px){.voice__cols{grid-template-columns:1fr 1fr}}
+/* explorers */
+.ex-item h2{font-size:var(--fs-base)}
+.dchart{margin:0 0 var(--s5)}
+.dchart svg{width:100%;height:auto;display:block}
+.dchart__row text{font:400 8px var(--font-sans);fill:var(--ink-2)}
+.dchart__row line{stroke:var(--accent);stroke-width:6;stroke-linecap:round}
+.dchart__row.is-contested line{stroke:var(--warn);opacity:.55}
+.dchart__tick line{stroke:var(--line);stroke-width:1}
+.dchart__tick text{font:500 8px var(--font-sans);fill:var(--muted)}
+.credits-list li{font-size:var(--fs-sm)}
+
+.fact-card__why{margin-top:var(--s4);padding:var(--s3) var(--s4);background:var(--mist);border-radius:var(--radius-sm)}
+/* v10: 320px wrap + 44px tap targets (John's pre-check) */
+.lib-controls{min-width:0;max-width:100%}
+.lib-controls .field{flex-wrap:wrap;min-width:0;max-width:100%;box-sizing:border-box}
+.lib-controls .field input{min-width:0;flex:1 1 8rem}
+.lib-controls .chips,.chips{flex-wrap:wrap;min-width:0;max-width:100%}
+.crumbs a,.footer-links a,.nav-primary a,.menu__list a,.lib-item__title a{display:inline-flex;align-items:center;justify-content:center;min-height:var(--tap);min-width:var(--tap)}
+.lib-item__title a{justify-content:flex-start}
+.ex-item .small a{display:inline-flex;align-items:center;min-height:var(--tap)}
+/* standalone links: 44px targets (John fullcheck 24241f0) */
+p.muted.small a,.meta-list dd a,main p>a:only-child,.small a,.source-list a{display:inline-flex;align-items:center;min-height:var(--tap)}
+/* 44x44 for short standalone targets (John recheck 40ed482) */
+p.muted.small>a,.card__meta>a,button.verse,a.points-to-jesus__more,.lib-item__backup{display:inline-flex;align-items:center;justify-content:center;min-width:var(--tap);min-height:var(--tap)}
+a.points-to-jesus__more{justify-content:flex-start}
+.tabpanel{min-height:var(--tap)}

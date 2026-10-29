@@ -1,0 +1,39 @@
+{
+ "meta": {
+  "author": "Gospel Bot",
+  "label": "Why this matters (reflection, not evidence)",
+  "verses_checked": "BSB via bible.helloao.org, 29 Oct 2026, by TARS"
+ },
+ "why": {
+  "fact-crucifixion": {
+   "text": "The cross means God did not love us from a distance. Jesus entered real suffering and real death for people who had not earned it.",
+   "quote": "While we were still sinners, Christ died for us.",
+   "ref": "Romans 5:8 (BSB)"
+  },
+  "fact-appearances-to-disciples": {
+   "text": "The risen Jesus came back for friends who had run away. If he met them in their fear and doubt, he can meet you in yours.",
+   "quote": "Peace be with you!",
+   "ref": "John 20:19 (BSB)"
+  },
+  "fact-paul-conversion": {
+   "text": "No one is too far gone. Grace turned the church's fiercest opponent into one of its boldest messengers, and it can rewrite your story too.",
+   "quote": "Christ Jesus came into the world to save sinners.",
+   "ref": "1 Timothy 1:15 (BSB)"
+  },
+  "fact-james-conversion": {
+   "text": "If people in your family doubt, take heart. Even Jesus' own brother did not believe at first, yet he became a leader of the church.",
+   "quote": "For even His own brothers did not believe in Him.",
+   "ref": "John 7:5 (BSB)"
+  },
+  "fact-early-creed-1cor15": {
+   "text": "You stand on the same message the first believers stood on: Christ died for our sins, was buried, and was raised on the third day.",
+   "quote": "Christ died for our sins according to the Scriptures",
+   "ref": "1 Corinthians 15:3 (BSB)"
+  },
+  "fact-empty-tomb": {
+   "text": "Death does not get the last word, for Jesus or for anyone who trusts him. Every grave we stand beside is answered by the angel's words.",
+   "quote": "He is not here; He has risen, just as He said!",
+   "ref": "Matthew 28:6 (BSB)"
+  }
+ }
+}

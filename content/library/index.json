@@ -50,16 +50,16 @@
     },
     {
       "id": "ex-dark",
-      "example": true,
       "title": "Ken Dark, Roman-Period and Byzantine Nazareth and Its Hinterland",
       "author": "Ken Dark",
       "date": "2020",
       "topic": "archaeology",
       "kind": "Book",
       "access": "link",
-      "license": "Copyrighted — link only",
-      "url": "https://www.routledge.com/",
-      "description": "EXAMPLE — scholar's book: listed with a link, never hosted."
+      "license": "Copyrighted, link only",
+      "url": "https://www.routledge.com/Roman-Period-and-Byzantine-Nazareth-and-its-Hinterland/Dark/p/book/9781032238623",
+      "description": "Archaeological study of Nazareth and its surroundings from the Roman to the Byzantine period. Listed with a link to the publisher; not hosted.",
+      "url_backup": "https://doi.org/10.4324/9780367809249"
     }
   ],
   "note": "Hosted public-domain witness texts (content/witnesses/texts/*.md) are added automatically by build.py; list only extra items here."

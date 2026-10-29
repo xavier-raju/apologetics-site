@@ -282,13 +282,7 @@ def layout(route, title, body, page_js=None, desc=None):
 <link rel="icon" href="{root}assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="{root}assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{root}assets/fonts/newsreader-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{root}assets/css/palette-tokens.css">
-<link rel="stylesheet" href="{root}assets/css/motion-tokens.css">
 <link rel="stylesheet" href="{root}assets/css/site.css">
-<link rel="stylesheet" href="{root}assets/css/hero-v9.css">
-<link rel="stylesheet" href="{root}assets/css/motion-v9.css">
-<link rel="stylesheet" href="{root}assets/css/luke-v9.css">
-<link rel="stylesheet" href="{root}assets/css/merge-v9.css">
 <script src="{root}assets/js/nojs.js"></script>
 {js}
 <script data-goatcounter="https://xavier-raju.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
@@ -357,7 +351,7 @@ def build_home():
   <div><p class="eyebrow">Questions people ask</p><h2>Ready answers, honest sources</h2><p class="muted">Each answer gives you something to say in thirty seconds, then the evidence behind it.</p><a class="btn btn--ghost" href="answers/">See all answers {ARROW}</a></div>
   <ol class="q-list">{top}</ol></div></section>
 <section class="section"><div class="wrap"><p class="eyebrow">Explore</p><h2>Twelve ways in</h2><div class="grid grid--3 tiles">{tiles}</div></div></section>
-<section class="section section--mist band-ink grid-bg"><div class="wrap"><p class="eyebrow">The text we have</p><h2>Numbers that hold up</h2><div class="grid grid--3">{stats}</div><p><a href="manuscripts/">How we know the text wasn't changed {ARROW}</a></p></div></section>
+<section class="section section--mist"><div class="wrap"><p class="eyebrow">The text we have</p><h2>Numbers that hold up</h2><div class="grid grid--3">{stats}</div><p><a href="manuscripts/">How we know the text wasn't changed {ARROW}</a></p></div></section>
 <section class="section"><div class="wrap measure-wide"><p class="eyebrow">Outside the Bible</p><h2>What a Roman historian wrote</h2>{quote}</div></section>'''
     page("", "", body)
 
@@ -656,7 +650,7 @@ def build_resurrection():
     if not p.exists(): WARN.append("resurrection.md missing"); return
     meta, text = front_matter(p.read_text())
     text = re.sub(r"^# .*\n", "", text.strip() + "\n", count=1)
-    body = page_head(meta.get("title", "The resurrection"), esc(meta.get("summary", "")), [("Resurrection", "/resurrection/")], root) + f'<div class="band-ink res-band"><div class="wrap"><div class="prose">{md(text, root, shift=0)}</div></div></div>'
+    body = page_head(meta.get("title", "The resurrection"), esc(meta.get("summary", "")), [("Resurrection", "/resurrection/")], root) + f'<div class="wrap section"><div class="prose">{md(text, root, shift=0)}</div></div>'
     index("Resurrection", meta.get("title", "The resurrection"), "resurrection/", text, kw=["rise", "risen", "empty tomb", "easter"], snippet=meta.get("summary", ""))
     page("resurrection/", "The resurrection", body)
 

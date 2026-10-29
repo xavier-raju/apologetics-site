@@ -3,12 +3,6 @@
 import { initWidgets } from "./ui.js";
 import { initFilters } from "./filters.js";
 import { initHero } from "./hero.js";
-import { initDraw } from "./v9/draw.js";
-import { initSweep } from "./v9/sweep.js";
-import { initAccordion } from "./v9/accordion.js";
-import { initSpotlight } from "./spotlight.js";
-import { initCounters } from "./counters.js";
-import { initFacts } from "./facts.js";
 
 export const ROOT = new URL(document.documentElement.dataset.root || "./", location.href);
 
@@ -82,7 +76,7 @@ function openFromHash() {
   el?.classList.add("is-in", "is-target");
 }
 
-initMenu(); initHeader(); initWidgets(document); initFilters(document); initExpandAll(); observeReveals(); openFromHash(); initHero(); initDraw(); initSweep(); initAccordion(); initSpotlight(); initCounters(); initFacts();
+initMenu(); initHeader(); initWidgets(document); initFilters(document); initExpandAll(); observeReveals(); openFromHash(); initHero();
 addEventListener("hashchange", openFromHash);
 
 const page = document.documentElement.dataset.page;

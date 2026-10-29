@@ -1,0 +1,41 @@
+/* v9 motion pieces (owner: Mark). Requires motion-tokens.css. Colours use --accent/--line-2 so a palette change carries through. */
+
+/* Instrument rule at the top of each home section */
+.v9-rule{display:block;width:100%;height:16px;margin:0 0 var(--s5);overflow:visible;color:var(--motion-line)}
+.v9-rule__line{fill:none;stroke:currentColor;stroke-width:1;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1;opacity:.55;transition:stroke-dashoffset var(--dur-draw) var(--ease)}
+.v9-rule__ticks{fill:none;stroke:var(--motion-tick);stroke-width:1;vector-effect:non-scaling-stroke;opacity:0;transition:opacity var(--dur) var(--ease) calc(var(--dur-draw) * .5)}
+.v9-rule__node{fill:currentColor;stroke:currentColor;stroke-width:1.25;vector-effect:non-scaling-stroke;opacity:0;transform-box:fill-box;transform-origin:center;transform:scale(.4);transition:opacity var(--dur) var(--ease) calc(var(--dur-draw) * .6),transform var(--dur) var(--ease) calc(var(--dur-draw) * .6)}
+.v9-rule.is-drawn .v9-rule__line{stroke-dashoffset:0}
+.v9-rule.is-drawn .v9-rule__ticks{opacity:1}
+.v9-rule.is-drawn .v9-rule__node{opacity:1;transform:none}
+
+/* Timeline spine that fills as you scroll */
+.timeline.has-spine .v9-spine{position:absolute;left:7px;top:6px;bottom:6px;width:1px;background:var(--motion-line);transform-origin:top;transform:scaleY(0);will-change:transform;pointer-events:none}
+.timeline.has-spine .v9-spine.is-full{transform:none}
+.timeline.has-spine .timeline__item::before{border-color:var(--muted);transition:border-color var(--dur) var(--ease),background-color var(--dur) var(--ease)}
+.timeline.has-spine .timeline__item.is-lit::before{border-color:var(--motion-line);background:var(--motion-soft)}
+
+/* Home title: one sweep of light, then a rule draws under it */
+.v9-sweep{position:relative;display:inline-block;background:linear-gradient(100deg,var(--motion-text) 0 40%,var(--motion-line) 50%,var(--motion-text) 60% 100%) 100% 0/250% 100% no-repeat;-webkit-background-clip:text;background-clip:text;color:transparent}
+.v9-sweep.is-swept{animation:v9-sweep var(--dur-draw) var(--ease) .25s both}
+.v9-sweep.is-done{background:none;color:inherit;animation:none}
+.v9-sweep::after{content:"";position:absolute;left:0;right:0;bottom:-.05em;height:1px;background:var(--motion-line);transform:scaleX(0);transform-origin:left;transition:transform var(--dur-draw) var(--ease) calc(var(--dur-draw) * .6)}
+.v9-sweep.is-swept::after{transform:scaleX(.35)}
+@keyframes v9-sweep{from{background-position:100% 0}to{background-position:0 0}}
+
+/* Sliding accordion: grid-template-rows 0fr -> 1fr, padding lives on the inner wrapper */
+.answer__body.v9-acc{display:grid;grid-template-rows:1fr;padding:0;gap:0}
+.answer__body.v9-acc.is-closed{grid-template-rows:0fr}
+.answer__body.v9-acc > .answer__inner{min-height:0;overflow:hidden;display:grid;gap:var(--s5);padding:0 var(--s5) var(--s5);opacity:1}
+.answer__body.v9-acc.is-closed > .answer__inner{padding-bottom:0;opacity:0}
+.v9-acc-ready .answer__body.v9-acc{transition:grid-template-rows var(--dur) var(--ease)}
+.v9-acc-ready .answer__body.v9-acc > .answer__inner{transition:opacity var(--dur) var(--ease),padding-bottom var(--dur) var(--ease)}
+
+@media (prefers-reduced-motion:reduce){
+  .v9-rule__line{stroke-dashoffset:0}.v9-rule__ticks,.v9-rule__node{opacity:1;transform:none}
+  .timeline.has-spine .v9-spine{transform:none}
+  .v9-sweep{background:none;color:inherit;animation:none}
+}
+
+/* unlit dots: --muted on paper (6.13:1); keep --line-2 on ink (12.57:1) */
+:is(.band-ink,.hero--ink) .timeline.has-spine .timeline__item:not(.is-lit)::before{border-color:var(--line-2)}

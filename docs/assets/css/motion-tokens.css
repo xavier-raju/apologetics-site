@@ -1,0 +1,15 @@
+/* v9 shared motion tokens (owner: Mark). Everyone uses these; no other easings or durations. */
+:root{
+  --ease:cubic-bezier(.2,.7,.2,1);   /* unchanged from site.css, already on every existing transition */
+  --dur-fast:.2s;    /* hover, focus, tap feedback, arrow nudge */
+  --dur:.5s;         /* unchanged: accordions, spotlight fade, small reveals */
+  --dur-draw:1.2s;   /* self-drawing lines, counters, heading sweep */
+  --stagger:80ms;    /* delay step between items in a group */
+}
+@media (prefers-reduced-motion:reduce){
+  :root{ --dur-fast:0s; --dur:0s; --dur-draw:0s; --stagger:0ms; }
+}
+
+/* Line colours for motion pieces, per surface (from TARS's palette-tokens.css). Pieces use only these. */
+:root{ --motion-line:var(--accent); --motion-tick:var(--line-2); --motion-text:var(--ink); --motion-soft:var(--accent-soft); }
+.band-ink,.hero--ink{ --motion-line:var(--accent-on-ink,#7AA2FF); --motion-tick:var(--ink-hairline,rgba(255,255,255,.08)); --motion-text:var(--ink-text,#E6EAF2); --motion-soft:rgba(122,162,255,.16); }

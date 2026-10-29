@@ -12,6 +12,7 @@ export function initHero() {
   const ctx = cv.getContext("2d");
   if (!ctx) { cv.remove(); return; }
   const accent = getComputedStyle(svg).color || "#1f4fd8";
+  const backC = getComputedStyle(svg).getPropertyValue("--hero-back").trim(); // ink: #8A94A8, >=3:1
   const gray = "#8a93a3";
   let W = 0, S = 1, dpr = 1, running = false, visible = true, raf = 0, t0 = performance.now();
   let tx = 0, ty = 0, px = 0, py = 0;
@@ -52,21 +53,33 @@ export function initHero() {
     c.strokeStyle = accent; c.globalAlpha = 0.12; c.beginPath();
     for (let i = 0; i < 24; i++) { const a = i * Math.PI / 12; c.moveTo(320, 320); c.lineTo(320 + 300 * rIn * Math.cos(a), 320 + 300 * rIn * Math.sin(a)); }
     c.stroke();
-    // rings + beads (back half dimmer)
+    // rings + beads (front solid, back dashed + dimmer; beads dim further behind the beams)
     rings.forEach((rg, k) => {
       const p = ease((t - 0.3 * k) / 2.2); if (p <= 0) return;
       const rot = t * 0.04 * (k % 2 ? -1 : 1);
       const N = 120, end = Math.floor(N * p);
-      for (let i = 0; i < end; i++) {
-        const a1 = i / N * Math.PI * 2, a2 = (i + 1) / N * Math.PI * 2;
-        const [x1, y1, z1] = proj(rg, a1, rot), [x2, y2] = proj(rg, a2, rot);
-        c.globalAlpha = z1 > 0 ? 0.28 : 0.7; c.beginPath(); c.moveTo(x1, y1); c.lineTo(x2, y2); c.stroke();
+      // Depth cue: front half solid, back half dashed and fainter (z > 0 is behind).
+      const front = new Path2D(), back = new Path2D();
+      let prev = null, prevBack = null;
+      for (let i = 0; i <= end; i++) {
+        const pt = proj(rg, i / N * Math.PI * 2, rot), isBack = pt[2] > 0;
+        if (prev) {
+          const path = isBack ? back : front;
+          if (isBack !== prevBack || i === 1) path.moveTo(prev[0], prev[1]);
+          path.lineTo(pt[0], pt[1]);
+        }
+        prev = pt; prevBack = isBack;
       }
+      if (backC) { c.save(); c.strokeStyle = backC; c.globalAlpha = 1; } else c.globalAlpha = 0.3;
+      c.lineWidth = 1 / S; c.setLineDash([3 / S, 5 / S]); c.stroke(back); if (backC) c.restore();
+      c.globalAlpha = 0.75; c.lineWidth = 1.5 / S; c.setLineDash([]); c.stroke(front);
+      c.lineWidth = 1 / S;
       if (p >= 1 || t > 2) {
         const ba = t * rg.speed * Math.PI * 2 + k;
         for (let j = 0; j < 6; j++) { // short trail
           const [bx, by, bz] = proj(rg, ba - j * 0.035 * Math.sign(rg.speed), rot);
-          c.globalAlpha = (bz > 0 ? 0.35 : 1) * (1 - j / 6) * Math.min(1, (t - 2) * 2 + 1);
+          const hid = bz > 0 && ((Math.abs(bx - 320 - ox) < 10 && by > 40 + oy && by < 600 + oy) || (Math.abs(by - 250 - oy) < 10 && bx > 180 + ox && bx < 460 + ox));
+          c.globalAlpha = (bz > 0 ? (hid ? 0.18 : 0.35) : 1) * (1 - j / 6) * Math.min(1, (t - 2) * 2 + 1);
           c.fillStyle = accent; c.beginPath(); c.arc(bx, by, rg.bead * (1 - j / 8) / 1, 0, 7); c.fill();
         }
       }

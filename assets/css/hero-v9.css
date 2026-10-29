@@ -1,0 +1,11 @@
+/* Hero v9: ink-band variant (add class "hero--ink" to .hero). hero.js reads its accent
+   from .hero__art's computed color, so the canvas follows automatically. Needs palette-tokens.css. */
+.hero--ink{background:var(--ink-bg,#0B1220);color:var(--ink-text,#E6EAF2)}
+.hero--ink .hero__title{color:var(--ink-text,#E6EAF2)}
+.hero--ink .hero__art{color:var(--accent-on-ink,#7AA2FF)}
+.hero--ink .hero__verse blockquote{color:var(--ink-text,#E6EAF2)}       /* 15.53:1 */
+.hero--ink .hero__verse .hl{color:var(--accent-on-ink,#7AA2FF)}         /* 7.52:1 */
+.hero--ink .hero__verse figcaption,.hero--ink .hero__desc{color:var(--ink-muted,#8A94A8)} /* 6.14:1 */
+.hero--ink .hero__cta .btn:not(.btn--link){background:var(--accent-on-ink,#7AA2FF);color:var(--ink-bg,#0B1220);border-color:transparent} /* 7.52:1 */
+.hero--ink .btn--link{color:var(--accent-on-ink,#7AA2FF)}
+.hero--ink .hero__cta .btn{transition:background var(--dur-fast,.2s) var(--ease,ease),color var(--dur-fast,.2s) var(--ease,ease)}

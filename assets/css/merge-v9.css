@@ -1,0 +1,31 @@
+/* v9 merge overrides (owner: TARS, checker: John). Loaded last. */
+/* Ink bands: remap the site's own variables so every existing component reads correctly on ink. */
+.band-ink,.section.band-ink,.section--mist.band-ink{background:var(--ink-bg);color:var(--ink-text);
+  --ink:var(--ink-text);--ink-2:#C3CAD8;--muted:var(--ink-muted);--line:rgba(255,255,255,.08);--line-2:var(--ink-muted);
+  --accent:var(--accent-on-ink);--accent-ink:var(--accent-on-ink);--accent-soft:rgba(122,162,255,.12);
+  --paper:var(--ink-raised);--mist:var(--ink-bg)}
+.band-ink h1,.band-ink h2,.band-ink h3,.band-ink h4,.band-ink strong{color:var(--ink-text)}
+.band-ink .eyebrow{color:var(--ink-muted)}
+.band-ink a{color:var(--accent-on-ink)}
+.band-ink a:hover{color:#A9C2FF}
+.band-ink blockquote{border-color:var(--gold-on-ink);color:var(--ink-text)}
+/* Data band: faint measurement grid (decorative hairlines only) */
+.band-ink.grid-bg{background-color:var(--ink-bg)}
+.band-ink .stat{border-top-color:var(--ink-muted)}
+.band-ink .stat__l{color:var(--ink-muted)}
+/* Resurrection page band: gold rule as the meaningful line */
+.res-band{padding-block:var(--s7,56px)}
+.res-band .prose h2{border-top:1px solid var(--gold-on-ink);padding-top:var(--s4)}
+/* Hero on ink (only if .hero--ink is applied) */
+.hero--ink .hero__art{--hero-back:#8A94A8}
+@media(max-width:899px){.hero--ink .hero__art{opacity:.4}}
+.hero--ink .field .btn{background:var(--accent-on-ink);color:var(--ink-bg);border-color:transparent}
+/* "See the evidence for the resurrection" link: own line, real tap target */
+.points-to-jesus__more{display:inline-block;margin-top:var(--s3,12px);padding:10px 0;min-height:44px;line-height:24px;font-family:var(--font-sans);font-size:var(--fs-sm);font-weight:600}
+@media(min-width:900px){.points-to-jesus__more{min-height:32px;padding:4px 0}}
+/* Spotlight + sliding accordion: keep the glow under the content and inside the card's corners */
+.answer.spot{overflow:clip}
+/* Merge decision: big stat figures stay in the site serif with tabular lining figures (the system mono fallback
+   on Linux/Android renders as Courier-like and reads crude at display size); mono is kept for labels and node numbers. */
+.stat__n{font-family:var(--font-serif);font-variant-numeric:tabular-nums lining-nums;letter-spacing:-.01em}
+.facts__label{font-family:var(--font-sans);letter-spacing:0}

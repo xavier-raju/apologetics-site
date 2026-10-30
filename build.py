@@ -54,7 +54,7 @@ NAV = [  # (route, label, note, show in desktop bar)
     ("answers/", "Answer an objection", "Common questions", True),
     ("learn/", "Learn", "Lessons & quiz", False),
     ("what-others-say/", "What others say", "And how to respond", False),
-    ("explore/", "Explore the repo", "Sources, life, prophecy, dating", False),
+    ("explore/", "Explore More", "Sources, life, prophecy, dating", False),
     ("library/", "Library", "Every document", True),
     ("ask/", "Ask a question", "Search our answers", False),
 ]
@@ -368,7 +368,7 @@ def build_home():
   </div>{art}</div></section>
 <section class="section res-band"><div class="wrap"><p class="eyebrow">The resurrection</p><h2>Five facts. Every theory. You decide.</h2>
   <p class="muted measure">Start with the five facts nearly every historian grants, weigh each theory against them, then walk through the case as the jury.</p>
-  <ol class="res-links">{"".join(f'<li><a class="q-link" href="{r}"><span>{l}</span>{ARROW}</a></li>' for r, l in (("resurrection/", "The five Confirmed facts"), ("resurrection/tester/", "Theory tester"), ("resurrection/timeline/", "Easter to Pentecost, with a map"), ("resurrection/courtroom/", "The courtroom walk-through"), ("resurrection/voices/", "Voices: what sceptics grant"), ("explore/", "Explore the 0xSero repo")))}</ol></div></section>
+  <ol class="res-links">{"".join(f'<li><a class="q-link" href="{r}"><span>{l}</span>{ARROW}</a></li>' for r, l in (("resurrection/", "The five Confirmed facts"), ("resurrection/tester/", "Theory tester"), ("resurrection/timeline/", "Easter to Pentecost, with a map"), ("resurrection/courtroom/", "The courtroom walk-through"), ("resurrection/voices/", "Voices: what sceptics grant"), ("explore/", "Explore More")))}</ol></div></section>
 <section class="section section--mist"><div class="wrap split">
   <div><p class="eyebrow">Questions people ask</p><h2>Ready answers, honest sources</h2><p class="muted">Each answer gives you something to say in thirty seconds, then the evidence behind it.</p><a class="btn btn--ghost" href="answers/">See all answers {ARROW}</a></div>
   <ol class="q-list">{top}</ol></div></section>

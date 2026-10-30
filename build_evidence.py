@@ -409,7 +409,7 @@ def run(B):
     # ---------------------------------------------------------------- explorers (one shared component)
     def explorer(route, title, intro, items, facets, label, extra_top="", root="../../"):
         chips = '<button class="chip" type="button" data-filter="*" aria-pressed="true">All</button>' + "".join(f'<button class="chip" type="button" data-filter="{esc(slug(f))}" aria-pressed="false">{esc(f)}</button>' for f in facets)
-        body = B.page_head(title, intro, [("Explore", "/explore/"), (title, "/" + route)], root, eyebrow="Explore the repo") + f'''
+        body = B.page_head(title, intro, [("Explore", "/explore/"), (title, "/" + route)], root, eyebrow="Explore More") + f'''
 <div class="wrap section">{extra_top}<div class="explorer" data-filter-scope>
   <div class="lib-controls"><label class="sr-only" for="q-{slug(title)}">Search {esc(title)}</label><div class="field">{B.ICON_S}<input id="q-{slug(title)}" type="search" placeholder="Search {esc(label)}" data-filter-search autocomplete="off"></div>
   <div class="chips" role="group" aria-label="Filter">{chips}</div></div>
@@ -428,7 +428,7 @@ def run(B):
         bh = (f'<p class="small">{B.link("Backup copy", bk, R)}</p>' if bk else "") + f'<p class="small muted">{esc(s["citation"])}</p><p class="small">{esc(s["short"])}</p>' + (f'<p class="small">Same work as {esc(dup)}.</p>' if dup else "") + ('<p class="small muted">Cited without a link: the page matches, but its security certificate is invalid.</p>' if not u else "") + f'<p class="small muted">Opened by {esc(s.get("opened_by"))}, {esc(s.get("opened_at") or "")}</p>'
         items.append(row([s.get("section"), s["status"]], f'{s["id"]} {s["citation"]} {s["short"]}', meta, h, bh))
     secs = sorted({s.get("section") for s in srcs if s.get("section")})
-    explorer("explore/sources/", "Sources", f"Every reference in the 0xSero repo that someone on our team opened and matched: {len(srcs)} shown, {STATS['dropped']['sources_B']} held back as Unverified.", items, secs + ["Confirmed"], "sources")
+    explorer("explore/sources/", "Sources", f"Every reference in the 0xSero repo that someone on our team opened and matched: {len(srcs)} shown, {STATS['dropped']['sources_B']} held back as Unverified.", items, secs + ["Confirmed"], "sources", extra_top='<section class="block ack"><h2>Acknowledgement</h2><p>With thanks to <strong>0xSero</strong>, whose open research report, <a href="https://github.com/0xSero/all-historical-evidence-of-jesus-christ" rel="noopener" target="_blank">All Historical Evidence of Jesus Christ</a>, gathered the references behind these explorers.</p></section>')
     # life
     items = []
     for x in sorted(D["life"], key=lambda x: x["n"]):
@@ -476,7 +476,7 @@ def run(B):
     tiles = [("explore/sources/", "Sources", f"{len(srcs)} repo references, opened and credited"), ("explore/life/", "Life of Jesus", f"{len(D['life'])} units"), ("explore/prophecy/", "Prophecies", f"{len(D['prophecy'])} entries"),
              ("explore/gospels/", "Gospels registry", f"{len(D['gospels'])} texts"), ("explore/dating/", "Dating chart", f"{len(D['dating'])} texts by distance from the events"), ("explore/credits/", "Attribution", "Every source we used")]
     t = "".join(f'<a class="tile reveal" href="../{r}"><div><span class="tile__n">{i:02d}</span><h3>{esc(l)}</h3><p>{esc(n)}</p></div><span class="tile__go">Explore {ARROW}</span></a>' for i, (r, l, n) in enumerate(tiles, 1))
-    page("explore/", "Explore the repo", B.page_head("Explore the repo", "Everything in 0xSero's research report, sorted, searchable and credited. We link to it; we don't copy it.", [("Explore", "/explore/")], "../") + f'<div class="wrap section"><div class="grid grid--3 tiles">{t}</div></div>')
+    page("explore/", "Explore More", B.page_head("Explore More", "Everything in 0xSero's research report, sorted, searchable and credited. We link to it; we don't copy it.", [("Explore", "/explore/")], "../") + f'<div class="wrap section"><div class="grid grid--3 tiles">{t}</div></div>')
     allsrc = []
     for grp, lst in (("Resurrection data (Luke)", D["sources_A"]), ("Repo references (0xSero)", D["sources_B"]), ("Voices (Mark)", D["sources_C"])):
         li = []

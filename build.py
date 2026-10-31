@@ -368,7 +368,7 @@ def build_home():
   </div>{art}</div></section>
 <section class="section res-band"><div class="wrap"><p class="eyebrow">The resurrection</p><h2>Five facts. Every theory. You decide.</h2>
   <p class="muted measure">Start with the five facts nearly every historian grants, weigh each theory against them, then walk through the case as the jury.</p>
-  <ol class="res-links">{"".join(f'<li><a class="q-link" href="{r}"><span>{l}</span>{ARROW}</a></li>' for r, l in (("resurrection/", "The five Confirmed facts"), ("resurrection/tester/", "Theory tester"), ("resurrection/timeline/", "Easter to Pentecost, with a map"), ("resurrection/courtroom/", "The courtroom walk-through"), ("resurrection/voices/", "Voices: what sceptics grant"), ("explore/", "Explore More")))}</ol></div></section>
+  <ol class="res-links">{"".join(f'<li><a class="q-link" href="{r}"><span>{l}</span>{ARROW}</a></li>' for r, l in (("resurrection/", "The five Confirmed facts"), ("resurrection/tester/", "Theory tester"), ("resurrection/timeline/", "Easter to Pentecost, with a map"), ("resurrection/courtroom/", "The courtroom walk-through"), ("resurrection/voices/", "Voices: what sceptics grant"), ("resurrection/evidence/", "Deeper evidence: the accounts side by side"), ("explore/", "Explore More")))}</ol></div></section>
 <section class="section section--mist"><div class="wrap split">
   <div><p class="eyebrow">Questions people ask</p><h2>Ready answers, honest sources</h2><p class="muted">Each answer gives you something to say in thirty seconds, then the evidence behind it.</p><a class="btn btn--ghost" href="answers/">See all answers {ARROW}</a></div>
   <ol class="q-list">{top}</ol></div></section>
@@ -782,7 +782,9 @@ def build_pages():
 def build_resurrection():
     import build_evidence
     st = build_evidence.run(sys.modules[__name__])
-    print("EVIDENCE", json.dumps({"shipped": st["shipped"], "dropped": st["dropped"], "dropped_ids": st["dropped_ids"], "nested_dropped": st["nested_dropped"], "dropped_cites": st["dropped_cites"], "timeline": st.get("timeline"), "why_lines": st.get("why_lines")}))
+    import build_res11
+    st.update(build_res11.run(sys.modules[__name__]))
+    print("EVIDENCE", json.dumps({"shipped": st["shipped"], "dropped": st["dropped"], "dropped_ids": st["dropped_ids"], "nested_dropped": st["nested_dropped"], "dropped_cites": st["dropped_cites"], "timeline": st.get("timeline"), "why_lines": st.get("why_lines"), "v11_sources": st.get("v11_sources")}))
 
 def build_404():
     body = page_head("Page not found", "That page may have moved. Try the search, or start from the home page.", [], "")

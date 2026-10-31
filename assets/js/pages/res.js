@@ -34,4 +34,47 @@ function initTester() {
   if (h && chips.some((c) => c.dataset.theory === h)) show(h);
 }
 
-export function init() { initFacts(); initTester(); }
+// v11: one switch for every card on the page, remembered on this device only.
+function initSwitch() {
+  const bs = [...document.querySelectorAll("[data-sd]")];
+  if (!bs.length) return;
+  const set = (mode, save) => {
+    bs.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.sd === mode)));
+    const deep = mode === "deep";
+    document.querySelectorAll("[data-fact]").forEach((c) => { c.classList.toggle("is-open", deep); c.querySelectorAll("[data-fact-toggle]").forEach((x) => x.setAttribute("aria-expanded", String(deep))); });
+    document.querySelectorAll("main details.sources").forEach((d) => { d.open = deep; });
+    if (save) try { localStorage.setItem("res-sd", mode); } catch (e) {}
+  };
+  bs.forEach((b) => b.addEventListener("click", () => set(b.dataset.sd, true)));
+  let m = null; try { m = localStorage.getItem("res-sd"); } catch (e) {}
+  if (m === "deep") set("deep", false);
+}
+
+function initCompare() {
+  const root = document.querySelector("[data-cmp-root]");
+  if (!root) return;
+  root.classList.add("is-live");
+  const chips = [...root.querySelectorAll("[data-cmp]")];
+  const show = (id) => { chips.forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.cmp === id))); root.querySelectorAll(".cmp-card").forEach((k) => k.toggleAttribute("data-active", k.id === id)); };
+  chips.forEach((c) => c.addEventListener("click", () => show(c.dataset.cmp)));
+  show(chips[0].dataset.cmp);
+}
+
+function initVerdict() {
+  const box = document.querySelector(".verdict-box");
+  if (!box) return;
+  const bs = [...box.querySelectorAll("[data-verdict]")], out = box.querySelector("[data-verdict-reply]");
+  const set = (k, save) => {
+    bs.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.verdict === k)));
+    out.textContent = box.querySelector(`[data-reply="${k}"]`)?.textContent || "";
+    if (save) try { localStorage.setItem("res-verdict", k); } catch (e) {}
+  };
+  bs.forEach((b) => b.addEventListener("click", () => set(b.dataset.verdict, true)));
+  let k = null; try { k = localStorage.getItem("res-verdict"); } catch (e) {}
+  if (k && bs.some((b) => b.dataset.verdict === k)) set(k, false);
+}
+
+export function init() {
+  initFacts(); initTester(); initSwitch(); initCompare(); initVerdict();
+  if (document.querySelector(".res-orbit")) import("./orbit.js").then((m) => m.initOrbit()).catch(() => {});
+}

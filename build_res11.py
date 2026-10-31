@@ -95,7 +95,7 @@ def run(B):
     t, b, kw = B.PAGES["resurrection/courtroom/"]
     vd = V["verdict"]
     vhtml = f'''<section class="verdict-box block" id="verdict" aria-labelledby="verdict-h"><p class="eyebrow">The jury</p><h2 id="verdict-h">Your verdict</h2>
-  <p class="measure">Sir Lionel Luckhoo judged the case the way a lawyer would, by the standard of proof. Having seen the steps, where do you land? Your answer stays on this phone; nothing is sent anywhere.</p>
+  <p class="measure">A jury weighs the case by a standard of proof. Having seen the steps, where do you land? Your answer stays on this phone; nothing is sent anywhere.</p>
   <div class="verdict-box__opts" role="group" aria-label="Your verdict">{"".join(f'<button class="btn btn--ghost" type="button" data-verdict="{k}" aria-pressed="false">{esc(l)}</button>' for k, l in vd["options"])}</div>
   <p class="verdict-box__reply" aria-live="polite" data-verdict-reply></p>
   <div class="verdict-box__replies" hidden>{"".join(f'<p data-reply="{k}">{esc(v)}</p>' for k, v in vd["replies"].items())}</div>

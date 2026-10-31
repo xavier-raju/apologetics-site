@@ -1,0 +1,462 @@
+{
+ "meta": {
+  "checked_by": "TARS",
+  "checked_date": "2026-10-31",
+  "note": "v11 Resurrection additions. Every source below was opened on 31 Oct 2026 unless its verify field says otherwise. Paraphrase only; quotes are short and attributed."
+ },
+ "sources": {
+  "habermas-2012": {
+   "label": "Gary Habermas, \"The Minimal Facts Approach to the Resurrection of Jesus,\" Southeastern Theological Review 3/1 (2012)",
+   "url": "https://www.garyhabermas.com/articles/Habermas_Minimal%20Facts%20STR%202012.pdf",
+   "verify": "PDF opened and read"
+  },
+  "habermas-2005": {
+   "label": "Gary Habermas, \"Resurrection Research from 1975 to the Present,\" Journal for the Study of the Historical Jesus 3.2 (2005)",
+   "url": "https://www.garyhabermas.com/articles/J_Study_Historical_Jesus_3-2_2005/J_Study_Historical_Jesus_3-2_2005.htm",
+   "verify": "opened; 75% / 25% sentence read"
+  },
+  "craig-res": {
+   "label": "William Lane Craig, \"The Resurrection of Jesus,\" Reasonable Faith (popular writings)",
+   "url": "https://www.reasonablefaith.org/writings/popular-writings/jesus-of-nazareth/the-resurrection-of-jesus",
+   "verify": "opened; four facts sentence read"
+  },
+  "wright-1998": {
+   "label": "N. T. Wright, \"Early Traditions and the Origins of Christianity,\" Sewanee Theological Review 41.2 (1998)",
+   "url": "https://ntwrightpage.com/2016/04/05/early-traditions-and-the-origins-of-christianity/",
+   "repo": "A13",
+   "verify": "opened and read"
+  },
+  "wright-2005": {
+   "label": "N. T. Wright, \"Resurrecting Old Arguments: Responding to Four Essays,\" Journal for the Study of the Historical Jesus 3.2 (2005)",
+   "url": "https://ntwrightpage.com/2016/04/05/resurrecting-old-arguments-responding-to-four-essays/",
+   "repo": "A14",
+   "verify": "opened and read"
+  },
+  "loke-allison": {
+   "label": "Andrew Loke, \"The Resurrection of Jesus: An Engagement with Dale Allison: A Review Essay\" (2022), abstract",
+   "url": "https://scholars.hkbu.edu.hk/en/publications/the-resurrection-of-jesus-an-engagement-with-dale-allison-a-revie/",
+   "repo": "A15",
+   "verify": "abstract opened; quotes Allison"
+  },
+  "allison-2021": {
+   "label": "Dale C. Allison Jr., The Resurrection of Jesus: Apologetics, Polemics, History (T&T Clark, 2021), publisher page",
+   "url": "https://www.bloomsbury.com/us/resurrection-of-jesus-9780567697592/",
+   "repo": "A15",
+   "verify": "publisher page refuses automated checks (403); listed for reference only, nothing rests on it"
+  },
+  "bas-yehohanan": {
+   "label": "Vassilios Tzaferis, \"A Tomb in Jerusalem Reveals the History of Crucifixion and Roman Crucifixion Methods,\" Biblical Archaeology Society",
+   "url": "https://www.biblicalarchaeology.org/daily/biblical-topics/crucifixion/a-tomb-in-jerusalem-reveals-the-history-of-crucifixion-and-roman-crucifixion-methods/",
+   "repo": "A18",
+   "verify": "opened and read"
+  },
+  "maslen-mitchell": {
+   "label": "Matthew Maslen and Piers Mitchell, \"Medical theories on the cause of death in crucifixion,\" Journal of the Royal Society of Medicine (2006)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1420788/",
+   "repo": "A18",
+   "verify": "opened; names Yehohanan"
+  },
+  "clement-42": {
+   "label": "1 Clement 42 (Roberts-Donaldson translation), New Advent",
+   "url": "https://www.newadvent.org/fathers/1010.htm",
+   "verify": "opened; chapter 42 read"
+  },
+  "ignatius-smyrn": {
+   "label": "Ignatius, Letter to the Smyrnaeans 3, New Advent",
+   "url": "https://www.newadvent.org/fathers/0109.htm",
+   "repo": "R16",
+   "verify": "opened; chapter 3 read"
+  },
+  "justin-1apol": {
+   "label": "Justin Martyr, First Apology 67, New Advent",
+   "url": "https://www.newadvent.org/fathers/0126.htm",
+   "repo": "R19",
+   "verify": "opened; chapter 67 read"
+  },
+  "justin-dial-108": {
+   "label": "Justin Martyr, Dialogue with Trypho 108, New Advent",
+   "url": "https://www.newadvent.org/fathers/01287.htm",
+   "verify": "opened; chapter 108 read"
+  },
+  "oxsero-compare": {
+   "label": "0xSero, All Historical Evidence of Jesus Christ, life catalogue: \"The essential comparison: what the resurrection sources actually give\"",
+   "url": "https://github.com/0xSero/all-historical-evidence-of-jesus-christ/blob/main/collections/dossier/02-life-chronological-catalogue.md",
+   "verify": "read in local clone at commit 00f96e5"
+  },
+  "strobel-toc": {
+   "label": "Lee Strobel, The Case for Christ (Zondervan, 1998), table of contents, Library of Congress",
+   "url": "http://catdir.loc.gov/catdir/enhancements/fy0633/98007642-t.html",
+   "verify": "TOC text read via search index 31 Oct; the LOC server returned errors to direct checks that day"
+  },
+  "strobel-ia": {
+   "label": "The Case for Christ (1998), Internet Archive catalogue record",
+   "url": "https://archive.org/details/caseforchrist00lees",
+   "verify": "record opened; borrow-only, not read"
+  },
+  "strobel-about": {
+   "label": "Lee Strobel, About, leestrobel.com",
+   "url": "https://www.leestrobel.com/about",
+   "verify": "opened and read"
+  }
+ },
+ "habermas": [
+  {
+   "id": "hs-count",
+   "title": "How big is the count?",
+   "short": "Habermas says his bibliography on Jesus' death and resurrection reached about 3,400 publications in English, French and German.",
+   "deep": "This is a reading list, not an opinion poll. Habermas says he catalogued scholarly writing from 1975 onward, across the whole spectrum from sceptical to conservative, and sorted the positions each writer takes. An earlier report in 2005 put the figure at more than 1,400 publications. When you see 'most scholars agree' on this site, this is the kind of evidence behind it.",
+   "sources": [
+    "habermas-2012",
+    "habermas-2005"
+   ],
+   "status": "Confirmed"
+  },
+  {
+   "id": "hs-bar",
+   "title": "How high is the bar?",
+   "short": "To make his short list, a fact must be granted by nearly everyone. In his words, think of \"a ninety-something percentile head-count.\"",
+   "deep": "Habermas separates facts that almost all specialists grant from facts that only a majority grant. Only the first group goes on his short list. He also notes that his count leans sceptical rather than conservative, because it includes radical writers who are not specialists. So the short list is not stacked in favour of believers.",
+   "sources": [
+    "habermas-2012"
+   ],
+   "status": "Confirmed"
+  },
+  {
+   "id": "hs-tomb",
+   "title": "The one percentage he published",
+   "short": "On the empty tomb, about 75% of the scholars he counted favour one or more arguments for it; about 25% favour one or more against.",
+   "deep": "This is the only percentage we print, because it is the only one Habermas published. It is a count of arguments in the literature, not a formal poll, and it is why this site treats the empty tomb as strong but Contested rather than near-unanimous.",
+   "sources": [
+    "habermas-2005"
+   ],
+   "status": "Confirmed"
+  }
+ ],
+ "craig4": [
+  {
+   "id": "c4-burial",
+   "title": "1. Joseph of Arimathea buried him",
+   "hub": "fact-burial",
+   "short": "Jesus was laid in a tomb by a known member of the council that condemned him, which made the grave's location public knowledge.",
+   "deep": "Craig argues that a Christian invention would be unlikely to credit a member of the hostile council with an honourable burial, and that the burial sits in the very early tradition Paul quotes (\"he was buried\", 1 Cor 15:4). The Givat ha-Mivtar tomb below shows that a crucified man could end up in a family tomb.",
+   "refs": [
+    "Mark 15:42-47",
+    "1 Corinthians 15:4"
+   ],
+   "sources": [
+    "craig-res",
+    "bas-yehohanan"
+   ],
+   "status": "Framing"
+  },
+  {
+   "id": "c4-tomb",
+   "title": "2. Women found the tomb empty",
+   "hub": "fact-empty-tomb",
+   "short": "On the Sunday a group of women found the tomb empty. Craig counts this among facts most scholars grant; Habermas's count is about 75%.",
+   "deep": "Craig points out that a made-up story would hardly pick women as the first witnesses in a culture that gave their testimony little weight. The earliest known counter-claim, that the disciples stole the body (Matt 28:11-15, and Justin about AD 160), assumes the tomb was empty. On this site the empty tomb stays Contested, because Habermas's figure is a majority, not near-unanimity.",
+   "refs": [
+    "Mark 16:1-8",
+    "Matthew 28:11-15"
+   ],
+   "sources": [
+    "craig-res",
+    "habermas-2005",
+    "justin-dial-108"
+   ],
+   "status": "Contested"
+  },
+  {
+   "id": "c4-appear",
+   "title": "3. People saw him alive afterwards",
+   "hub": "fact-appearances-to-disciples",
+   "short": "Individuals and groups, friends and former opponents, reported seeing Jesus alive after his death.",
+   "deep": "Paul's list in 1 Cor 15:5-8 names Peter, the Twelve, a group of more than 500, James, all the apostles and Paul himself. Craig, like Habermas, counts the appearances as granted by most scholars, while they argue over what the people saw.",
+   "refs": [
+    "1 Corinthians 15:5-8"
+   ],
+   "sources": [
+    "craig-res",
+    "habermas-2012"
+   ],
+   "status": "Confirmed"
+  },
+  {
+   "id": "c4-belief",
+   "title": "4. The disciples suddenly believed he was raised",
+   "hub": "fact-disciples-belief",
+   "short": "The first followers came to believe, suddenly and sincerely, that God had raised Jesus, against everything they had expected.",
+   "deep": "Craig's point is that the Jews of the time had no belief in a dying, let alone rising, Messiah, and expected the dead to rise together at the end of the world, not one man in the middle of history. A crucified Messiah looked like a failed one. Something persuaded the disciples otherwise.",
+   "refs": [
+    "Acts 2:22-36"
+   ],
+   "sources": [
+    "craig-res"
+   ],
+   "status": "Framing"
+  }
+ ],
+ "compare": {
+  "intro": "Five early texts tell what happened. Each gives something and leaves something out. Pick one to see what it adds and where it stops. The differences are what you would expect from independent tellings, not a single copied script.",
+  "rows": [
+   {
+    "id": "cmp-1cor",
+    "name": "1 Corinthians 15:3-8",
+    "date": "Letter c. AD 53-55; the creed it quotes is earlier",
+    "ref": "1 Corinthians 15:3-8",
+    "gives": "Death, burial, raising on the third day, and a list of appearances to named people and groups.",
+    "limit": "No women, no named tomb and no scene of the discovery.",
+    "has": [
+     "death",
+     "burial",
+     "third",
+     "appear",
+     "group"
+    ]
+   },
+   {
+    "id": "cmp-mark",
+    "name": "Mark 16:1-8",
+    "date": "c. AD 65-75",
+    "ref": "Mark 16:1-8",
+    "gives": "Women at the tomb, the stone rolled back, a young man's message, and a promised meeting in Galilee.",
+    "limit": "The earliest recoverable ending narrates no appearance of Jesus himself.",
+    "has": [
+     "death",
+     "burial",
+     "women",
+     "tomb",
+     "galilee"
+    ]
+   },
+   {
+    "id": "cmp-matt",
+    "name": "Matthew 28",
+    "date": "c. AD 80-90",
+    "ref": "Matthew 28:1-20",
+    "gives": "A guard and an earthquake, the women meeting Jesus, and the commission on a Galilean mountain.",
+    "limit": "The guard story is told only here; no ascension scene.",
+    "has": [
+     "burial",
+     "women",
+     "tomb",
+     "appear",
+     "group",
+     "galilee"
+    ]
+   },
+   {
+    "id": "cmp-luke",
+    "name": "Luke 24",
+    "date": "c. AD 80-90",
+    "ref": "Luke 24:1-53",
+    "gives": "The women, Peter, the Emmaus road, a report that Simon saw him, a meal with the group in Jerusalem, and a parting.",
+    "limit": "Focused on Jerusalem; Acts later says the appearances lasted forty days.",
+    "has": [
+     "burial",
+     "women",
+     "tomb",
+     "third",
+     "appear",
+     "group",
+     "jerusalem"
+    ]
+   },
+   {
+    "id": "cmp-john",
+    "name": "John 20-21",
+    "date": "c. AD 90-100",
+    "ref": "John 20:1-31",
+    "gives": "Mary Magdalene, the disciples, Thomas, and the breakfast by the lake with Peter's recommissioning.",
+    "limit": "Openly selective (John 20:30-31) and closes with an editor's note about its witness.",
+    "has": [
+     "burial",
+     "women",
+     "tomb",
+     "appear",
+     "group",
+     "jerusalem",
+     "galilee"
+    ]
+   }
+  ],
+  "features": {
+   "death": "Death",
+   "burial": "Burial",
+   "third": "Third day",
+   "women": "Women witnesses",
+   "tomb": "Empty tomb",
+   "appear": "Appearances",
+   "group": "Group appearance",
+   "jerusalem": "In Jerusalem",
+   "galilee": "In Galilee"
+  },
+  "note": "The 'what it gives' and 'its limit' lines are our paraphrase of 0xSero's comparison. Which feature each text has is our own reading of the passage, labelled Framing. Dates are common scholarly ranges and are Contested.",
+  "sources": [
+   "oxsero-compare"
+  ]
+ },
+ "archaeology": [
+  {
+   "id": "yehohanan",
+   "title": "A crucified man in a family tomb",
+   "short": "In 1968 a Jerusalem tomb at Giv'at ha-Mivtar held the bones of a crucified man, Yehohanan, with an iron nail still through his heel bone.",
+   "deep": "Vassilios Tzaferis excavated the tomb northeast of Jerusalem. The bones were in an ossuary (a bone box) inscribed with the man's name. It is the first physical evidence of crucifixion from antiquity. For the resurrection case its main point is narrower: a man executed by crucifixion could still be given a proper family burial, which fits the Gospels' account of Joseph's tomb. It does not prove anything about Jesus' own tomb.",
+   "sources": [
+    "bas-yehohanan",
+    "maslen-mitchell"
+   ],
+   "status": "Confirmed",
+   "map": "Jerusalem"
+  }
+ ],
+ "fathers": [
+  {
+   "id": "clement",
+   "name": "1 Clement",
+   "date": "Rome, c. AD 95-97 (Contested range)",
+   "short": "A letter from the church at Rome says the apostles went out preaching \"fully assured by the resurrection of our Lord Jesus Christ.\"",
+   "deep": "Chapter 42 describes the apostles receiving their orders and going out to preach because they were convinced of the resurrection. It shows that within about two generations the resurrection was the reason given for the whole mission.",
+   "source": "clement-42",
+   "status": "Confirmed"
+  },
+  {
+   "id": "ignatius",
+   "name": "Ignatius of Antioch",
+   "date": "c. AD 110 (Contested range)",
+   "short": "Ignatius insists Jesus had real flesh after rising: \"I know that after His resurrection also He was still possessed of flesh.\"",
+   "deep": "In his letter to the Smyrnaeans, chapter 3, Ignatius argues against people who said Jesus only seemed to have a body. He recalls Jesus telling Peter's group to touch him and see he was not a bodiless spirit (compare Luke 24:39). A bodily resurrection, not a vision, was the claim from early on.",
+   "source": "ignatius-smyrn",
+   "status": "Confirmed"
+  },
+  {
+   "id": "justin-sunday",
+   "name": "Justin Martyr, First Apology",
+   "date": "Rome, c. AD 155 (Contested range)",
+   "short": "Justin explains that Christians meet on Sunday because it is the day Jesus rose from the dead.",
+   "deep": "In chapter 67 Justin describes Sunday worship to the emperor and gives two reasons: God began creation on the first day, and Jesus rose on that same day. The weekly habit itself is a trace of the Easter claim.",
+   "source": "justin-1apol",
+   "status": "Confirmed"
+  },
+  {
+   "id": "justin-stolen",
+   "name": "Justin Martyr, Dialogue with Trypho",
+   "date": "c. AD 160 (Contested range)",
+   "short": "Justin reports that opponents were spreading the story that \"his disciples stole him by night from the tomb.\"",
+   "deep": "In chapter 108 Justin says men were sent out to say that the disciples stole the body. That counter-story, also found in Matthew 28:11-15, concedes the key point: the tomb was empty. The argument was over how it became empty.",
+   "source": "justin-dial-108",
+   "status": "Confirmed"
+  }
+ ],
+ "scholars": [
+  {
+   "id": "wright",
+   "name": "N. T. Wright",
+   "who": "New Testament scholar",
+   "short": "Wright argues that early Christianity cannot be explained unless the tomb was empty and people met Jesus alive afterwards.",
+   "deep": "In his 1998 essay he treats 1 Corinthians 15 as the earliest written testimony, carrying tradition from the very first days. In his 2005 reply to four critics he restates his view: the best historical explanation is an empty tomb plus sightings of Jesus bodily alive, and the best explanation of those two is that Jesus was raised. He answers critics who say visions alone could have produced belief in an empty tomb.",
+   "sources": [
+    "wright-1998",
+    "wright-2005"
+   ],
+   "status": "Framing"
+  },
+  {
+   "id": "allison",
+   "name": "Dale C. Allison Jr.",
+   "who": "New Testament scholar",
+   "short": "Allison believes Jesus rose, but writes that the historical evidence is \"not so good as to make disbelief unreasonable, and it is not so bad as to make faith untenable.\"",
+   "deep": "His 2021 book is one of the most thorough recent studies, with long treatments of visions, apparitions and group experiences. We have not read the book itself; the quote above is as given in Andrew Loke's 2022 review essay, which engages Allison's discussion of hallucination theory and mass hysteria and argues that the strongest sceptical hypothesis Allison raises does not hold up. We include Allison because he is careful and fair, not because he agrees with this site.",
+   "sources": [
+    "loke-allison",
+    "allison-2021"
+   ],
+   "status": "Contested"
+  }
+ ],
+ "strobel": {
+  "intro": "Lee Strobel was legal editor of the Chicago Tribune and an atheist. After almost two years looking into the evidence he became a Christian in 1981. The Case for Christ (1998) is built as a set of interviews; Part 3 is about the resurrection. Below are the four resurrection interviews and the question each one asks, with a link to free work by the same expert where we have one. We have not quoted the book.",
+  "sources": [
+   "strobel-about",
+   "strobel-toc",
+   "strobel-ia"
+  ],
+  "rooms": [
+   {
+    "ch": 11,
+    "title": "The medical evidence",
+    "expert": "Dr. Alexander Metherell",
+    "q": "Was Jesus' death a sham and his resurrection a hoax?",
+    "ties": "Answers the swoon theory: Roman crucifixion was built to kill.",
+    "link_fact": "../tester/#th-swoon",
+    "link_label": "Swoon theory in the tester",
+    "free": [
+     "maslen-mitchell"
+    ]
+   },
+   {
+    "ch": 12,
+    "title": "The evidence of the missing body",
+    "expert": "Dr. William Lane Craig",
+    "q": "Was Jesus' body really absent from his tomb?",
+    "ties": "The burial and empty tomb, Craig's first two facts.",
+    "link_fact": "#craig4",
+    "link_label": "Craig's four facts",
+    "free": [
+     "craig-res"
+    ]
+   },
+   {
+    "ch": 13,
+    "title": "The evidence of appearances",
+    "expert": "Dr. Gary Habermas",
+    "q": "Was Jesus seen alive after his death on the cross?",
+    "ties": "The appearances and the minimal facts method.",
+    "link_fact": "#habermas",
+    "link_label": "Habermas's count",
+    "free": [
+     "habermas-2012"
+    ]
+   },
+   {
+    "ch": 14,
+    "title": "The circumstantial evidence",
+    "expert": "Dr. J. P. Moreland",
+    "q": "Are there any supporting facts that point to the resurrection?",
+    "ties": "Changed lives, Sunday worship and the early church. See Justin on Sunday below.",
+    "link_fact": "#justin-sunday",
+    "link_label": "Justin on Sunday",
+    "free": []
+   }
+  ]
+ },
+ "case30": {
+  "title": "The case in 30 seconds",
+  "text": "Jesus died by crucifixion. Soon after, his followers, his sceptical brother James and a persecutor named Paul all said they had seen him alive, and they kept saying it under pressure. Nearly all scholars, sceptics included, grant those facts. A majority also think the tomb was found empty, though that one is debated. No natural theory explains all of it. You decide what does.",
+  "sources": [
+   "habermas-2012",
+   "craig-res"
+  ]
+ },
+ "verdict": {
+  "options": [
+   [
+    "proven",
+    "Proven beyond reasonable doubt"
+   ],
+   [
+    "likely",
+    "More likely than not"
+   ],
+   [
+    "open",
+    "Not proven to me yet"
+   ]
+  ],
+  "replies": {
+   "proven": "That is the verdict Sir Lionel Luckhoo said he reached as a lawyer. Read the deep case on the hub, then share it with someone.",
+   "likely": "Fair. Try the theory tester and see which facts each theory leaves unexplained.",
+   "open": "Fair too. The voices page sets out the best sceptical answers next to the facts they grant. Ask a hard question any time."
+  }
+ }
+}
